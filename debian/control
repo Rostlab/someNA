@@ -12,5 +12,5 @@ Package: somena
 Architecture: all
 Depends: ${perl:Depends}, ${misc:Depends}, libai-fann-perl
 Description: protein DNA/RNA binding predictor
-	'somena' is an implementation of a DNA/RNA binding prediction for protein sequences
-	.
+	'somena' is an implementation of a DNA/RNA binding 
+	prediction for protein sequences.
