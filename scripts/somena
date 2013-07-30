@@ -6,6 +6,8 @@ use Getopt::Long;
 use Pod::Usage;
 use File::Spec;
 use Data::Dumper;
+use FindBin qw($Bin);
+use lib "$Bin/../lib/perl5";
 
 use AI::FANN;
 
@@ -17,7 +19,7 @@ use RG::SomeNA::isis;
 use RG::SomeNA::reprof;
 use RG::SomeNA::coils;
 
-my $model_dir = "../share/somena/";
+my $model_dir = "$Bin/../share/somena/";
 my $input_dir;# = "../data/input/dna_1am9:C";
 my $out_file;
 
@@ -33,11 +35,7 @@ sub print_usage {
         "SomeNA - Prediction of DNA- and RNA-Binding Proteins",
         "",
         "Usage:",
-        "\tsomena.pl -m MODEL_DIR -i INPUT_DIR -o OUT_FILE",
-        "",
-        "\t-m MODEL_DIR",
-        "\t\tDirectory containing the neural network models, the feature",
-        "\t\tconstellation and threshold files.",
+        "\tsomena.pl -i INPUT_DIR -o OUT_FILE",
         "",
         "\t-i INPUT_DIR",
         "\t\tDirectory containing the PredictProtein output files with",
@@ -51,8 +49,11 @@ sub print_usage {
         "",
     )."\n";
 }
-
-if (!defined $model_dir || !-e $model_dir) {
+if (!defined $model_dir)
+{
+	$model_dir = "$Bin/../share/somena/";
+}
+if (!-e $model_dir) {
     print_usage();
     die "No model file directory defined\n";
 }
@@ -167,3 +168,14 @@ if (defined $out_file) {
 else {
     print $out_string;
 }
+
+__END__
+
+=head1 NAME
+
+SomeNA - protein DNA/RNA binding predictor
+
+=head1 SYNOPSIS
+
+SomeNA -i input -o output [-m model dir]
+
