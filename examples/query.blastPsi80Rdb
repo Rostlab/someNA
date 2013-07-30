@@ -1,0 +1,496 @@
+
+#PERL-RDB
+#SEQLENGTH	 135
+#ID	:	identifier of the aligned (homologous) protein
+#LSEQ2	:	length of the entire sequence of the aligned protein
+#LALI	:	length of the alignment excluding insertions and deletions
+#%IDE	:	percent indentity
+#%SIM	:	percent similarity
+#LGAP	:	total gap length
+#BSCORE	:	blast score (bits)
+#BEXPECT	:	blast expectation value
+#PROTEIN	:	one-line description of aligned protein
+#'!'	:	indicates lower scoring alignment that is combined with 
+#the higher scoring adjacent one  
+##ID	LSEQ2	%IDE	%SIM	LALI	LGAP	BSCORE	BEXPECT	PROTEIN
+pdb|pdb|2l5a_A	225	68	81	73	3	113	4e-24	
+sp|A8XA80|HCP3L_CAEBR	345	44	61	117	3	102	8e-21	Histone H3-like centromeric protein cpar-1
+sp|P34440|HCP3L_CAEEL	261	45	61	121	3	106	4e-22	Histone H3-like centromeric protein cpar-1
+sp|P34470|HCP3_CAEEL	288	47	61	124	3	111	2e-23	Histone H3-like centromeric protein hcp-3
+sp|P36012|CENPA_YEAST	229	65	80	95	3	124	3e-27	Histone H3-like centromeric protein CSE4
+sp|P49450|CENPA_HUMAN	140	47	60	125	5	116	7e-25	Histone H3-like centromeric protein A OS=Homo
+sp|Q06196|H3_ENTHI	135	64	72	132	3	130	4e-29	Histone H3 OS=Entamoeba histolytica GN=H3 PE=3
+sp|Q0MTC0|CENPA_KLUMA	192	60	76	102	3	108	9e-23	Histone H3-like centromeric protein CSE4
+sp|Q0MXD0|CENPA_SACSE	293	46	64	130	9	127	3e-28	Histone H3-like centromeric protein CSE4
+sp|Q0MXD1|CENPA_MILFA	158	63	75	111	3	125	1e-27	Histone H3-like centromeric protein CSE4
+sp|Q27490|H33L1_CAEEL	134	76	85	132	2	157	3e-37	Histone H3.3-like type 1 OS=Caenorhabditis
+sp|Q2N2K6|CENPA_TETTS	187	50	69	103	2	101	2e-20	Histone H3-like centromeric protein CNA1
+sp|Q2Z2F6|H3L3_LILLO	155	56	64	128	27	120	3e-26	Histone H3-like 3 OS=Lilium longiflorum
+sp|Q3SZB8|H3C_BOVIN	136	79	85	105	0	118	1e-25	Histone H3.3C OS=Bos taurus GN=H3F3C PE=2 SV=3
+sp|Q54F38|H3V1_DICDI	619	44	58	81	0	79.2	9e-14	Histone H3.v1 OS=Dictyostelium discoideum
+sp|Q54Z07|H3V2_DICDI	89	29	46	69	2	43.0	0.007	Histone H3.v2 OS=Dictyostelium discoideum
+sp|Q569M3|CENPA_XENLA	150	55	69	119	7	119	7e-26	Histone H3-like centromeric protein A
+sp|Q6CER9|CENPA_YARLI	150	56	70	122	5	130	2e-29	Histone H3-like centromeric protein CSE4
+sp|Q6LQU5|RSMF_PHOPR	476	29	50	55	0	38.4	0.18	Ribosomal RNA small subunit methyltransferase
+sp|Q6XXM1|CENPA_CHICK	131	61	77	88	2	114	3e-24	Histone H3-like centromeric protein A
+sp|Q75DE4|CENPA_ASHGO	204	56	71	117	3	112	1e-23	Histone H3-like centromeric protein CSE4
+sp|Q7RXR3|CENPA_NEUCR	155	57	71	132	3	138	9e-32	Histone H3-like centromeric protein cse-4
+sp|Q803H4|CENPA_DANRE	145	53	69	131	1	112	9e-24	Histone H3-like centromeric protein A
+sp|Q874J6|CENPA_CANGA	240	51	70	114	3	121	1e-26	Histone H3-like centromeric protein CSE4
+sp|Q8SQP3|H3L_ENCCU	140	51	72	128	2	123	4e-27	Histone H3-like protein OS=Encephalitozoon
+sp|Q8SS77|H31_ENCCU	144	60	75	134	3	135	1e-30	Histone H3.1 OS=Encephalitozoon cuniculi
+sp|Q98RY4|H3_GUITH	136	74	84	132	1	161	2e-38	Histone H3 OS=Guillardia theta PE=3 SV=3
+sp|Q9LXU8|H3L4_ARATH	131	67	82	129	5	144	2e-33	Histone H3-like 4 OS=Arabidopsis thaliana
+sp|Q9MBF6|H3L1_LILLO	149	49	65	89	0	91.2	3e-17	Histone H3-like 1 OS=Lilium longiflorum GN=gH3
+sp|Q9V6Q2|CID_DROME	225	32	45	126	5	85.8	1e-15	Histone H3-like centromeric protein cid
+sp|Q9XG57|H3L2_LILLO	100	44	53	99	9	68.0	2e-10	Histone H3-like 2 OS=Lilium longiflorum
+sp|Q9Y812|CENPA_SCHPO	120	57	73	113	6	126	7e-28	Histone H3-like centromeric protein cnp1
+tr|A0BYL4|A0BYL4_PARTE	2537	55	60	40	0	46.1	0.001	Chromosome undetermined scaffold_137, whole
+tr|A0DDL5|A0DDL5_PARTE	184	34	49	127	5	89.2	8e-17	Chromosome undetermined scaffold_466, whole
+tr|A0EIF3|A0EIF3_PARTE	137	52	68	130	5	124	2e-27	Chromosome undetermined scaffold_99, whole
+tr|A2D8I4|A2D8I4_TRIVA	134	48	66	122	2	108	1e-22	Histone H3, embryonic, putative
+tr|A2DW69|A2DW69_TRIVA	154	45	60	124	0	121	2e-26	Histone H3.2, putative OS=Trichomonas
+tr|A2I887|A2I887_AEDAE	90	81	91	37	0	62.3	1e-08	Histone H3 OS=Aedes aegypti PE=3 SV=1
+tr|A2Y8W0|A2Y8W0_ORYSI	380	79	83	112	0	159	7e-38	Putative uncharacterized protein OS=Oryza
+tr|A2ZJV1|A2ZJV1_ORYSI	136	74	82	135	0	159	6e-38	Putative uncharacterized protein OS=Oryza
+tr|A3A6I6|A3A6I6_ORYSJ	211	76	83	134	10	160	2e-38	Putative uncharacterized protein OS=Oryza
+tr|A3CTR7|A3CTR7_METMJ	68	42	55	45	0	37.2	0.44	Archaeal histone OS=Methanoculleus
+tr|A3LP50|A3LP50_PICST	171	64	75	118	3	135	1e-30	Histone H3 variant OS=Scheffersomyces
+tr|A4H675|A4H675_LEIBR	130	57	70	127	6	114	3e-24	Histone H3 OS=Leishmania braziliensis
+tr|A4HA21|A4HA21_LEIBR	145	50	70	126	0	113	5e-24	Putative histone H3 variant OS=Leishmania
+tr|A4HUL0|A4HUL0_LEIIN	86	50	67	67	6	42.2	0.012	Histone H3 OS=Leishmania infantum
+tr|A4HY84|A4HY84_LEIIN	145	50	68	125	0	110	3e-23	Putative histone H3 variant OS=Leishmania
+tr|A4PIE1|A4PIE1_ARAHI	175	46	64	127	3	110	4e-23	Putative centromeric histone H3-like
+tr|A4PIE2|A4PIE2_ARAHI	177	47	65	126	5	112	7e-24	Putative centromeric histone H3-like
+tr|A4PIE7|A4PIE7_CAPBU	177	50	62	127	4	109	7e-23	Centromeric histone H3-like protein-1
+tr|A4PIE9|A4PIE9_CRUWA	177	46	60	125	8	107	3e-22	Centromeric histone H3-like protein
+tr|A4PIF2|A4PIF2_ERUSA	164	56	71	102	2	104	3e-21	Centromeric histone H3-like protein-1
+tr|A4PIF3|A4PIF3_LEPVR	180	46	61	127	3	110	3e-23	Centromeric histone H3-like protein_1
+tr|A4PIF6|A4PIF6_RAPSA	179	49	62	115	2	108	2e-22	Centromeric histone H3-like protein_2
+tr|A4RRH7|A4RRH7_OSTLU	135	60	77	116	4	121	1e-26	Predicted protein OS=Ostreococcus
+tr|A5DJS8|A5DJS8_PICGU	162	63	74	112	3	126	7e-28	Histone H3 OS=Meyerozyma guilliermondii
+tr|A5DV22|A5DV22_LODEL	306	21	43	76	2	36.5	0.61	Putative uncharacterized protein
+tr|A5DXP2|A5DXP2_LODEL	389	56	72	125	7	125	1e-27	Histone H3.3 OS=Lodderomyces elongisporus
+tr|A5HV19|A5HV19_BRAOT	184	48	67	129	2	114	2e-24	Centromeric histone H3-like protein
+tr|A6RK73|A6RK73_BOTFB	163	58	71	126	5	131	2e-29	Putative uncharacterized protein
+tr|A6SEZ8|A6SEZ8_BOTFB	153	25	42	117	12	58.8	1e-07	Predicted protein OS=Botryotinia fuckeliana
+tr|A7AQ16|A7AQ16_BABBO	521	44	60	90	3	86.1	7e-16	Core histone H2A/H2B/H3/H4 family protein
+tr|A7K680|A7K680_VIBSE	518	30	50	55	0	37.6	0.28	NOL1/NOP2/sun family putative RNA methylase
+tr|A7S708|A7S708_NEMVE	220	99	99	135	0	191	2e-47	Predicted protein OS=Nematostella vectensis
+tr|A7SHQ2|A7SHQ2_NEMVE	124	56	70	120	13	129	9e-29	Predicted protein OS=Nematostella vectensis
+tr|A7SWR3|A7SWR3_NEMVE	148	56	73	121	4	123	4e-27	Predicted protein OS=Nematostella vectensis
+tr|A7T1L0|A7T1L0_NEMVE	62	94	98	51	0	91.2	2e-17	Predicted protein OS=Nematostella vectensis
+tr|A7TTP5|A7TTP5_VANPO	236	50	64	123	7	124	2e-27	Putative uncharacterized protein
+tr|A7Y0D9|A7Y0D9_SPIVO	151	41	53	130	7	85.4	1e-15	H3 histone OS=Spironucleus vortens PE=3 SV=1
+tr|A8B471|A8B471_GIAIC	189	60	78	133	4	121	2e-26	Histone H3 OS=Giardia intestinalis (strain
+tr|A8B678|A8B678_GIAIC	156	38	51	111	6	81.5	2e-14	Histone H3 OS=Giardia intestinalis (strain
+tr|A8BYH2|A8BYH2_GIAIC	159	38	49	130	14	82.3	1e-14	Histone H3 OS=Giardia intestinalis (strain
+tr|A8J8Q1|A8J8Q1_CHLRE	156	58	67	132	15	136	3e-31	Histone H3 variant OS=Chlamydomonas
+tr|A8N8I7|A8N8I7_COPC7	185	45	55	127	0	104	2e-21	Putative uncharacterized protein
+tr|A8NA26|A8NA26_COPC7	115	37	45	84	3	49.9	6e-05	Histone III OS=Coprinopsis cinerea (strain
+tr|A8NXR9|A8NXR9_COPC7	164	62	71	119	18	140	4e-32	Histone H3 OS=Coprinopsis cinerea (strain
+tr|A8PWP4|A8PWP4_MALGO	131	65	77	108	10	131	2e-29	Putative uncharacterized protein
+tr|A8Q0G2|A8Q0G2_BRUMA	168	54	71	98	3	105	1e-21	Core histone H2A/H2B/H3/H4 family protein
+tr|A8WT90|A8WT90_CAEBR	265	63	81	83	0	111	2e-23	Putative uncharacterized protein
+tr|A8X1I1|A8X1I1_CAEBR	142	97	97	69	0	86.1	8e-16	Putative uncharacterized protein
+tr|A8XE67|A8XE67_CAEBR	350	46	50	57	5	47.2	3e-04	Putative uncharacterized protein
+tr|A8XFI3|A8XFI3_CAEBR	142	33	50	126	2	82.7	8e-15	Putative uncharacterized protein
+tr|A8XV27|A8XV27_CAEBR	137	68	74	132	3	133	3e-30	Putative uncharacterized protein
+tr|A8Y3W9|A8Y3W9_CAEBR	173	92	95	122	0	160	4e-38	Putative uncharacterized protein
+tr|A9BL48|A9BL48_HEMAN	128	60	78	99	0	123	4e-27	Cenp-A OS=Hemiselmis andersenii GN=HAN_3g422
+tr|A9Q0K3|A9Q0K3_9ANNE	96	85	88	67	1	74.6	3e-12	Histone H3 (Fragment) OS=Euchone sp. AM
+tr|A9RSQ5|A9RSQ5_PHYPA	129	83	87	110	0	131	1e-29	Histone H3 (Fragment) OS=Physcomitrella
+tr|A9U534|A9U534_PHYPA	128	53	68	124	5	119	7e-26	Histone H3 OS=Physcomitrella patens subsp.
+tr|A9VDC3|A9VDC3_MONBE	149	66	77	110	2	131	2e-29	Predicted protein OS=Monosiga brevicollis
+tr|B0D714|B0D714_LACBS	138	50	59	122	20	97.3	3e-19	Predicted protein OS=Laccaria bicolor
+tr|B0D722|B0D722_LACBS	132	63	75	131	1	143	4e-33	Predicted protein OS=Laccaria bicolor
+tr|B0DIF7|B0DIF7_LACBS	143	64	78	114	0	119	8e-26	Predicted protein OS=Laccaria bicolor
+tr|B0EHF9|B0EHF9_ENTDS	206	42	67	77	5	75.7	1e-12	Histone H3, putative OS=Entamoeba dispar
+tr|B0EM01|B0EM01_ENTDS	147	60	73	132	0	114	2e-24	Histone H3, putative OS=Entamoeba dispar
+tr|B0R2Q5|B0R2Q5_HALS3	150	27	42	67	3	36.5	0.70	Archaeal histone OS=Halobacterium salinarum
+tr|B0WNR3|B0WNR3_CULQU	190	42	57	111	1	91.5	2e-17	Histone H3.3 type 2 OS=Culex
+tr|B0XHJ1|B0XHJ1_CULQU	226	35	55	113	1	95.0	1e-18	Putative uncharacterized protein OS=Culex
+tr|B2AUG9|B2AUG9_PODAN	529	35	49	60	5	36.1	0.81	Predicted CDS Pa_1_19080 OS=Podospora
+tr|B2AWY3|B2AWY3_PODAN	210	52	60	105	30	112	7e-24	Predicted CDS Pa_7_8690 (Fragment)
+tr|B2RZ23|B2RZ23_RAT	159	46	65	121	2	117	3e-25	Centromere protein A OS=Rattus norvegicus
+tr|B2VTM7|B2VTM7_PYRTR	981	82	89	28	0	44.5	0.003	Putative uncharacterized protein
+tr|B2W209|B2W209_PYRTR	118	49	65	74	5	46.5	7e-04	Histone H3.3 OS=Pyrenophora tritici-repentis
+tr|B2W4X4|B2W4X4_PYRTR	170	61	73	119	5	115	9e-25	Histone H3 OS=Pyrenophora tritici-repentis
+tr|B3L8P6|B3L8P6_PLAKH	172	54	69	115	12	120	4e-26	Histone h3, putative OS=Plasmodium knowlesi
+tr|B3MGZ1|B3MGZ1_DROAN	266	29	45	126	5	78.4	1e-13	Cid OS=Drosophila ananassae GN=cid PE=3 SV=1
+tr|B3N2J0|B3N2J0_DROAN	210	100	100	101	0	126	4e-28	GF19281 OS=Drosophila ananassae GN=GF19281
+tr|B3NRK5|B3NRK5_DROER	221	32	45	124	11	85.8	1e-15	Cid OS=Drosophila erecta GN=cid PE=3 SV=1
+tr|B3RNV3|B3RNV3_TRIAD	142	57	73	120	6	125	1e-27	Putative uncharacterized protein
+tr|B4E404|B4E404_9HYPO	105	94	100	58	0	60.7	3e-08	Histone H3 (Fragment) OS=Gibberella
+tr|B4GGT7|B4GGT7_DROPE	257	31	50	117	4	80.0	6e-14	GL17403 OS=Drosophila persimilis GN=GL17403
+tr|B4IMK4|B4IMK4_DROSE	239	99	99	130	0	176	4e-43	GM13198 OS=Drosophila sechellia GN=GM13198
+tr|B4IP98|B4IP98_DROSE	154	83	87	121	4	121	1e-26	GM16403 OS=Drosophila sechellia GN=GM16403
+tr|B4IRL6|B4IRL6_DROPE	191	99	99	105	0	148	1e-34	GL16668 OS=Drosophila persimilis GN=GL16668
+tr|B4JVI5|B4JVI5_DROGR	163	33	50	102	3	83.1	6e-15	GH22666 OS=Drosophila grimshawi GN=GH22666
+tr|B4JVP9|B4JVP9_DROGR	239	28	42	113	1	78.8	1e-13	GH23161 OS=Drosophila grimshawi GN=GH23161
+tr|B4KML1|B4KML1_DROMO	207	31	44	120	9	82.3	9e-15	GI18331 OS=Drosophila mojavensis GN=GI18331
+tr|B4KT71|B4KT71_DROMO	214	29	52	102	3	89.2	8e-17	GI21176 OS=Drosophila mojavensis GN=GI21176
+tr|B4LNS6|B4LNS6_DROVI	208	32	53	104	4	84.2	3e-15	GJ21033 OS=Drosophila virilis GN=GJ21033
+tr|B4M477|B4M477_DROVI	138	56	72	133	3	107	2e-22	GJ10889 OS=Drosophila virilis GN=GJ10889
+tr|B4MCL7|B4MCL7_DROVI	228	30	42	123	6	86.1	7e-16	GJ19757 OS=Drosophila virilis GN=GJ19757
+tr|B4MIS8|B4MIS8_DROWI	258	33	50	111	3	84.2	3e-15	GK10722 OS=Drosophila willistoni GN=GK10722
+tr|B4NVK9|B4NVK9_DROSI	115	67	77	106	3	81.5	2e-14	GD13419 OS=Drosophila simulans GN=GD13419
+tr|B6ACP5|B6ACP5_CRYMR	134	49	65	124	11	114	2e-24	Centromere protein A, putative
+tr|B6HGA8|B6HGA8_PENCW	170	57	69	131	7	135	1e-30	Pc20g11740 protein OS=Penicillium
+tr|B6HIB7|B6HIB7_PENCW	442	33	48	33	0	36.8	0.45	Pc21g01240 protein OS=Penicillium
+tr|B6KEE1|B6KEE1_TOXGO	216	50	66	108	4	103	4e-21	Histone H3 variant, putative OS=Toxoplasma
+tr|B6QA20|B6QA20_PENMQ	146	57	67	130	4	123	3e-27	Histone H3, putative OS=Penicillium
+tr|B6QDG7|B6QDG7_PENMQ	371	85	90	20	0	36.5	0.67	Putative uncharacterized protein
+tr|B6QVE4|B6QVE4_PENMQ	207	60	71	121	11	130	4e-29	Centromere protein Cse4, putative
+tr|B6SHA8|B6SHA8_MAIZE	157	46	55	134	20	118	2e-25	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6SYV0|B6SYV0_MAIZE	174	90	93	126	0	160	3e-38	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6T1G0|B6T1G0_MAIZE	178	96	98	131	0	178	9e-44	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6TPZ0|B6TPZ0_MAIZE	187	62	72	101	2	117	2e-25	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6UF11|B6UF11_MAIZE	110	34	48	83	11	36.1	0.88	Ribosomal protein L37 OS=Zea mays PE=3
+tr|B7GE11|B7GE11_PHATC	104	67	83	99	1	111	2e-23	Predicted protein (Fragment)
+tr|B7PBP0|B7PBP0_IXOSC	95	37	57	87	0	71.5	2e-11	Histone H3, putative OS=Ixodes scapularis
+tr|B7PCF3|B7PCF3_IXOSC	144	38	57	131	4	92.7	8e-18	Histone H3, putative OS=Ixodes scapularis
+tr|B7X8C9|B7X8C9_TOBAC	157	47	64	133	19	110	4e-23	Centromere specific histone H3 variant
+tr|B7XJC2|B7XJC2_ENTBH	160	35	49	124	6	93.8	3e-18	Histones H3 and H4 OS=Enterocytozoon
+tr|B7ZJM1|B7ZJM1_9PEZI	147	76	82	126	21	152	8e-36	Histone H3 (Fragment) OS=Ophiostoma quercus
+tr|B8A6X4|B8A6X4_ORYSI	160	96	98	95	0	108	2e-22	Putative uncharacterized protein OS=Oryza
+tr|B8AH69|B8AH69_ORYSI	218	73	83	99	0	129	6e-29	Putative uncharacterized protein OS=Oryza
+tr|B8LV72|B8LV72_TALSN	119	55	73	76	2	78.4	2e-13	Centromere protein A, putative
+tr|B8LYR5|B8LYR5_TALSN	187	56	66	131	4	119	7e-26	Centromeric histone H3 htr12, putative
+tr|B8MCD2|B8MCD2_TALSN	343	90	95	20	0	40.3	0.042	Putative uncharacterized protein
+tr|B8MN07|B8MN07_TALSN	212	42	55	126	8	99.2	9e-20	Centromeric histone H3 htr12, putative
+tr|B8MUK1|B8MUK1_TALSN	131	52	63	114	20	116	7e-25	Histone H3, putative OS=Talaromyces
+tr|B9EMI5|B9EMI5_SALSA	155	52	66	126	1	123	3e-27	Histone H3-like centromeric protein A
+tr|B9FRM3|B9FRM3_ORYSJ	217	92	97	81	0	131	2e-29	Putative uncharacterized protein OS=Oryza
+tr|B9GUZ4|B9GUZ4_POPTR	309	63	73	58	10	53.0	6e-06	Putative uncharacterized protein OS=Populus
+tr|B9I8W1|B9I8W1_POPTR	129	49	68	120	1	111	1e-23	Histone H3 OS=Populus trichocarpa GN=HTR904
+tr|B9NEU0|B9NEU0_POPTR	70	75	79	68	0	93.8	4e-18	Histone H4 OS=Populus trichocarpa GN=HTR905
+tr|B9PKI2|B9PKI2_TOXGO	174	93	98	135	0	190	2e-47	Histone H3, putative OS=Toxoplasma gondii
+tr|B9WD60|B9WD60_CANDC	212	63	76	115	6	133	4e-30	Histone H3-like centromere protein, putative
+tr|C0KIK5|C0KIK5_9ARAC	94	61	69	94	19	75.4	1e-12	Histone H3A (Fragment) OS=Dictyna sp.
+tr|C0NML7|C0NML7_AJECG	102	33	54	84	3	64.6	3e-09	Predicted protein OS=Ajellomyces capsulata
+tr|C0PN29|C0PN29_MAIZE	41	100	100	23	0	36.8	0.52	Putative uncharacterized protein OS=Zea
+tr|C0SA62|C0SA62_PARBP	236	59	67	126	5	142	9e-33	Histone H3 OS=Paracoccidioides brasiliensis
+tr|C0SH42|C0SH42_PARBP	144	54	68	127	4	119	7e-26	Histone H3.3 OS=Paracoccidioides
+tr|C1BK69|C1BK69_OSMMO	142	95	98	103	0	135	9e-31	Histone H3.3 OS=Osmerus mordax GN=H33 PE=2
+tr|C1GX37|C1GX37_PARBA	142	71	81	59	0	81.1	2e-14	Histone H3 OS=Paracoccidioides brasiliensis
+tr|C1H2A8|C1H2A8_PARBA	145	42	53	91	40	76.5	6e-13	Histone H3 OS=Paracoccidioides brasiliensis
+tr|C1H469|C1H469_PARBA	90	31	42	84	28	48.8	1e-04	Predicted protein OS=Paracoccidioides
+tr|C1H6A3|C1H6A3_PARBA	137	54	65	113	18	108	1e-22	Histone H3 OS=Paracoccidioides brasiliensis
+tr|C1HE85|C1HE85_PARBA	115	52	65	104	6	84.2	3e-15	Histone H3 OS=Paracoccidioides brasiliensis
+tr|C1ML80|C1ML80_MICPS	139	54	73	123	3	130	3e-29	Histone H3 OS=Micromonas pusilla
+tr|C3YIW1|C3YIW1_BRAFL	100	64	80	98	0	120	4e-26	Putative uncharacterized protein
+tr|C3YU20|C3YU20_BRAFL	53	62	75	53	0	66.1	8e-10	Putative uncharacterized protein (Fragment)
+tr|C3YVZ4|C3YVZ4_BRAFL	151	44	56	125	5	61.9	1e-08	Putative uncharacterized protein
+tr|C3Z881|C3Z881_BRAFL	252	99	99	135	0	188	1e-46	Putative uncharacterized protein
+tr|C3Z982|C3Z982_BRAFL	117	69	83	96	2	125	2e-27	Putative uncharacterized protein
+tr|C3Z9D4|C3Z9D4_BRAFL	136	47	59	85	24	81.9	2e-14	Putative uncharacterized protein
+tr|C3ZY68|C3ZY68_BRAFL	192	96	98	80	0	139	8e-32	Putative uncharacterized protein
+tr|C4JBC5|C4JBC5_MAIZE	608	64	68	91	2	82.3	1e-14	Putative uncharacterized protein OS=Zea
+tr|C4JR20|C4JR20_UNCRE	193	54	65	133	5	137	3e-31	Histone H3 OS=Uncinocarpus reesii (strain
+tr|C4LYH2|C4LYH2_ENTHI	119	40	64	90	1	85.4	1e-15	Histone H3, putative OS=Entamoeba
+tr|C4R1J6|C4R1J6_PICPG	172	56	71	131	8	137	3e-31	Centromere protein that resembles histones,
+tr|C4V7K2|C4V7K2_NOSCE	147	50	68	131	5	115	1e-24	Putative uncharacterized protein OS=Nosema
+tr|C4V7N2|C4V7N2_NOSCE	144	54	71	130	5	122	1e-26	Putative uncharacterized protein OS=Nosema
+tr|C4XZH3|C4XZH3_CLAL4	139	68	81	103	3	126	3e-28	Putative uncharacterized protein
+tr|C5DGV5|C5DGV5_LACTC	178	65	78	96	3	110	3e-23	KLTH0D08602p OS=Lachancea thermotolerans
+tr|C5DX03|C5DX03_ZYGRC	199	64	75	96	3	118	1e-25	ZYRO0F01144p OS=Zygosaccharomyces rouxii
+tr|C5FKX1|C5FKX1_ARTOC	172	59	70	123	5	141	1e-32	Histone H3 OS=Arthroderma otae (strain ATCC
+tr|C5G7U5|C5G7U5_AJEDR	154	32	43	92	3	78.1	2e-13	Predicted protein OS=Ajellomyces
+tr|C5GAZ6|C5GAZ6_AJEDR	109	26	44	107	4	63.0	7e-09	Predicted protein OS=Ajellomyces
+tr|C5GAZ7|C5GAZ7_AJEDR	106	31	44	84	3	71.5	2e-11	Predicted protein OS=Ajellomyces
+tr|C5GKR9|C5GKR9_AJEDR	126	28	41	108	3	76.9	4e-13	Predicted protein OS=Ajellomyces
+tr|C5GLQ5|C5GLQ5_AJEDR	125	26	44	115	9	75.4	1e-12	Predicted protein OS=Ajellomyces
+tr|C5GMI3|C5GMI3_AJEDR	115	29	46	88	3	77.3	4e-13	Predicted protein OS=Ajellomyces
+tr|C5GNB9|C5GNB9_AJEDR	118	29	44	83	3	64.2	3e-09	Predicted protein OS=Ajellomyces
+tr|C5GPZ4|C5GPZ4_AJEDR	125	30	45	108	3	86.1	8e-16	Predicted protein OS=Ajellomyces
+tr|C5GQ43|C5GQ43_AJEDR	109	27	42	104	7	67.7	3e-10	Predicted protein OS=Ajellomyces
+tr|C5GTA3|C5GTA3_AJEDR	206	25	40	105	3	74.6	2e-12	Predicted protein OS=Ajellomyces
+tr|C5GTD1|C5GTD1_AJEDR	105	34	49	76	3	73.0	6e-12	Predicted protein OS=Ajellomyces
+tr|C5GTM7|C5GTM7_AJEDR	179	22	30	56	28	42.6	0.008	Predicted protein OS=Ajellomyces
+tr|C5GTU0|C5GTU0_AJEDR	132	26	44	113	4	70.7	3e-11	Predicted protein OS=Ajellomyces
+tr|C5GTU2|C5GTU2_AJEDR	127	37	50	83	3	76.1	8e-13	Predicted protein OS=Ajellomyces
+tr|C5GTV7|C5GTV7_AJEDR	120	33	49	86	3	81.1	2e-14	Predicted protein OS=Ajellomyces
+tr|C5GUE2|C5GUE2_AJEDR	278	35	50	85	3	87.7	3e-16	Predicted protein OS=Ajellomyces
+tr|C5GW06|C5GW06_AJEDR	115	36	56	47	3	40.7	0.039	Predicted protein OS=Ajellomyces
+tr|C5GXN4|C5GXN4_AJEDR	124	31	46	87	3	77.3	3e-13	Predicted protein OS=Ajellomyces
+tr|C5GY76|C5GY76_AJEDR	161	28	43	113	3	83.8	3e-15	Predicted protein OS=Ajellomyces
+tr|C5JDA8|C5JDA8_AJEDS	114	29	43	103	3	81.5	2e-14	Predicted protein OS=Ajellomyces
+tr|C5JE15|C5JE15_AJEDS	123	30	47	96	3	79.2	1e-13	Predicted protein OS=Ajellomyces
+tr|C5JG51|C5JG51_AJEDS	229	26	43	46	0	46.9	5e-04	Predicted protein OS=Ajellomyces
+tr|C5JIW3|C5JIW3_AJEDS	102	27	43	102	3	75.7	1e-12	Predicted protein OS=Ajellomyces
+tr|C5JL98|C5JL98_AJEDS	135	31	46	86	3	71.1	2e-11	Predicted protein OS=Ajellomyces
+tr|C5JM63|C5JM63_AJEDS	103	28	48	45	0	46.5	7e-04	Predicted protein OS=Ajellomyces
+tr|C5JNG3|C5JNG3_AJEDS	152	32	42	127	12	82.3	9e-15	Predicted protein OS=Ajellomyces
+tr|C5JUH3|C5JUH3_AJEDS	103	27	42	97	3	69.6	8e-11	Predicted protein OS=Ajellomyces
+tr|C5JYK8|C5JYK8_AJEDS	143	30	45	89	3	80.8	3e-14	Predicted protein OS=Ajellomyces
+tr|C5K1R1|C5K1R1_AJEDS	139	25	41	109	3	70.4	4e-11	Predicted protein OS=Ajellomyces
+tr|C5LGQ2|C5LGQ2_PERM5	260	49	65	126	1	113	5e-24	Histone H3, putative OS=Perkinsus marinus
+tr|C5LTP9|C5LTP9_PERM5	925	48	64	112	1	114	3e-24	Centromere protein a, putative OS=Perkinsus
+tr|C5LTR5|C5LTR5_PERM5	448	40	65	110	11	105	1e-21	Putative uncharacterized protein
+tr|C5M8B7|C5M8B7_CANTT	238	56	71	129	3	126	4e-28	Histone H3 OS=Candida tropicalis (strain
+tr|C5NZV9|C5NZV9_COCP7	204	59	72	117	5	136	6e-31	Core histone H2A/H2B/H3/H4 family protein
+tr|C5P239|C5P239_COCP7	208	26	54	61	0	57.6	3e-07	Putative uncharacterized protein
+tr|C5WRJ6|C5WRJ6_SORBI	129	76	83	128	2	140	2e-32	Putative uncharacterized protein Sb01g029010
+tr|C5XQM5|C5XQM5_SORBI	359	96	98	130	0	191	2e-47	Putative uncharacterized protein Sb03g040890
+tr|C5YZY0|C5YZY0_SORBI	157	47	57	134	20	112	1e-23	Putative uncharacterized protein Sb09g023930
+tr|C7J3T3|C7J3T3_ORYSJ	250	93	95	120	0	178	8e-44	Os06g0159750 protein OS=Oryza sativa subsp.
+tr|C7ZBN1|C7ZBN1_NECH7	251	54	71	106	3	116	7e-25	Predicted protein OS=Nectria haematococca
+tr|C8V0T7|C8V0T7_EMENI	191	58	70	126	5	144	2e-33	Putative uncharacterized protein
+tr|C9SE93|C9SE93_VERA1	118	70	80	70	2	60.7	3e-08	Histone H3 OS=Verticillium albo-atrum
+tr|D0EKP9|D0EKP9_9ORYZ	166	62	76	103	1	110	3e-23	CENH3 OS=Oryza alta GN=CenH3 PE=2 SV=1
+tr|D0N6W0|D0N6W0_PHYIT	179	93	97	131	0	186	4e-46	Histone H3.3 OS=Phytophthora infestans
+tr|D0NMW1|D0NMW1_PHYIT	205	54	66	131	2	118	2e-25	Histone H3 OS=Phytophthora infestans (strain
+tr|D1YVU1|D1YVU1_METPS	70	32	50	65	6	38.4	0.18	Archaeal histone OS=Methanocella paludicola
+tr|D2RG36|D2RG36_ARCPA	69	33	48	61	5	38.8	0.12	Transcription factor CBF/NF-Y/histone domain
+tr|D2UZL3|D2UZL3_NAEGR	230	50	64	126	8	108	2e-22	Histone H3 variant OS=Naegleria gruberi
+tr|D2V2D9|D2V2D9_NAEGR	109	29	50	97	12	80.8	3e-14	Histone H3 (Fragment) OS=Naegleria gruberi
+tr|D2V5J8|D2V5J8_NAEGR	125	55	68	119	6	115	8e-25	Histone H3 (Fragment) OS=Naegleria gruberi
+tr|D2VAT9|D2VAT9_NAEGR	550	70	76	34	0	50.7	3e-05	Predicted protein OS=Naegleria gruberi
+tr|D2VHF2|D2VHF2_NAEGR	100	60	67	49	4	38.4	0.18	Predicted protein (Fragment) OS=Naegleria
+tr|D2VTJ1|D2VTJ1_NAEGR	857	78	95	23	0	38.8	0.12	Predicted protein OS=Naegleria gruberi
+tr|D2VWB2|D2VWB2_NAEGR	186	60	78	130	8	134	2e-30	Histone H3 OS=Naegleria gruberi
+tr|D2W1A7|D2W1A7_NAEGR	140	80	90	134	2	162	6e-39	Histone H3 OS=Naegleria gruberi
+tr|D2XB48|D2XB48_9VIRU	232	30	50	79	0	46.1	8e-04	Histone H3 OS=Marseillevirus GN=MAR_ORF413
+tr|D3B6L8|D3B6L8_POLPA	393	60	70	131	6	155	7e-37	Predicted protein OS=Polysphondylium
+tr|D3BBJ8|D3BBJ8_POLPA	1363	82	88	134	1	200	4e-50	SET domain-containing protein
+tr|D3E264|D3E264_METRM	66	26	38	62	5	36.5	0.59	Archaeal histone OS=Methanobrevibacter
+tr|D3PI19|D3PI19_9MAXI	129	58	65	120	3	117	2e-25	Histone H3.3 type a OS=Lepeophtheirus
+tr|D3ZBP9|D3ZBP9_RAT	130	57	66	127	6	117	3e-25	Uncharacterized protein OS=Rattus norvegicus
+tr|D3ZXC3|D3ZXC3_RAT	135	74	80	134	1	147	3e-34	Uncharacterized protein OS=Rattus norvegicus
+tr|D4ALJ5|D4ALJ5_ARTBC	226	80	88	120	0	148	8e-35	Centromere protein Cse4, putative
+tr|D5G8P1|D5G8P1_TUBMM	532	31	45	84	3	39.9	0.061	Whole genome shotgun sequence assembly,
+tr|D5GDB9|D5GDB9_TUBMM	152	61	70	134	13	155	9e-37	Whole genome shotgun sequence assembly,
+tr|D6X3A9|D6X3A9_TRICA	125	46	56	117	3	93.5	5e-18	Putative uncharacterized protein
+tr|D7EAB7|D7EAB7_METEZ	68	28	47	65	5	38.0	0.26	Transcription factor CBF/NF-Y/histone domain
+tr|D7FXM0|D7FXM0_ECTSI	144	54	72	133	7	97.7	3e-19	Putative uncharacterized protein
+tr|D7KNL4|D7KNL4_ARALL	89	69	89	55	0	80.8	3e-14	Putative uncharacterized protein
+tr|D7KQ82|D7KQ82_ARALL	181	57	70	104	2	116	6e-25	Predicted protein OS=Arabidopsis lyrata
+tr|D7KSR1|D7KSR1_ARALL	236	93	95	123	0	160	3e-38	F10A5.19 OS=Arabidopsis lyrata subsp. lyrata
+tr|D7NGW4|D7NGW4_9ARAC	90	74	75	83	0	83.8	4e-15	Histone 3 (Fragment) OS=Callobius sp.
+tr|D7UCN1|D7UCN1_VITVI	156	50	62	132	18	122	9e-27	Putative uncharacterized protein OS=Vitis
+tr|D8KY53|D8KY53_NOSBO	149	31	49	132	12	86.1	8e-16	Histone H3_2 OS=Nosema bombycis PE=3 SV=1
+tr|D8LEK0|D8LEK0_ECTSI	102	64	80	97	4	112	9e-24	Histone H3, putative OS=Ectocarpus
+tr|D8LWV0|D8LWV0_BLAHO	194	89	95	134	0	182	7e-45	Singapore isolate B (sub-type 7) whole
+tr|D8MA55|D8MA55_BLAHO	133	58	68	120	1	123	6e-27	Singapore isolate B (sub-type 7) whole
+tr|D8PPW8|D8PPW8_SCHCM	165	64	74	126	13	147	4e-34	Putative uncharacterized protein
+tr|D8PR20|D8PR20_SCHCM	729	52	64	25	0	36.5	0.61	Putative uncharacterized protein (Fragment)
+tr|D8RG31|D8RG31_SELML	126	62	77	101	1	122	1e-26	Putative uncharacterized protein
+tr|D8RGD1|D8RGD1_SELML	216	65	78	23	0	36.8	0.53	Putative uncharacterized protein
+tr|D8UBS3|D8UBS3_VOLCA	143	62	71	133	4	138	8e-32	Putative uncharacterized protein OS=Volvox
+tr|E1APJ4|E1APJ4_9POAL	177	54	67	124	3	107	2e-22	Centromeric histone H3 isoform B OS=Luzula
+tr|E1FGQ3|E1FGQ3_LOALO	153	55	63	134	13	120	3e-26	Histone H3 OS=Loa loa GN=LOAG_00076 PE=3
+tr|E1FHC9|E1FHC9_LOALO	231	44	61	115	3	110	5e-23	Core histone H2A/H2B/H3/H4 family protein
+tr|E1Z3F3|E1Z3F3_CHLVA	148	45	60	133	13	113	5e-24	Putative uncharacterized protein
+tr|E1Z8C0|E1Z8C0_CHLVA	165	42	54	130	29	96.2	6e-19	Putative uncharacterized protein
+tr|E2A7L6|E2A7L6_CAMFO	459	86	86	43	0	51.9	1e-05	Histone H3 OS=Camponotus floridanus
+tr|E2AGX6|E2AGX6_CAMFO	1128	72	80	51	0	51.1	3e-05	Another transcription unit protein
+tr|E2B7A3|E2B7A3_HARSA	78	54	70	51	0	68.8	1e-10	Putative uncharacterized protein
+tr|E2BMC4|E2BMC4_HARSA	205	96	98	135	0	190	3e-47	Histone H3.3 OS=Harpegnathos saltator
+tr|E2L6R4|E2L6R4_MONPE	125	75	82	78	12	113	5e-24	Putative uncharacterized protein (Fragment)
+tr|E2LSK3|E2LSK3_MONPE	96	70	77	78	10	101	1e-20	Putative uncharacterized protein
+tr|E3BFF3|E3BFF3_9VIBR	474	24	48	70	7	39.5	0.075	Ribosomal RNA small subunit
+tr|E3JRC2|E3JRC2_PUCGT	204	51	62	67	3	68.0	2e-10	Putative uncharacterized protein OS=Puccinia
+tr|E3JV97|E3JV97_PUCGT	161	67	79	118	7	133	5e-30	Putative uncharacterized protein OS=Puccinia
+tr|E3KAN1|E3KAN1_PUCGT	112	62	78	51	0	62.6	1e-08	Putative uncharacterized protein OS=Puccinia
+tr|E3KKC5|E3KKC5_PUCGT	123	50	66	36	0	48.0	2e-04	Putative uncharacterized protein OS=Puccinia
+tr|E3KKH1|E3KKH1_PUCGT	119	65	83	49	0	68.8	1e-10	Putative uncharacterized protein OS=Puccinia
+tr|E3LQM5|E3LQM5_CAERE	272	30	50	85	0	64.2	3e-09	Putative uncharacterized protein
+tr|E3LRH9|E3LRH9_CAERE	212	31	48	59	1	37.2	0.35	Putative uncharacterized protein
+tr|E3LSA9|E3LSA9_CAERE	349	44	62	122	3	105	1e-21	CRE-HCP-3 protein OS=Caenorhabditis remanei
+tr|E3M3Z3|E3M3Z3_CAERE	177	94	95	115	0	157	3e-37	Putative uncharacterized protein
+tr|E3M841|E3M841_CAERE	328	43	62	125	5	101	1e-20	Putative uncharacterized protein
+tr|E3MX94|E3MX94_CAERE	181	80	90	134	2	162	9e-39	Putative uncharacterized protein
+tr|E3N306|E3N306_CAERE	194	36	44	65	4	43.0	0.007	Putative uncharacterized protein
+tr|E3N4X2|E3N4X2_CAERE	287	60	72	134	9	150	3e-35	Putative uncharacterized protein
+tr|E3N545|E3N545_CAERE	131	73	82	130	4	136	4e-31	Putative uncharacterized protein
+tr|E3N546|E3N546_CAERE	128	77	87	118	0	136	4e-31	Putative uncharacterized protein
+tr|E3N547|E3N547_CAERE	150	57	68	70	0	60.3	5e-08	Putative uncharacterized protein
+tr|E3N548|E3N548_CAERE	98	77	90	91	1	124	2e-27	Putative uncharacterized protein
+tr|E3RUZ6|E3RUZ6_PYRTT	58	56	70	51	0	44.2	0.004	Putative uncharacterized protein
+tr|E3WQJ3|E3WQJ3_ANODA	251	32	52	124	1	98.9	1e-19	Putative uncharacterized protein
+tr|E4V2C6|E4V2C6_ARTGP	127	56	73	23	0	36.5	0.64	Putative uncharacterized protein
+tr|E4WQK6|E4WQK6_OIKDI	111	58	76	87	2	102	8e-21	Whole genome shotgun assembly, reference
+tr|E4X8X7|E4X8X7_OIKDI	133	49	55	116	35	96.9	4e-19	Whole genome shotgun assembly, reference
+tr|E4Y4K1|E4Y4K1_OIKDI	865	81	90	22	0	36.8	0.47	Whole genome shotgun assembly, allelic
+tr|E5AB48|E5AB48_LEPMJ	72	67	81	53	0	84.2	3e-15	Putative uncharacterized protein
+tr|E5RT75|E5RT75_ASPKA	150	90	97	112	0	148	1e-34	Histone 3 (Fragment) OS=Aspergillus kawachi
+tr|E5T6P6|E5T6P6_TRISP	80	78	81	60	0	58.4	2e-07	Histone H3.2 OS=Trichinella spiralis
+tr|E5T7B8|E5T7B8_TRISP	108	90	97	72	0	115	8e-25	Histone H3, embryonic (Fragment)
+tr|E5T7G8|E5T7G8_TRISP	166	72	81	96	0	105	1e-21	Histone H3, embryonic (Fragment)
+tr|E6QZU5|E6QZU5_CRYGW	152	65	76	124	11	148	9e-35	Putative uncharacterized protein
+tr|E6ZS25|E6ZS25_SPORE	182	63	73	108	9	135	8e-31	Probable histone 3 OS=Sporisorium reilianum
+tr|E7LIK3|E7LIK3_TRYCR	151	48	63	131	8	115	8e-25	Histone H3 variant, putative OS=Trypanosoma
+tr|E7R5M6|E7R5M6_PICAD	167	60	70	133	5	136	6e-31	Centromere H3 protein OS=Pichia angusta
+tr|E9C5T7|E9C5T7_CAPO3	176	61	76	106	3	121	2e-26	Histone family protein OS=Capsaspora
+tr|E9D869|E9D869_COCPS	273	34	49	106	18	80.0	5e-14	Putative uncharacterized protein
+tr|E9DH42|E9DH42_COCPS	212	26	48	77	7	45.3	0.001	Putative uncharacterized protein
+tr|E9DJL7|E9DJL7_COCPS	127	31	48	35	0	37.6	0.29	Putative uncharacterized protein
+tr|E9EUR1|E9EUR1_METAR	544	37	52	52	1	39.5	0.070	Putative uncharacterized protein
+tr|E9G1N1|E9G1N1_DAPPU	192	51	68	123	2	117	2e-25	Putative uncharacterized protein OS=Daphnia
+tr|E9HIZ2|E9HIZ2_DAPPU	149	57	66	131	16	121	1e-26	Putative uncharacterized protein OS=Daphnia
+tr|E9HLN0|E9HLN0_DAPPU	146	58	65	131	13	130	4e-29	Putative uncharacterized protein OS=Daphnia
+tr|E9HP51|E9HP51_DAPPU	156	42	60	116	6	104	3e-21	Putative centromeric histone CENP-A
+tr|E9IYV7|E9IYV7_SOLIN	207	99	99	135	0	190	4e-47	Putative uncharacterized protein (Fragment)
+tr|F0WJK4|F0WJK4_9STRA	160	59	70	125	3	120	3e-26	Histone H3 putative OS=Albugo laibachii Nc14
+tr|F0XPV0|F0XPV0_GROCL	151	56	69	130	5	126	5e-28	Histone h3 OS=Grosmannia clavigera (strain
+tr|F0Y4V2|F0Y4V2_AURAN	1840	74	81	27	0	36.5	0.62	Putative uncharacterized protein
+tr|F0YEV9|F0YEV9_AURAN	98	70	80	97	1	112	1e-23	Putative uncharacterized protein (Fragment)
+tr|F0YMZ5|F0YMZ5_AURAN	144	94	98	103	0	131	2e-29	Putative uncharacterized protein
+tr|F0ZQB3|F0ZQB3_DICPU	136	65	77	127	10	142	8e-33	Putative uncharacterized protein
+tr|F0ZUT7|F0ZUT7_DICPU	107	45	63	98	0	96.2	6e-19	Putative uncharacterized protein (Fragment)
+tr|F1L6D3|F1L6D3_ASCSU	145	56	70	132	5	118	2e-25	Histone H3.2 OS=Ascaris suum PE=2 SV=1
+tr|F1LF69|F1LF69_ASCSU	176	50	66	122	2	114	2e-24	Histone H3-like centromeric protein A
+tr|F1LL31|F1LL31_9GAST	91	78	78	91	0	94.2	3e-18	Histone 3 (Fragment) OS=Provanna n. sp. 1
+tr|F1MJM6|F1MJM6_BOVIN	152	48	61	115	3	107	3e-22	Uncharacterized protein (Fragment) OS=Bos
+tr|F1PJZ1|F1PJZ1_CANFA	119	57	68	118	1	120	2e-26	Uncharacterized protein (Fragment) OS=Canis
+tr|F1RWC9|F1RWC9_PIG	142	61	68	135	6	147	2e-34	Uncharacterized protein OS=Sus scrofa PE=3
+tr|F2HHW6|F2HHW6_9CRYP	137	60	80	133	0	136	3e-31	Histon H3 OS=Cryptomonas paramecium GN=h3
+tr|F2HIH2|F2HIH2_9CRYP	112	55	75	96	0	115	8e-25	Centromeric histone-3 like protein
+tr|F2TTY9|F2TTY9_AJEDA	129	30	41	110	10	80.4	4e-14	Histone H3 OS=Ajellomyces dermatitidis
+tr|F2TU37|F2TU37_AJEDA	152	28	41	115	10	81.9	1e-14	Histone H3 (Fragment) OS=Ajellomyces
+tr|F2UJQ5|F2UJQ5_SALS5	179	56	70	116	0	115	8e-25	Histone OS=Salpingoeca sp. (strain ATCC
+tr|F2UM82|F2UM82_SALS5	135	60	74	127	10	138	9e-32	Histone H3 OS=Salpingoeca sp. (strain ATCC
+tr|F2WLW4|F2WLW4_9VIRU	217	24	47	85	0	42.6	0.010	Histone H3-like protein OS=Lausannevirus
+tr|F2WWP9|F2WWP9_9ACAR	89	70	72	66	22	99.6	6e-20	Histone 3 (Fragment) OS=Magellozetes
+tr|F4P4R3|F4P4R3_BATDJ	127	65	77	105	7	130	5e-29	Putative uncharacterized protein
+tr|F4RLM5|F4RLM5_MELLP	58	71	84	38	0	57.3	4e-07	Putative uncharacterized protein
+tr|F4S105|F4S105_MELLP	52	64	71	28	0	43.0	0.007	Putative uncharacterized protein (Fragment)
+tr|F4WEQ1|F4WEQ1_ACREC	132	48	65	92	3	91.5	2e-17	Histone H3-like centromeric protein cse-4
+tr|F6HRP4|F6HRP4_VITVI	175	95	97	135	0	186	4e-46	Putative uncharacterized protein OS=Vitis
+tr|F6HWK2|F6HWK2_VITVI	68	78	90	42	0	39.5	0.075	Putative uncharacterized protein OS=Vitis
+tr|F6U030|F6U030_MONDO	101	80	80	101	24	119	6e-26	Uncharacterized protein (Fragment)
+tr|F6Z3P1|F6Z3P1_CALJA	177	26	39	64	0	36.1	0.97	Uncharacterized protein (Fragment)
+tr|F7AJF7|F7AJF7_MACMU	112	41	51	104	25	82.3	1e-14	Uncharacterized protein OS=Macaca mulatta
+tr|F7AQ86|F7AQ86_ORNAN	133	77	80	133	2	158	1e-37	Uncharacterized protein (Fragment)
+tr|F7BF75|F7BF75_MACMU	140	66	69	127	5	131	2e-29	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7BNG7|F7BNG7_CIOIN	147	41	54	126	2	89.2	9e-17	Uncharacterized protein OS=Ciona
+tr|F7CVD8|F7CVD8_ORNAN	130	64	81	85	2	120	3e-26	Uncharacterized protein (Fragment)
+tr|F7EN31|F7EN31_MACMU	137	75	81	135	2	150	2e-35	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7I0B5|F7I0B5_CALJA	114	43	51	66	24	66.5	6e-10	Uncharacterized protein OS=Callithrix
+tr|F7I0B9|F7I0B9_CALJA	137	77	82	135	1	159	8e-38	Uncharacterized protein (Fragment)
+tr|F7IMF9|F7IMF9_CALJA	135	73	80	129	1	140	4e-32	Uncharacterized protein (Fragment)
+tr|F8P5E4|F8P5E4_SERL9	144	75	85	134	8	147	2e-34	Putative uncharacterized protein OS=Serpula
+tr|F8RP37|F8RP37_9DINO	147	68	78	133	5	149	6e-35	Histone 3 OS=Karlodinium veneficum GN=H3
+tr|F8RWA4|F8RWA4_TETLE	143	47	64	80	2	69.2	1e-10	Centromeric histone protein (Fragment)
+tr|F8RWA7|F8RWA7_TETMI	169	44	58	133	9	110	3e-23	Centromeric histone protein (Fragment)
+tr|F8RWA9|F8RWA9_TETRO	169	41	60	126	2	102	8e-21	Centromeric histone protein (Fragment)
+tr|F8RWB0|F8RWB0_9HYMN	145	37	54	108	2	73.0	6e-12	Centromeric histone protein (Fragment)
+tr|F9GAA3|F9GAA3_FUSOF	400	61	71	118	9	140	4e-32	Putative uncharacterized protein OS=Fusarium
+tr|F9WX14|F9WX14_MYCGM	85	89	93	29	0	56.1	8e-07	Putative uncharacterized protein (Fragment)
+tr|F9XH57|F9XH57_MYCGM	157	61	69	134	18	140	5e-32	Histone H3 OS=Mycosphaerella graminicola
+tr|F9XP68|F9XP68_MYCGM	677	80	95	20	0	39.9	0.059	Putative uncharacterized protein
+tr|G0MK77|G0MK77_CAEBE	341	50	68	105	3	105	2e-21	Putative uncharacterized protein
+tr|G0NE37|G0NE37_CAEBE	135	34	51	128	1	94.2	3e-18	Putative uncharacterized protein
+tr|G0NE38|G0NE38_CAEBE	162	40	56	112	0	92.7	9e-18	Putative uncharacterized protein
+tr|G0NFF6|G0NFF6_CAEBE	126	41	62	122	0	88.1	2e-16	Putative uncharacterized protein
+tr|G0NI71|G0NI71_CAEBE	200	33	48	74	0	57.3	3e-07	Putative uncharacterized protein
+tr|G0PA62|G0PA62_CAEBE	367	37	50	55	1	38.4	0.18	Putative uncharacterized protein
+tr|G0R0K0|G0R0K0_ICHMG	152	39	61	134	5	104	2e-21	Putative uncharacterized protein
+tr|G0RD44|G0RD44_HYPJQ	129	56	70	118	3	123	4e-27	Predicted protein OS=Hypocrea jecorina
+tr|G0S530|G0S530_CHATD	163	58	70	125	9	131	1e-29	Putative histone H3 protein OS=Chaetomium
+tr|G0SZ51|G0SZ51_RHOGU	165	56	70	130	11	136	6e-31	Histone H3 OS=Rhodotorula glutinis ATCC
+tr|G0T5A7|G0T5A7_IRV9	178	21	42	89	5	41.8	0.018	Putative uncharacterized protein OS=Wiseana
+tr|G0U4R5|G0U4R5_TRYVI	209	44	63	130	8	111	2e-23	Putative histone H3 variant OS=Trypanosoma
+tr|G0VJD6|G0VJD6_NAUCC	275	47	64	127	9	123	3e-27	Putative uncharacterized protein NCAS0H03050
+tr|G0W7F9|G0W7F9_NAUDC	309	48	66	130	3	120	4e-26	Putative uncharacterized protein NDAI0C00590
+tr|G0ZCY4|G0ZCY4_9PERO	110	100	100	41	0	42.2	0.014	Histone H3 (Fragment) OS=Leiognathus
+tr|G1APU2|G1APU2_HORVD	158	60	77	92	1	100	3e-20	Alpha centromeric histone H3 (Fragment)
+tr|G1APU3|G1APU3_HORVD	139	44	60	124	14	111	2e-23	Beta centromeric histone H3 OS=Hordeum
+tr|G1APU4|G1APU4_HORBU	136	49	64	123	13	109	8e-23	Beta centromeric histone H3 OS=Hordeum
+tr|G1C1P4|G1C1P4_HORMA	93	61	72	89	2	114	2e-24	Beta centromeric histone H3 (Fragment)
+tr|G1KP83|G1KP83_ANOCA	105	63	81	90	2	130	5e-29	Uncharacterized protein (Fragment) OS=Anolis
+tr|G1L5R5|G1L5R5_AILME	157	46	59	123	2	119	7e-26	Uncharacterized protein (Fragment)
+tr|G1X9L3|G1X9L3_ARTOA	150	52	65	132	11	141	1e-32	Putative uncharacterized protein
+tr|G1XD77|G1XD77_ARTOA	600	25	39	94	2	38.0	0.25	Putative uncharacterized protein
+tr|G2RBZ9|G2RBZ9_9PEZI	241	63	73	116	3	134	2e-30	Putative uncharacterized protein
+tr|G2WXZ9|G2WXZ9_VERDV	452	21	40	86	7	38.0	0.21	Putative uncharacterized protein
+tr|G2X8X3|G2X8X3_VERDV	115	71	84	88	3	113	4e-24	Histone H3 OS=Verticillium dahliae (strain
+tr|G2YVD6|G2YVD6_BOTFU	164	27	44	87	8	47.6	3e-04	Putative uncharacterized protein
+tr|G2YX50|G2YX50_BOTFU	244	37	48	114	1	78.1	2e-13	Putative uncharacterized protein
+tr|G3ARS8|G3ARS8_SPAPN	177	63	76	103	3	118	1e-25	Putative uncharacterized protein
+tr|G3AZ45|G3AZ45_CANTC	227	20	45	70	0	36.1	0.83	Putative uncharacterized protein OS=Candida
+tr|G3B3N8|G3B3N8_CANTC	158	67	80	101	3	125	1e-27	Histone-fold-containing protein OS=Candida
+tr|G3GWX9|G3GWX9_CRIGR	138	52	63	127	8	138	1e-31	Histone H3.3 type 1 OS=Cricetulus griseus
+tr|G3H2T7|G3H2T7_CRIGR	267	99	99	135	0	194	2e-48	Histone H3 OS=Cricetulus griseus
+tr|G3HDS3|G3HDS3_CRIGR	236	93	93	104	0	155	8e-37	Histone H2A OS=Cricetulus griseus
+tr|G3HHB8|G3HHB8_CRIGR	365	85	90	135	0	187	3e-46	Histone H3.3 OS=Cricetulus griseus
+tr|G3HHM2|G3HHM2_CRIGR	320	94	97	135	0	189	4e-47	Histone H3.1t OS=Cricetulus griseus
+tr|G3HQC9|G3HQC9_CRIGR	50	84	86	38	0	43.4	0.006	Histone H3.3 OS=Cricetulus griseus
+tr|G3HSC1|G3HSC1_CRIGR	202	90	96	80	0	134	2e-30	Cysteine-rich protein 2 OS=Cricetulus
+tr|G3HV67|G3HV67_CRIGR	140	87	91	104	0	152	7e-36	Histone H3.3 OS=Cricetulus griseus
+tr|G3JMA4|G3JMA4_CORMM	585	25	40	107	10	37.2	0.36	Histone-fold domain containing protein
+tr|G3NED4|G3NED4_GASAC	187	98	99	135	0	183	3e-45	Uncharacterized protein (Fragment)
+tr|G3Q3T2|G3Q3T2_GASAC	151	57	70	122	5	124	2e-27	Uncharacterized protein OS=Gasterosteus
+tr|G3TYE3|G3TYE3_LOXAF	144	42	62	129	4	108	1e-22	Uncharacterized protein OS=Loxodonta
+tr|G3VT76|G3VT76_SARHA	752	28	42	82	3	40.3	0.045	6-phosphogluconate dehydrogenase,
+tr|G3W9B1|G3W9B1_SARHA	155	48	63	123	3	120	3e-26	Uncharacterized protein (Fragment)
+tr|G3XXG9|G3XXG9_ASPNG	183	61	72	126	8	138	1e-31	Histone 3-like protein OS=Aspergillus niger
+tr|G4LXU7|G4LXU7_SCHMA	1395	88	89	104	0	140	5e-32	DNA replication licensing factor MCM8,
+tr|G4N793|G4N793_MAGO7	135	59	71	123	10	132	8e-30	Histone H3-like centromeric protein cse-4
+tr|G4TK51|G4TK51_PIRIN	148	61	73	125	13	138	1e-31	Probable histone 3 OS=Piriformospora indica
+tr|G4TN90|G4TN90_PIRIN	167	73	78	135	30	148	2e-34	Probable HHT1-histone H3 OS=Piriformospora
+tr|G4U354|G4U354_PIRIN	94	60	75	33	0	41.1	0.025	Putative uncharacterized protein
+tr|G4VFY4|G4VFY4_SCHMA	87	83	83	48	0	48.8	1e-04	Putative histone H3 OS=Schistosoma mansoni
+tr|G4VK04|G4VK04_SCHMA	74	75	80	66	0	56.5	7e-07	Putative histone H3 OS=Schistosoma mansoni
+tr|G4VKH6|G4VKH6_SCHMA	304	41	58	113	4	94.6	2e-18	Putative centromere protein A (Cenp-A)
+tr|G4VS21|G4VS21_SCHMA	1047	77	77	40	0	54.6	3e-06	Putative voltage-gated potassium channel
+tr|G4VSV8|G4VSV8_SCHMA	381	68	70	45	2	49.2	1e-04	Putative innexin OS=Schistosoma mansoni
+tr|G4YYC5|G4YYC5_PHYSO	138	77	82	134	1	163	5e-39	Putative uncharacterized protein
+tr|G5AR76|G5AR76_HETGA	125	70	80	120	3	119	7e-26	Histone H3.3 OS=Heterocephalus glaber
+tr|G5BM12|G5BM12_HETGA	461	47	64	97	11	58.8	1e-07	Nucleolar and spindle-associated protein 1
+tr|G5BSG0|G5BSG0_HETGA	208	88	89	128	0	171	1e-41	Histone H3 OS=Heterocephalus glaber
+tr|G5BV10|G5BV10_HETGA	97	61	63	96	39	106	5e-22	Histone H3.3 OS=Heterocephalus glaber
+tr|G5BV28|G5BV28_HETGA	222	99	99	132	0	184	1e-45	Histone H3 OS=Heterocephalus glaber
+tr|G5BV31|G5BV31_HETGA	165	90	91	98	1	137	3e-31	Histone H3 OS=Heterocephalus glaber
+tr|G5CBK0|G5CBK0_HETGA	127	61	76	91	2	119	7e-26	Histone H3-like centromeric protein A
+tr|G5E612|G5E612_BOVIN	152	55	69	90	3	103	4e-21	Uncharacterized protein (Fragment) OS=Bos
+tr|G5E613|G5E613_BOVIN	143	39	53	125	5	85.0	1e-15	Uncharacterized protein (Fragment) OS=Bos
+tr|G5E6Z7|G5E6Z7_LOXAF	129	71	76	128	7	150	2e-35	Uncharacterized protein OS=Loxodonta
+tr|G5EH59|G5EH59_MAGO7	121	52	67	60	1	44.5	0.002	Putative uncharacterized protein
+tr|P90541|P90541_EUPCR	151	69	80	135	15	159	7e-38	Developmental-specific histone H3
+tr|Q018N5|Q018N5_OSTTA	213	96	99	126	0	173	4e-42	Histones H3 and H4 (ISS) OS=Ostreococcus
+tr|Q0CN12|Q0CN12_ASPTN	151	31	47	132	2	86.5	5e-16	Predicted protein OS=Aspergillus terreus
+tr|Q0TYU2|Q0TYU2_PHANO	170	56	66	121	3	116	4e-25	Putative uncharacterized protein
+tr|Q16W92|Q16W92_AEDAE	157	38	52	125	1	93.1	6e-18	Histone H3, putative OS=Aedes aegypti
+tr|Q16W94|Q16W94_AEDAE	217	40	61	95	1	96.2	6e-19	Centromere protein-A, putative OS=Aedes
+tr|Q170W9|Q170W9_AEDAE	279	33	50	125	1	102	1e-20	Centromere protein-A, putative OS=Aedes
+tr|Q17DZ3|Q17DZ3_AEDAE	199	49	71	99	0	106	4e-22	Putative uncharacterized protein OS=Aedes
+tr|Q19649|Q19649_CAEEL	118	57	71	100	0	106	6e-22	Putative uncharacterized protein
+tr|Q23245|Q23245_CAEEL	213	33	48	56	0	39.1	0.12	Putative uncharacterized protein
+tr|Q2FNA8|Q2FNA8_METHJ	69	40	60	45	0	39.1	0.094	Archaeal histone OS=Methanospirillum
+tr|Q2HXL1|Q2HXL1_CONCI	116	73	79	114	20	135	2e-30	Histone 3 OS=Conocephalum conicum PE=3 SV=1
+tr|Q2NHU2|Q2NHU2_METST	68	36	46	47	0	39.9	0.068	Archaeal histone OS=Methanosphaera
+tr|Q2UGY3|Q2UGY3_ASPOR	113	77	84	66	0	86.5	6e-16	Histones H3 and H4 OS=Aspergillus oryzae
+tr|Q2Z2G0|Q2Z2G0_LILLO	84	54	62	60	6	44.5	0.003	Histone gcH3 OS=Lilium longiflorum GN=gcH3
+tr|Q387X7|Q387X7_TRYB2	139	46	65	131	1	110	5e-23	Histone H3 variant OS=Trypanosoma brucei
+tr|Q3LVW5|Q3LVW5_BIGNA	129	34	61	88	1	66.1	8e-10	Histone 3 OS=Bigelowiella natans GN=H3 PE=3
+tr|Q4CZH3|Q4CZH3_TRYCC	198	55	71	130	5	107	3e-22	Histone H3, putative OS=Trypanosoma cruzi
+tr|Q4N693|Q4N693_THEPA	362	44	61	90	3	90.4	4e-17	Putative uncharacterized protein
+tr|Q4R1I8|Q4R1I8_9POAL	167	53	67	120	1	108	2e-22	Centromere specific histone H3 variant
+tr|Q4RJ89|Q4RJ89_TETNG	199	51	60	35	0	37.6	0.34	Chromosome 18 SCAF15038, whole genome
+tr|Q4S4R3|Q4S4R3_TETNG	131	51	59	123	19	110	4e-23	Chromosome 2 SCAF14738, whole genome shotgun
+tr|Q4SKP7|Q4SKP7_TETNG	188	100	100	99	0	127	2e-28	Chromosome undetermined SCAF14565, whole
+tr|Q4TEF6|Q4TEF6_TETNG	157	35	62	37	0	37.6	0.32	Chromosome undetermined SCAF5432, whole
+tr|Q4TIY4|Q4TIY4_TETNG	158	35	62	37	0	36.5	0.69	Chromosome undetermined SCAF1374, whole
+tr|Q4UDB1|Q4UDB1_THEAN	324	44	60	90	3	91.9	1e-17	Histone h3-like, putative OS=Theileria
+tr|Q4XWU8|Q4XWU8_PLACH	166	48	66	126	5	116	4e-25	Histone h3, putative OS=Plasmodium chabaudi
+tr|Q54Z32|Q54Z32_DICDI	315	31	50	119	0	76.5	6e-13	Putative uncharacterized protein
+tr|Q5TWZ6|Q5TWZ6_ANOGA	253	36	50	115	3	86.9	4e-16	AGAP007508-PA OS=Anopheles gambiae
+tr|Q69FM5|Q69FM5_9PEZI	108	94	100	58	0	60.7	4e-08	Histone H3 (Fragment) OS=Pilidiella
+tr|Q6BYM0|Q6BYM0_DEBHA	173	57	71	125	4	121	1e-26	DEHA2A08536p OS=Debaryomyces hansenii
+tr|Q7XV46|Q7XV46_ORYSJ	294	91	94	57	0	111	2e-23	OSJNBa0086B14.9 protein OS=Oryza sativa
+tr|Q7XYY4|Q7XYY4_PYRLU	174	43	55	131	19	96.5	6e-19	Histone H3 OS=Pyrocystis lunula PE=2 SV=1
+tr|Q7Z106|Q7Z106_PARTE	129	55	74	126	7	114	2e-24	Histone H3 OS=Paramecium tetraurelia GN=h3b
+tr|Q8IDZ1|Q8IDZ1_PLAF7	170	48	66	127	3	118	1e-25	Histone H3, putative OS=Plasmodium
+tr|Q8JKV9|Q8JKV9_9VIRU	1111	30	53	70	5	46.1	8e-04	Histone h3, h4 OS=Heliothis zea virus 1
+tr|Q8PVY0|Q8PVY0_METMA	70	33	49	64	5	38.0	0.22	DNA binding protein OS=Methanosarcina mazei
+tr|Q8T9Y7|Q8T9Y7_9MUSC	292	28	48	126	3	73.0	7e-12	Centromeric histone Cid OS=Drosophila
+tr|Q8T9Z1|Q8T9Z1_DROLT	254	28	39	126	2	88.5	1e-16	Centromeric histone Cid OS=Drosophila
+tr|Q8T9Z4|Q8T9Z4_DROOR	212	29	43	114	2	79.6	6e-14	Centromeric histone Cid OS=Drosophila orena
+tr|Q8T9Z6|Q8T9Z6_DROYA	231	31	44	122	7	85.4	1e-15	Centromeric histone Cid OS=Drosophila yakuba
+tr|Q98SC6|Q98SC6_GUITH	103	50	70	103	0	111	2e-23	Centromeric histone-3 like protein
+tr|Q9FEE7|Q9FEE7_GLYTO	73	91	93	59	0	68.0	2e-10	Histone H3-D (Fragment) OS=Glycine
+tr|Q9GRH3|Q9GRH3_STYLE	180	54	75	117	0	122	8e-27	Histone H3-like protein OS=Stylonychia
+tr|Q9GS25|Q9GS25_ANCCA	84	58	74	74	5	98.9	1e-19	Histone H3 (Fragment) OS=Ancylostoma caninum
+tr|Q9U8E9|Q9U8E9_THEPA	70	80	84	62	1	57.3	4e-07	Histone H3 (Fragment) OS=Theileria parva

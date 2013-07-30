@@ -1,0 +1,4 @@
+#out gen by /usr/share/loctree/perl/svm_testHeirarchyTr_Hr.pl
+#Localization predicted using heirarchical system
+#Protein Id	predicted Localization	SVM prediction Score	Hierarchical Localization	Hierarchical prediction score
+query	DNA-binding	7	Not Secreted,Nuclear,DNA-binding	6,9,7

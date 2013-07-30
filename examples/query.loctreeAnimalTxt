@@ -1,0 +1,8 @@
+Additional information regarding subcellular localization
+== Summary of subcellular localization prediction using LOCkey ==
+Protein Identifier	Predicted Localization	Confidence	Alternative prediction	Confidence of alternative localization predictions	SWISS-PROT keywords used to assign localization
+query	Nuclear	100	-	-	Nucleosome core,DNA-binding,Centromere,DNA repair,DNA damage,Ubl conjugation
+== Summary of subcellular localization prediction using LOCtree ==
+Protein Identifier	Predicted Localization	Reliability Index	Intermediate localization prediction	Reliability index of intermediate localization predictions
+query	DNA-binding	7	Not Secreted,Nuclear,DNA-binding	6,9,7
+

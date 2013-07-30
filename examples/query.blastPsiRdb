@@ -1,0 +1,1015 @@
+
+#PERL-RDB
+#SEQLENGTH	 135
+#ID	:	identifier of the aligned (homologous) protein
+#LSEQ2	:	length of the entire sequence of the aligned protein
+#LALI	:	length of the alignment excluding insertions and deletions
+#%IDE	:	percent indentity
+#%SIM	:	percent similarity
+#LGAP	:	total gap length
+#BSCORE	:	blast score (bits)
+#BEXPECT	:	blast expectation value
+#PROTEIN	:	one-line description of aligned protein
+#'!'	:	indicates lower scoring alignment that is combined with 
+#the higher scoring adjacent one  
+##ID	LSEQ2	%IDE	%SIM	LALI	LGAP	BSCORE	BEXPECT	PROTEIN
+pdb|pdb|1kx5_A	135	100	100	135	0	179	1e-43	
+pdb|pdb|1kx5_E	135	100	100	135	0	179	1e-43	
+sp|A1CP80|H3_ASPCL	136	89	97	135	0	173	6e-42	Histone H3 OS=Aspergillus clavatus (strain ATCC
+sp|A1D240|H3_NEOFI	136	89	97	135	0	173	6e-42	Histone H3 OS=Neosartorya fischeri (strain ATCC
+sp|A2QRR5|H3_ASPNC	136	89	97	135	0	173	6e-42	Histone H3 OS=Aspergillus niger (strain CBS
+sp|A2XHJ3|H33_ORYSI	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Oryza sativa subsp. indica
+sp|A2Y533|H32_ORYSI	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Oryza sativa subsp. indica
+sp|A3GHN6|H33_PICST	136	89	96	135	0	175	3e-42	Histone H3.3 OS=Scheffersomyces stipitis
+sp|A3LXD5|H31_PICST	136	90	97	135	0	174	5e-42	Histone H3.1/H3.2 OS=Scheffersomyces stipitis
+sp|A4RCX7|H3_MAGO7	136	90	97	134	0	175	3e-42	Histone H3 OS=Magnaporthe oryzae (strain 70-15 /
+sp|A5DFC5|H31_PICGU	136	90	97	135	0	174	5e-42	Histone H3.1/H3.2 OS=Meyerozyma guilliermondii
+sp|A5DG57|H33_PICGU	136	90	96	135	0	174	4e-42	Histone H3.3 OS=Meyerozyma guilliermondii
+sp|A5DWE2|H31_LODEL	136	91	96	135	0	177	8e-43	Histone H3.1/H3.2 OS=Lodderomyces elongisporus
+sp|A5E094|H33_LODEL	136	89	95	135	0	176	1e-42	Histone H3.3 OS=Lodderomyces elongisporus
+sp|O15819|H33A_DICDI	139	81	89	135	3	170	7e-41	Histone H3.3 type a OS=Dictyostelium
+sp|P02299|H3_DROME	136	99	99	135	0	181	4e-44	Histone H3 OS=Drosophila melanogaster GN=His3
+sp|P02302|H3C_XENLA	136	97	97	135	0	175	2e-42	Histone H3.3C OS=Xenopus laevis GN=h3f3c PE=1
+sp|P06352|H3_STRPU	136	98	99	135	0	175	2e-42	Histone H3, embryonic OS=Strongylocentrotus
+sp|P06902|H3C_CAIMO	136	91	92	135	0	177	7e-43	Histone H3.3C OS=Cairina moschata GN=H3F3C PE=3
+sp|P07041|H3_NEUCR	136	90	97	134	0	175	3e-42	Histone H3 OS=Neurospora crassa (strain ATCC
+sp|P08437|H3_VOLCA	135	93	96	134	1	175	3e-42	Histone H3 OS=Volvox carteri GN=H3-I PE=3 SV=2
+sp|P08898|H3_CAEEL	136	96	97	135	0	177	5e-43	Histone H3 OS=Caenorhabditis elegans GN=his-2
+sp|P08903|H32_ENCAL	136	97	98	135	0	179	2e-43	Histone H3.2 OS=Encephalartos altensteinii PE=1
+sp|P09988|H31_SCHPO	136	91	97	135	0	175	3e-42	Histone H3.1/H3.2 OS=Schizosaccharomyces pombe
+sp|P0CO04|H3_CRYNJ	138	90	95	135	2	168	3e-40	Histone H3 OS=Cryptococcus neoformans var.
+sp|P0CO05|H3_CRYNB	138	90	95	135	2	168	3e-40	Histone H3 OS=Cryptococcus neoformans var.
+sp|P10651|H33_SCHPO	136	91	96	135	0	173	1e-41	Histone H3.3 OS=Schizosaccharomyces pombe
+sp|P15512|H33_TETPY	136	83	94	134	0	166	1e-39	Histone H3.3 OS=Tetrahymena pyriformis PE=1
+sp|P22843|H3_ACRFO	136	97	98	135	0	183	8e-45	Histone H3 OS=Acropora formosa PE=3 SV=2
+sp|P23753|H3_EMENI	136	89	97	135	0	173	6e-42	Histone H3 OS=Emericella nidulans (strain FGSC
+sp|P50564|H33_CHLRE	135	92	95	134	1	170	6e-41	Histone H3 type 3 OS=Chlamydomonas reinhardtii
+sp|P59169|H33_ARATH	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Arabidopsis thaliana GN=HTR4
+sp|P59226|H32_ARATH	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Arabidopsis thaliana GN=HTR2
+sp|P61830|H3_YEAST	136	88	96	135	0	170	9e-41	Histone H3 OS=Saccharomyces cerevisiae (strain
+sp|P61831|H3_KLULA	136	88	96	135	0	170	9e-41	Histone H3 OS=Kluyveromyces lactis (strain ATCC
+sp|P61832|H3_ASPFU	136	89	97	135	0	173	6e-42	Histone H3 OS=Neosartorya fumigata (strain ATCC
+sp|P61833|H3_CANGA	136	88	96	135	0	170	9e-41	Histone H3 OS=Candida glabrata (strain ATCC 2001
+sp|P61834|H3_PENFN	136	89	97	135	0	173	6e-42	Histone H3 OS=Penicillium funiculosum GN=HHT1
+sp|P61835|H3_HYPJE	136	90	97	134	0	175	3e-42	Histone H3 OS=Hypocrea jecorina GN=HHT1 PE=3
+sp|P61836|H3_ZYGBA	136	88	96	135	0	170	9e-41	Histone H3 OS=Zygosaccharomyces bailii GN=HHT1
+sp|P68427|H32_PEA	136	96	98	135	0	180	6e-44	Histone H3.2 OS=Pisum sativum PE=1 SV=2
+sp|P68428|H32_WHEAT	136	96	98	135	0	180	6e-44	Histone H3.2 OS=Triticum aestivum PE=1 SV=2
+sp|P68429|H32_MEDSA	136	96	98	135	0	180	6e-44	Histone H3.2 OS=Medicago sativa GN=H3-1.1 PE=1
+sp|P68430|H32_ONOVI	136	96	98	135	0	180	6e-44	Histone H3.2 OS=Onobrychis viciifolia PE=2 SV=2
+sp|P68431|H31_HUMAN	136	98	98	135	0	180	8e-44	Histone H3.1 OS=Homo sapiens GN=HIST1H3A PE=1
+sp|P68432|H31_BOVIN	136	98	98	135	0	180	8e-44	Histone H3.1 OS=Bos taurus PE=1 SV=2
+sp|P68433|H31_MOUSE	136	98	98	135	0	180	8e-44	Histone H3.1 OS=Mus musculus GN=Hist1h3a PE=1
+sp|P69071|H3_DERIM	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Dermasterias imbricata
+sp|P69072|H3_LYTPI	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Lytechinus pictus PE=2
+sp|P69073|H3_PARLI	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Paracentrotus lividus
+sp|P69074|H3_PISBR	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Pisaster brevispinus
+sp|P69075|H3_PISOC	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Pisaster ochraceus PE=2
+sp|P69076|H3_PSAMI	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Psammechinus miliaris
+sp|P69077|H3_PYCHE	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Pycnopodia
+sp|P69078|H3_SOLST	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Solaster stimpsoni PE=2
+sp|P69079|H3_STRDR	136	98	99	135	0	179	1e-43	Histone H3, embryonic OS=Strongylocentrotus
+sp|P69149|H31_TETPY	136	87	96	134	0	168	4e-40	Histone H3 OS=Tetrahymena pyriformis PE=1 SV=2
+sp|P69150|H31_TETTH	136	87	96	134	0	168	4e-40	Histone H3 OS=Tetrahymena thermophila GN=HHT1
+sp|P69244|H33_MEDSA	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Medicago sativa PE=1 SV=2
+sp|P69245|H33_LOLTE	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Lolium temulentum PE=2 SV=2
+sp|P69246|H32_MAIZE	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Zea mays GN=H3C2 PE=1 SV=2
+sp|P69248|H32_PETCR	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Petroselinum crispum GN=H3-7
+sp|P84227|H32_BOVIN	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Bos taurus PE=1 SV=2
+sp|P84228|H32_MOUSE	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Mus musculus GN=Hist1h3b PE=1
+sp|P84229|H32_CHICK	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Gallus gallus GN=H3-I PE=1 SV=2
+sp|P84230|H32_CAIMO	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Cairina moschata PE=2 SV=2
+sp|P84231|H32_ICTBU	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Ictiobus bubalus PE=1 SV=2
+sp|P84232|H32_PORAF	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Poroderma africanum PE=1 SV=2
+sp|P84233|H32_XENLA	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Xenopus laevis PE=1 SV=2
+sp|P84234|H32_ONCMY	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Oncorhynchus mykiss PE=1 SV=2
+sp|P84235|H3_PLADU	136	99	99	135	0	181	4e-44	Histone H3 OS=Platynereis dumerilii PE=3 SV=2
+sp|P84236|H3_DROHY	136	99	99	135	0	181	4e-44	Histone H3 OS=Drosophila hydei GN=His3 PE=3 SV=2
+sp|P84237|H3_TIGCA	136	99	99	135	0	181	4e-44	Histone H3 OS=Tigriopus californicus PE=3 SV=2
+sp|P84238|H3_CHITH	136	99	99	135	0	181	4e-44	Histone H3 OS=Chironomus thummi thummi PE=3 SV=2
+sp|P84239|H3_URECA	136	99	99	135	0	181	4e-44	Histone H3 OS=Urechis caupo PE=1 SV=2
+sp|P84243|H33_HUMAN	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Homo sapiens GN=H3F3A PE=1 SV=2
+sp|P84244|H33_MOUSE	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Mus musculus GN=H3f3a PE=1 SV=2
+sp|P84245|H33_RAT	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Rattus norvegicus GN=H3f3b PE=1
+sp|P84246|H33_RABIT	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Oryctolagus cuniculus GN=H3F3A
+sp|P84247|H33_CHICK	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Gallus gallus GN=H3-IX PE=2
+sp|P84248|H33_SPISO	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Spisula solidissima PE=1 SV=2
+sp|P84249|H33_DROME	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Drosophila melanogaster
+sp|P84250|H33_DROHY	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Drosophila hydei GN=His3.3A
+sp|P90543|H3_EUPCR	136	85	94	135	0	167	5e-40	Histone H3 OS=Euplotes crassus PE=3 SV=3
+sp|Q0D0E8|H3_ASPTN	136	89	97	135	0	173	6e-42	Histone H3 OS=Aspergillus terreus (strain NIH
+sp|Q0JCT1|H33_ORYSJ	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Oryza sativa subsp. japonica
+sp|Q0UY45|H3_PHANO	136	91	97	134	0	176	1e-42	Histone H3 OS=Phaeosphaeria nodorum (strain SN15
+sp|Q10453|H331_CAEEL	136	96	97	135	0	180	7e-44	Histone H3.3 type 1 OS=Caenorhabditis elegans
+sp|Q16695|H31T_HUMAN	136	95	97	135	0	175	2e-42	Histone H3.1t OS=Homo sapiens GN=HIST3H3 PE=1
+sp|Q1E225|H3_COCIM	136	88	96	135	0	173	6e-42	Histone H3 OS=Coccidioides immitis (strain RS)
+sp|Q27532|H33L2_CAEEL	136	90	94	135	0	174	4e-42	Histone H3.3-like type 2 OS=Caenorhabditis
+sp|Q28D37|H32_XENTR	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Xenopus tropicalis
+sp|Q2RAD9|H32_ORYSJ	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Oryza sativa subsp. japonica
+sp|Q2UCQ0|H3_ASPOR	136	89	97	135	0	173	6e-42	Histone H3 OS=Aspergillus oryzae (strain ATCC
+sp|Q2Z2F4|H33B_LILLO	137	88	94	135	1	172	3e-41	Histone H3.3b OS=Lilium longiflorum GN=soH3-1
+sp|Q3C2E5|H33_LOLMU	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Lolium multiflorum GN=RH3 PE=2
+sp|Q402E1|H32_LILLO	136	95	97	135	0	178	2e-43	Histone H3.2 OS=Lilium longiflorum GN=YAH3 PE=1
+sp|Q402E2|H33A_LILLO	136	93	97	135	0	179	1e-43	Histone H3.3a OS=Lilium longiflorum GN=MPH3
+sp|Q42681|H31_CHLRE	135	92	96	134	1	173	8e-42	Histone H3 type 1 OS=Chlamydomonas reinhardtii
+sp|Q4IER8|H3_GIBZE	136	90	97	134	0	175	3e-42	Histone H3 OS=Gibberella zeae (strain PH-1 /
+sp|Q4P7J7|H31_USTMA	136	91	96	135	0	173	1e-41	Histone H3.1 OS=Ustilago maydis (strain 521 /
+sp|Q4PB04|H32_USTMA	136	93	97	134	0	168	2e-40	Histone H3.2 OS=Ustilago maydis (strain 521 /
+sp|Q4QRF4|H32_DANRE	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Danio rerio GN=zgc:113984 PE=2
+sp|Q55BN9|H33B_DICDI	136	82	91	135	0	171	4e-41	Histone H3.3 type b OS=Dictyostelium
+sp|Q55BP0|H33C_DICDI	136	79	89	135	0	166	1e-39	Histone H3.3 type c OS=Dictyostelium
+sp|Q59VN2|H31_CANAL	136	90	96	135	0	176	1e-42	Histone H3.1/H3.2 OS=Candida albicans (strain
+sp|Q5ADQ0|H33_CANAL	136	88	95	135	0	175	2e-42	Histone H3.3 OS=Candida albicans (strain SC5314
+sp|Q5DWI3|H3_MARPO	136	90	97	134	0	175	3e-42	Histone H3 OS=Marchantia polymorpha PE=3 SV=3
+sp|Q5E9F8|H33_BOVIN	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Bos taurus GN=H3F3A PE=1 SV=3
+sp|Q5MYA4|H32_CICIN	136	92	94	135	0	181	3e-44	Histone H3.2 OS=Cichorium intybus PE=2 SV=3
+sp|Q5RCC9|H33_PONAB	136	95	97	135	0	178	3e-43	Histone H3.3 OS=Pongo abelii PE=2 SV=3
+sp|Q64400|H32_CRILO	136	98	98	135	0	180	7e-44	Histone H3.2 OS=Cricetulus longicaudatus PE=2
+sp|Q6BMU4|H33_DEBHA	136	89	96	135	0	175	3e-42	Histone H3.3 OS=Debaryomyces hansenii (strain
+sp|Q6BRZ5|H31_DEBHA	136	90	97	135	0	174	5e-42	Histone H3.1/H3.2 OS=Debaryomyces hansenii
+sp|Q6DL03|H3_CHAGB	136	90	97	134	0	175	3e-42	Histone H3 OS=Chaetomium globosum (strain ATCC
+sp|Q6LBE3|H32_ASPOF	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Asparagus officinalis PE=2 SV=3
+sp|Q6LBE8|H32_MUSPA	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Mus pahari GN=H312 PE=2 SV=3
+sp|Q6LBF0|H31_MUSPA	136	98	98	135	0	180	8e-44	Histone H3.1 OS=Mus pahari GN=H3110 PE=2 SV=3
+sp|Q6LCK1|H32_BRANA	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Brassica napus PE=2 SV=3
+sp|Q6LCW8|H32_CHLRE	135	93	96	134	1	175	3e-42	Histone H3 type 2 OS=Chlamydomonas reinhardtii
+sp|Q6LED0|H31_RAT	136	98	98	135	0	180	8e-44	Histone H3.1 OS=Rattus norvegicus PE=1 SV=3
+sp|Q6NXT2|H3C_HUMAN	135	93	94	134	1	175	3e-42	Histone H3.3C OS=Homo sapiens GN=H3F3C PE=1
+sp|Q6P823|H33_XENTR	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Xenopus tropicalis
+sp|Q6PI20|H33_DANRE	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Danio rerio GN=h3f3a PE=2 SV=3
+sp|Q6PI79|H33_XENLA	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Xenopus laevis PE=1 SV=3
+sp|Q6RUR1|H33_CAPAN	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Capsicum annuum PE=2 SV=3
+sp|Q711T2|H33_PINPS	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Pinus pinaster PE=2 SV=3
+sp|Q71DI3|H32_HUMAN	136	99	99	135	0	181	4e-44	Histone H3.2 OS=Homo sapiens GN=HIST2H3A PE=1
+sp|Q71H73|H33_VITVI	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Vitis vinifera PE=2 SV=3
+sp|Q71LE2|H33_PIG	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Sus scrofa GN=H3F3A PE=2 SV=3
+sp|Q71T45|H32_EUPES	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Euphorbia esula GN=H3 PE=2 SV=3
+sp|Q71U98|H33_ORYCO	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Oryza coarctata PE=2 SV=3
+sp|Q71V89|H33_GOSHI	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Gossypium hirsutum GN=HIS3 PE=2
+sp|Q757N1|H3_ASHGO	136	88	96	135	0	170	9e-41	Histone H3 OS=Ashbya gossypii (strain ATCC 10895
+sp|Q76MV0|H32_TOBAC	136	96	98	135	0	180	1e-43	Histone H3.2 OS=Nicotiana tabacum GN=B34 PE=1
+sp|Q76N23|H33_TOBAC	136	95	97	135	0	180	6e-44	Histone H3.3 OS=Nicotiana tabacum GN=H3 PE=1
+sp|Q7XYZ0|H3_GRIJA	136	93	99	134	0	174	4e-42	Histone H3 OS=Griffithsia japonica PE=2 SV=3
+sp|Q8WSF1|H33_TRIPS	136	95	98	135	0	180	6e-44	Histone H3.3 OS=Trichinella pseudospiralis
+sp|Q9FKQ3|H3L5_ARATH	139	91	97	135	0	175	2e-42	Histone H3-like 5 OS=Arabidopsis thaliana
+sp|Q9FX60|H3L1_ARATH	136	90	94	135	0	168	3e-40	Histone H3-like 1 OS=Arabidopsis thaliana
+sp|Q9FXI7|H3L2_ARATH	137	86	91	135	1	167	6e-40	Histone H3-like 2 OS=Arabidopsis thaliana
+sp|Q9HDN1|H3_MORAP	136	94	97	134	0	172	2e-41	Histone H3 OS=Mortierella alpina GN=H3.1 PE=3
+sp|Q9LR02|H3L3_ARATH	136	91	95	135	0	174	5e-42	Histone H3-like 3 OS=Arabidopsis thaliana
+sp|Q9P427|H3_AJECA	136	88	96	135	0	173	1e-41	Histone H3 OS=Ajellomyces capsulata GN=HHT1 PE=3
+sp|Q9U281|H332_CAEEL	136	95	97	135	0	179	1e-43	Histone H3.3 type 2 OS=Caenorhabditis elegans
+tr|A1DYF6|A1DYF6_TRISP	136	95	98	135	0	180	6e-44	Histone H3.3-like protein protein
+tr|A1L0U3|A1L0U3_MOUSE	133	99	99	133	0	179	1e-43	Hist1h3e protein (Fragment) OS=Mus musculus
+tr|A1L0V4|A1L0V4_MOUSE	135	98	98	135	0	181	5e-44	Hist1h3i protein (Fragment) OS=Mus musculus
+tr|A2A852|A2A852_MOUSE	136	96	98	135	0	181	4e-44	H3 histone, family 3B OS=Mus musculus
+tr|A2CI33|A2CI33_9BIVA	136	99	99	135	0	181	4e-44	Histone H3 OS=Chlamys farreri GN=H3 PE=3
+tr|A2I415|A2I415_MACHI	136	96	98	135	0	181	4e-44	Putative H3 histone, family 3B
+tr|A2VD45|A2VD45_DANRE	136	98	99	135	0	178	3e-43	Zgc:113984 protein OS=Danio rerio
+tr|A3AUC6|A3AUC6_ORYSJ	136	95	97	135	0	180	6e-44	Histone H3 OS=Oryza sativa subsp. japonica
+tr|A4RXW9|A4RXW9_OSTLU	136	97	99	135	0	182	2e-44	Predicted protein OS=Ostreococcus
+tr|A4S0W7|A4S0W7_OSTLU	136	96	98	135	0	181	4e-44	Predicted protein OS=Ostreococcus
+tr|A4UU65|A4UU65_LEMMI	136	95	97	135	0	180	6e-44	Histone 3 OS=Lemna minor GN=H3 PE=3 SV=1
+tr|A5A6I2|A5A6I2_PANTR	136	96	98	135	0	181	4e-44	H3 histone, family 3A OS=Pan troglodytes
+tr|A5AEY1|A5AEY1_VITVI	136	96	98	135	0	180	1e-43	Putative uncharacterized protein OS=Vitis
+tr|A5B3G3|A5B3G3_VITVI	136	95	97	135	0	180	6e-44	Putative uncharacterized protein OS=Vitis
+tr|A5BX39|A5BX39_VITVI	137	95	97	135	0	180	1e-43	Putative uncharacterized protein OS=Vitis
+tr|A5K1U7|A5K1U7_PLAVS	136	91	97	135	0	175	3e-42	Histone H3, putative OS=Plasmodium vivax
+tr|A5K215|A5K215_PLAVS	136	88	97	135	0	177	5e-43	Histone H3, putative OS=Plasmodium vivax
+tr|A5PK61|A5PK61_BOVIN	136	92	97	135	0	175	3e-42	LOC512741 protein OS=Bos taurus GN=LOC512741
+tr|A6QRB8|A6QRB8_ARATH	136	90	94	135	0	168	3e-40	At1g13370 OS=Arabidopsis thaliana PE=2 SV=1
+tr|A6R8R0|A6R8R0_AJECN	136	88	96	135	0	173	7e-42	Histone H3 OS=Ajellomyces capsulata (strain
+tr|A6SJ70|A6SJ70_BOTFB	136	91	97	134	0	176	1e-42	Histone H3 OS=Botryotinia fuckeliana (strain
+tr|A6YPD4|A6YPD4_TRIIF	136	96	98	135	0	181	4e-44	H3 histone family 3B OS=Triatoma infestans
+tr|A6ZKV7|A6ZKV7_YEAS7	136	88	96	135	0	170	9e-41	Histone H3 OS=Saccharomyces cerevisiae
+tr|A7AT84|A7AT84_BABBO	136	95	97	135	0	180	5e-44	Histone H3, putative OS=Babesia bovis
+tr|A7AW37|A7AW37_BABBO	136	91	96	135	0	175	2e-42	Histone H3, putative OS=Babesia bovis
+tr|A7EW99|A7EW99_SCLS1	136	91	97	134	0	176	1e-42	Histone H3 OS=Sclerotinia sclerotiorum
+tr|A7L4B4|A7L4B4_NICBE	136	96	98	135	0	180	1e-43	Histone H3 OS=Nicotiana benthamiana PE=2
+tr|A7RJG4|A7RJG4_NEMVE	136	97	99	135	0	180	6e-44	Predicted protein OS=Nematostella vectensis
+tr|A7RJL1|A7RJL1_NEMVE	136	99	99	135	0	181	4e-44	Predicted protein OS=Nematostella vectensis
+tr|A7S708|A7S708_NEMVE	220	99	99	135	0	191	4e-47	Predicted protein OS=Nematostella vectensis
+tr|A7SEB4|A7SEB4_NEMVE	138	97	97	135	2	175	2e-42	Predicted protein OS=Nematostella vectensis
+tr|A7SVW3|A7SVW3_NEMVE	136	98	98	135	0	177	6e-43	Predicted protein OS=Nematostella vectensis
+tr|A7SX94|A7SX94_NEMVE	136	95	98	135	0	180	6e-44	Predicted protein OS=Nematostella vectensis
+tr|A7T7J5|A7T7J5_NEMVE	140	99	99	135	0	183	1e-44	Predicted protein (Fragment) OS=Nematostella
+tr|A7T8N3|A7T8N3_NEMVE	148	99	99	135	0	185	3e-45	Predicted protein OS=Nematostella vectensis
+tr|A7TAJ3|A7TAJ3_NEMVE	136	98	99	135	0	178	3e-43	Predicted protein OS=Nematostella vectensis
+tr|A7TCQ6|A7TCQ6_NEMVE	136	98	98	135	0	180	7e-44	Predicted protein OS=Nematostella vectensis
+tr|A7TEJ6|A7TEJ6_VANPO	136	88	96	135	0	170	9e-41	Putative uncharacterized protein
+tr|A7VMF1|A7VMF1_TOBAC	136	96	98	135	0	180	1e-43	Histone H3.1 OS=Nicotiana tabacum
+tr|A8E503|A8E503_DANRE	136	98	98	135	0	178	3e-43	Zgc:113984 protein OS=Danio rerio
+tr|A8HSA7|A8HSA7_CHLRE	135	93	96	134	1	175	3e-42	Histone H3 OS=Chlamydomonas reinhardtii
+tr|A8HWY2|A8HWY2_CHLRE	133	93	96	132	1	173	9e-42	Histone H3 (Fragment) OS=Chlamydomonas
+tr|A8IK09|A8IK09_CHLRE	134	93	96	133	1	173	8e-42	Histone H3 (Fragment) OS=Chlamydomonas
+tr|A8J9M0|A8J9M0_CHLRE	135	92	96	134	1	173	8e-42	Histone H3 OS=Chlamydomonas reinhardtii
+tr|A8K4Y7|A8K4Y7_HUMAN	136	95	97	135	0	182	2e-44	cDNA FLJ78487, highly similar to Homo
+tr|A8KBJ5|A8KBJ5_DANRE	136	98	99	135	0	180	8e-44	Uncharacterized protein OS=Danio rerio
+tr|A8MRL0|A8MRL0_ARATH	164	95	97	135	0	187	6e-46	Histone H3 OS=Arabidopsis thaliana
+tr|A8NHD2|A8NHD2_BRUMA	136	98	99	135	0	182	2e-44	Histone H3, putative OS=Brugia malayi
+tr|A8PMF1|A8PMF1_BRUMA	136	96	98	135	0	181	4e-44	Histone H3.3, putative OS=Brugia malayi
+tr|A8PU26|A8PU26_MALGO	136	91	95	135	0	172	1e-41	Putative uncharacterized protein
+tr|A8Q9M9|A8Q9M9_MALGO	136	91	96	135	0	170	9e-41	Putative uncharacterized protein
+tr|A8WB75|A8WB75_ANTGR	136	99	99	135	0	181	4e-44	Histone H3 OS=Anthonomus grandis PE=3 SV=1
+tr|A8WH17|A8WH17_XENTR	136	90	97	135	0	175	2e-42	LOC100127748 protein OS=Xenopus tropicalis
+tr|A8XE06|A8XE06_CAEBR	136	95	97	135	0	179	1e-43	CBR-HIS-72 protein OS=Caenorhabditis
+tr|A8XPY9|A8XPY9_CAEBR	136	97	97	135	0	180	8e-44	CBR-HIS-71 protein OS=Caenorhabditis
+tr|A8XX79|A8XX79_CAEBR	136	88	94	134	0	167	4e-40	Putative uncharacterized protein
+tr|A9BK64|A9BK64_HEMAN	136	79	87	134	0	175	2e-42	H3 OS=Hemiselmis andersenii GN=HAN_1g52 PE=3
+tr|A9JTR4|A9JTR4_XENTR	136	96	98	135	0	181	4e-44	H3f3b protein OS=Xenopus tropicalis GN=h3f3b
+tr|A9NL93|A9NL93_PICSI	136	95	97	135	0	180	6e-44	Putative uncharacterized protein OS=Picea
+tr|A9NMA0|A9NMA0_PICSI	136	96	98	135	0	180	1e-43	Putative uncharacterized protein OS=Picea
+tr|A9P905|A9P905_POPTR	136	96	98	135	0	180	1e-43	Histone H3 OS=Populus trichocarpa GN=HTR909
+tr|A9PDS4|A9PDS4_POPTR	136	95	97	135	0	180	6e-44	Histone H3 OS=Populus trichocarpa GN=HTR911
+tr|A9PJ63|A9PJ63_9ROSI	136	95	97	135	0	180	6e-44	Putative uncharacterized protein OS=Populus
+tr|A9RA98|A9RA98_PAPAN	136	96	98	135	0	181	4e-44	Histone cluster 1, H3a (Predicted) OS=Papio
+tr|A9RDR6|A9RDR6_PHYPA	136	95	97	135	0	180	6e-44	Histone H3 OS=Physcomitrella patens subsp.
+tr|A9RIZ2|A9RIZ2_PHYPA	136	97	99	135	0	183	1e-44	Histone H3 OS=Physcomitrella patens subsp.
+tr|A9TNQ7|A9TNQ7_PHYPA	137	80	86	135	1	168	2e-40	Histone H3 OS=Physcomitrella patens subsp.
+tr|A9ULQ0|A9ULQ0_XENTR	136	98	99	135	0	180	1e-43	Putative uncharacterized protein OS=Xenopus
+tr|A9UTW8|A9UTW8_MONBE	136	94	97	135	0	179	1e-43	Predicted protein OS=Monosiga brevicollis
+tr|A9UZD4|A9UZD4_MONBE	136	96	98	135	0	178	3e-43	Predicted protein OS=Monosiga brevicollis
+tr|A9X1D3|A9X1D3_PAPAN	136	94	96	135	0	178	3e-43	Histone cluster 1, H3a (Predicted) OS=Papio
+tr|A9XHB4|A9XHB4_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Ephestiasula sp.
+tr|A9XHB5|A9XHB5_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Eremiaphila
+tr|A9XHB6|A9XHB6_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Schizocephala
+tr|A9XHB7|A9XHB7_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Deiphobella
+tr|A9XHB8|A9XHB8_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Toxoderopsis taurus
+tr|A9XHC1|A9XHC1_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Elmantis
+tr|A9XHC2|A9XHC2_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Creobroter apicalis
+tr|A9XHC5|A9XHC5_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Phyllothelys
+tr|A9XHC6|A9XHC6_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Euantissa pulchra
+tr|A9XHC8|A9XHC8_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Acromantis montana
+tr|A9XHC9|A9XHC9_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Amantis biroi PE=3
+tr|A9XHD0|A9XHD0_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Austrovates
+tr|A9XHD2|A9XHD2_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Didymocorypha
+tr|A9XHD3|A9XHD3_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Dysaules
+tr|A9XHD4|A9XHD4_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Stenotoxodera
+tr|A9XHD6|A9XHD6_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Gonypeta borneana
+tr|A9XHD8|A9XHD8_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Xanthomantis sp.
+tr|A9XHD9|A9XHD9_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Phyllothelys sp.
+tr|A9XHE0|A9XHE0_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Citharomantis
+tr|A9XHE2|A9XHE2_9NEOP	125	99	99	124	0	166	2e-39	Histone H3 (Fragment) OS=Sceptuchus simplex
+tr|A9XRH8|A9XRH8_9NEOP	125	98	98	124	0	167	4e-40	Histone H3 (Fragment) OS=Mesocapnia sp.
+tr|A9XRJ2|A9XRJ2_9NEOP	125	98	99	124	0	167	7e-40	Histone H3 (Fragment) OS=Sasquaperla hoopa
+tr|A9XRK9|A9XRK9_9NEOP	126	98	99	125	0	166	1e-39	Histone H3 (Fragment) OS=Moselia infuscata
+tr|A9XRN0|A9XRN0_9NEOP	126	99	99	124	0	167	8e-40	Histone H3 (Fragment) OS=Austronemoura sp.
+tr|A9XRN7|A9XRN7_9NEOP	126	98	99	122	0	166	1e-39	Histone H3 (Fragment) OS=Isoperla phalerata
+tr|A9XRN9|A9XRN9_9NEOP	126	99	99	121	0	166	1e-39	Histone H3 (Fragment) OS=Calliperla luctuosa
+tr|A9XRP3|A9XRP3_9NEOP	126	98	99	122	0	166	1e-39	Histone H3 (Fragment) OS=Pictetiella expansa
+tr|A9XRP7|A9XRP7_9NEOP	124	99	99	124	0	167	9e-40	Histone H3 (Fragment) OS=Isogenoides hansoni
+tr|A9XRQ6|A9XRQ6_9NEOP	126	98	99	122	0	166	1e-39	Histone H3 (Fragment) OS=Agnetina capitata
+tr|A9XRQ9|A9XRQ9_9NEOP	126	99	99	121	0	166	1e-39	Histone H3 (Fragment) OS=Dinocras cephalotes
+tr|A9XRS7|A9XRS7_9NEOP	127	98	99	122	0	166	1e-39	Histone H3 (Fragment) OS=Taenionema
+tr|B0BMY8|B0BMY8_RAT	136	96	98	135	0	181	4e-44	H3 histone, family 3B, isoform CRA_a OS=Rattus
+tr|B0LRN3|B0LRN3_SHEEP	131	94	97	131	0	174	4e-42	H3 histone family 3A (Fragment) OS=Ovis
+tr|B0WFI0|B0WFI0_CULQU	136	99	99	135	0	181	4e-44	Histone H3 type 2 OS=Culex quinquefasciatus
+tr|B0WTD1|B0WTD1_CULQU	136	96	98	134	0	177	4e-43	Histone H3.2 OS=Culex quinquefasciatus
+tr|B0WTE0|B0WTE0_CULQU	145	97	98	135	0	177	7e-43	Histone H3.2 OS=Culex quinquefasciatus
+tr|B0WZ52|B0WZ52_CULQU	146	99	99	135	0	182	3e-44	Histone H3 type 2 OS=Culex quinquefasciatus
+tr|B0WZ61|B0WZ61_CULQU	151	99	99	135	0	182	2e-44	Histone H3.1t OS=Culex quinquefasciatus
+tr|B0WZ74|B0WZ74_CULQU	169	99	99	135	0	181	3e-44	Histone H3c OS=Culex quinquefasciatus
+tr|B0WZ83|B0WZ83_CULQU	155	99	99	135	0	181	4e-44	Histone H3 type 2 OS=Culex quinquefasciatus
+tr|B0X687|B0X687_CULQU	136	91	97	134	0	175	3e-42	Histone H3.2 OS=Culex quinquefasciatus
+tr|B0X778|B0X778_CULQU	158	99	99	135	0	185	2e-45	Histone H3.3 type 2 OS=Culex
+tr|B0XCF6|B0XCF6_CULQU	136	96	98	135	0	181	4e-44	Histone H3.3 type 2 OS=Culex
+tr|B0XDJ5|B0XDJ5_CULQU	161	97	98	135	0	181	3e-44	Histone H3 OS=Culex quinquefasciatus
+tr|B0XRN2|B0XRN2_ASPFC	136	89	97	135	0	173	6e-42	Histone H3 OS=Neosartorya fumigata (strain
+tr|B1H2B4|B1H2B4_XENTR	136	98	99	135	0	180	8e-44	Hist2h3c protein OS=Xenopus tropicalis
+tr|B1NFB1|B1NFB1_APLCA	136	96	98	135	0	181	4e-44	Histone 3 OS=Aplysia californica PE=2 SV=1
+tr|B2B230|B2B230_PODAN	136	90	97	134	0	175	3e-42	Predicted CDS Pa_6_5350 OS=Podospora
+tr|B2R4P9|B2R4P9_HUMAN	136	96	98	135	0	181	4e-44	H3 histone, family 3A, isoform CRA_a OS=Homo
+tr|B2R6Y1|B2R6Y1_HUMAN	136	95	97	135	0	180	7e-44	cDNA, FLJ93172, highly similar to Homo
+tr|B2WNJ8|B2WNJ8_PYRTR	136	91	97	134	0	176	1e-42	Histone H3 OS=Pyrenophora tritici-repentis
+tr|B2ZF73|B2ZF73_ADIVA	136	95	98	135	0	178	3e-43	Histone H3 OS=Adineta vaga PE=3 SV=1
+tr|B2ZFA5|B2ZFA5_9BILA	136	96	98	135	0	179	2e-43	Histone H3 OS=Philodina roseola PE=3 SV=1
+tr|B3FEA6|B3FEA6_VENPH	136	99	99	135	0	181	4e-44	Histone H3 OS=Venerupis philippinarum GN=H3
+tr|B3FEB1|B3FEB1_9BIVA	136	99	99	135	0	181	4e-44	Histone H3 OS=Ruditapes decussatus GN=H3
+tr|B3FEB6|B3FEB6_9BIVA	136	99	99	135	0	181	4e-44	Histone H3 OS=Venerupis pullastra GN=H3 PE=3
+tr|B3L7M9|B3L7M9_PLAKH	136	88	96	135	0	176	1e-42	Histone H3, putative OS=Plasmodium knowlesi
+tr|B3L7V1|B3L7V1_PLAKH	136	91	97	135	0	174	4e-42	Histone H3, putative OS=Plasmodium knowlesi
+tr|B3LND0|B3LND0_YEAS1	136	88	96	135	0	170	9e-41	Histone H3 OS=Saccharomyces cerevisiae
+tr|B3MP97|B3MP97_DROAN	136	96	98	135	0	181	4e-44	GF15720 OS=Drosophila ananassae GN=GF19171
+tr|B3MUM5|B3MUM5_DROAN	136	99	99	135	0	181	4e-44	GF15887 OS=Drosophila ananassae GN=GF22855
+tr|B3MUN5|B3MUN5_DROAN	151	89	89	135	15	173	7e-42	GF22233 OS=Drosophila ananassae GN=GF22233
+tr|B3N2G2|B3N2G2_DROAN	136	98	98	135	0	180	8e-44	GF18982 OS=Drosophila ananassae GN=GF18982
+tr|B3N2V3|B3N2V3_DROAN	133	96	96	132	0	172	3e-41	GF13905 OS=Drosophila ananassae GN=GF13905
+tr|B3N4S2|B3N4S2_DROER	136	96	98	135	0	181	4e-44	GG19000 OS=Drosophila erecta GN=GG25048 PE=3
+tr|B3NLS0|B3NLS0_DROER	136	99	99	135	0	181	4e-44	GG11010 OS=Drosophila erecta GN=GG21334 PE=3
+tr|B3PAU2|B3PAU2_DROER	136	98	98	133	0	177	8e-43	GG16350 OS=Drosophila erecta GN=GG16350 PE=3
+tr|B3RWE2|B3RWE2_TRIAD	136	99	99	135	0	181	4e-44	Putative uncharacterized protein
+tr|B3RZQ5|B3RZQ5_TRIAD	136	95	98	135	0	180	6e-44	Replacement histone H3.3 OS=Trichoplax
+tr|B3TLU7|B3TLU7_ELAGV	136	95	97	135	0	180	6e-44	Histone H3 OS=Elaeis guineensis var. tenera
+tr|B3TM40|B3TM40_ELAGV	136	96	98	135	0	180	1e-43	Histone H3 OS=Elaeis guineensis var. tenera
+tr|B4FBW9|B4FBW9_MAIZE	136	96	98	135	0	180	1e-43	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B4FCH2|B4FCH2_MAIZE	136	95	97	135	0	180	6e-44	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B4G2R0|B4G2R0_DROPE	136	99	99	135	0	181	4e-44	GL17801 OS=Drosophila persimilis GN=GL23961
+tr|B4GSJ5|B4GSJ5_DROPE	136	96	98	135	0	181	4e-44	GL26550 OS=Drosophila persimilis GN=GL26831
+tr|B4HDI9|B4HDI9_DROPE	130	99	99	130	0	174	4e-42	GL16975 (Fragment) OS=Drosophila persimilis
+tr|B4I1C5|B4I1C5_DROSE	136	96	98	135	0	181	4e-44	GM13676 OS=Drosophila sechellia GN=GM18523
+tr|B4IMK4|B4IMK4_DROSE	239	99	99	130	0	176	1e-42	GM13198 OS=Drosophila sechellia GN=GM13198
+tr|B4IMQ2|B4IMQ2_DROSE	136	97	97	135	0	178	2e-43	GM24194 OS=Drosophila sechellia GN=GM24194
+tr|B4IMY6|B4IMY6_DROSE	136	98	98	135	0	180	8e-44	GM19740 OS=Drosophila sechellia GN=GM19740
+tr|B4INU5|B4INU5_DROSE	136	98	98	135	0	180	9e-44	GM13629 OS=Drosophila sechellia GN=GM13629
+tr|B4IP26|B4IP26_DROSE	136	98	98	135	0	180	8e-44	GM19351 OS=Drosophila sechellia GN=GM19351
+tr|B4IP46|B4IP46_DROSE	136	98	98	135	0	180	9e-44	GM11653 OS=Drosophila sechellia GN=GM11653
+tr|B4IPA0|B4IPA0_DROSE	136	98	98	135	0	179	1e-43	GM19670 OS=Drosophila sechellia GN=GM26661
+tr|B4IPC4|B4IPC4_DROSE	136	97	97	135	0	182	2e-44	GM20952 OS=Drosophila sechellia GN=GM20952
+tr|B4IPE2|B4IPE2_DROSE	136	98	98	135	0	177	5e-43	GM25125 OS=Drosophila sechellia GN=GM25125
+tr|B4IPK0|B4IPK0_DROSE	136	98	98	135	0	178	3e-43	GM18832 OS=Drosophila sechellia GN=GM18832
+tr|B4IPL5|B4IPL5_DROSE	138	98	98	130	0	172	2e-41	GM19751 OS=Drosophila sechellia GN=GM19751
+tr|B4IPY7|B4IPY7_DROSE	136	97	97	135	0	180	6e-44	GM16878 OS=Drosophila sechellia GN=GM16878
+tr|B4JAT0|B4JAT0_DROGR	136	96	98	135	0	181	4e-44	GH11489 OS=Drosophila grimshawi GN=GH24723
+tr|B4JZ48|B4JZ48_DROGR	136	99	99	135	0	181	4e-44	GH10171 OS=Drosophila grimshawi GN=GH25185
+tr|B4K0K5|B4K0K5_DROGR	148	99	99	131	0	178	3e-43	GH23336 OS=Drosophila grimshawi GN=GH23336
+tr|B4K3E1|B4K3E1_DROGR	142	99	99	131	0	180	1e-43	GH23257 OS=Drosophila grimshawi GN=GH23257
+tr|B4K413|B4K413_DROGR	125	99	99	125	0	168	3e-40	GH23206 (Fragment) OS=Drosophila grimshawi
+tr|B4K7B0|B4K7B0_DROMO	136	99	99	135	0	181	4e-44	GI12713 OS=Drosophila mojavensis GN=GI24857
+tr|B4KGS7|B4KGS7_DROMO	136	96	98	135	0	181	4e-44	GI14879 OS=Drosophila mojavensis GN=GI16984
+tr|B4KIS2|B4KIS2_DROMO	131	94	94	130	5	175	3e-42	GI10040 OS=Drosophila mojavensis GN=GI10040
+tr|B4LTW3|B4LTW3_DROVI	136	96	98	135	0	181	4e-44	GJ15308 OS=Drosophila virilis GN=GJ17231
+tr|B4LVM6|B4LVM6_DROVI	136	99	99	135	0	181	4e-44	GJ16344 OS=Drosophila virilis GN=GJ23711
+tr|B4MHK1|B4MHK1_DROWI	136	99	99	135	0	181	4e-44	GK10380 OS=Drosophila willistoni GN=GK21132
+tr|B4MIF8|B4MIF8_DROWI	136	98	98	135	0	180	8e-44	GK25031 OS=Drosophila willistoni GN=GK25031
+tr|B4MTP7|B4MTP7_DROWI	136	96	98	135	0	181	4e-44	GK23881 OS=Drosophila willistoni GN=GK25162
+tr|B4NRE1|B4NRE1_DROWI	136	97	98	135	0	176	1e-42	GK12402 OS=Drosophila willistoni GN=GK12402
+tr|B4NVJ4|B4NVJ4_DROSI	133	98	98	133	0	180	1e-43	GD13199 (Fragment) OS=Drosophila simulans
+tr|B4Q3I4|B4Q3I4_DROSI	136	96	98	135	0	181	4e-44	GD23319 OS=Drosophila simulans GN=GD23319
+tr|B5DG71|B5DG71_SALSA	136	96	98	135	0	181	4e-44	H3 histone family 3A OS=Salmo salar GN=h3f3a
+tr|B5FZ56|B5FZ56_TAEGU	136	95	97	135	0	180	1e-43	Putative H3 histone family 3A OS=Taeniopygia
+tr|B5FZ57|B5FZ57_TAEGU	136	96	98	135	0	181	4e-44	Putative H3 histone family 3A OS=Taeniopygia
+tr|B5G4Q1|B5G4Q1_TAEGU	136	95	98	135	0	182	2e-44	Putative H3 histone family 3B variant 1
+tr|B5LWQ8|B5LWQ8_ZIZJJ	136	96	98	135	0	180	1e-43	Histone H3 OS=Ziziphus jujuba GN=H3 PE=2
+tr|B5WYF1|B5WYF1_COLGR	136	90	97	134	0	175	3e-42	Putative uncharacterized protein
+tr|B5X5C8|B5X5C8_SALSA	136	94	97	135	0	176	1e-42	Histone H3.3 OS=Salmo salar GN=H33 PE=2 SV=1
+tr|B5XBU1|B5XBU1_SALSA	136	96	97	135	0	178	3e-43	Histone H3.3 OS=Salmo salar GN=H33 PE=2 SV=1
+tr|B5XDS3|B5XDS3_SALSA	136	95	97	135	0	179	1e-43	Histone H3.3 OS=Salmo salar GN=H33 PE=2 SV=1
+tr|B5YMD6|B5YMD6_THAPS	136	94	98	135	0	182	2e-44	Histone H3 OS=Thalassiosira pseudonana
+tr|B6AD75|B6AD75_CRYMR	135	93	96	134	0	174	4e-42	Histone H3, putative OS=Cryptosporidium
+tr|B6AG78|B6AG78_CRYMR	135	92	95	134	0	172	1e-41	Histone H3, putative OS=Cryptosporidium
+tr|B6DE21|B6DE21_ANODA	136	95	98	135	0	180	8e-44	H3 histone family 3A OS=Anopheles darlingi
+tr|B6HAB8|B6HAB8_PENCW	136	89	97	135	0	173	6e-42	Pc16g12270 protein OS=Penicillium
+tr|B6JV95|B6JV95_SCHJY	137	90	94	135	1	173	1e-41	Histone OS=Schizosaccharomyces japonicus
+tr|B6QCB0|B6QCB0_PENMQ	136	89	97	135	0	173	6e-42	Histone H3 OS=Penicillium marneffei (strain
+tr|B6RB54|B6RB54_HALDI	136	95	98	135	0	180	8e-44	Histone H3 OS=Haliotis discus discus PE=2
+tr|B6SIV8|B6SIV8_MAIZE	136	96	98	135	0	180	6e-44	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6SJN8|B6SJN8_MAIZE	136	95	97	135	0	178	3e-43	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6SJQ5|B6SJQ5_MAIZE	161	94	97	135	0	190	1e-46	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6SRG7|B6SRG7_MAIZE	136	94	97	135	0	181	3e-44	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6T1G0|B6T1G0_MAIZE	178	96	98	131	0	178	2e-43	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6TP58|B6TP58_MAIZE	136	94	97	135	0	178	2e-43	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6TTP0|B6TTP0_MAIZE	136	96	97	135	0	176	1e-42	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6UH77|B6UH77_MAIZE	136	91	94	135	0	175	3e-42	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B6UHK8|B6UHK8_MAIZE	136	94	97	135	0	180	9e-44	Histone H3 OS=Zea mays PE=2 SV=1
+tr|B7F6J5|B7F6J5_ORYSJ	136	96	98	135	0	180	1e-43	Histone H3 OS=Oryza sativa subsp. japonica
+tr|B7FN22|B7FN22_MEDTR	136	96	98	135	0	180	6e-44	Putative uncharacterized protein OS=Medicago
+tr|B7FR39|B7FR39_PHATC	136	94	98	135	0	182	2e-44	Histone H3 isoform 1a OS=Phaeodactylum
+tr|B7G218|B7G218_PHATC	136	94	96	135	0	179	1e-43	H3.3 OS=Phaeodactylum tricornutum (strain
+tr|B7P7T4|B7P7T4_IXOSC	136	96	98	135	0	181	4e-44	Core histone H2A/H2B/H3/H4 OS=Ixodes
+tr|B7PAJ2|B7PAJ2_IXOSC	136	94	98	135	0	175	2e-42	Histone H3, putative OS=Ixodes scapularis
+tr|B8AUE9|B8AUE9_ORYSI	136	95	97	135	0	180	6e-44	Putative uncharacterized protein OS=Oryza
+tr|B8B1H8|B8B1H8_ORYSI	136	96	98	135	0	180	1e-43	Putative uncharacterized protein OS=Oryza
+tr|B8CC53|B8CC53_THAPS	136	94	97	135	0	180	7e-44	Histone H3 OS=Thalassiosira pseudonana
+tr|B8M0U0|B8M0U0_TALSN	136	89	97	135	0	173	6e-42	Histone H3 OS=Talaromyces stipitatus (strain
+tr|B8N4Q2|B8N4Q2_ASPFN	136	89	97	135	0	173	6e-42	Histone H3 OS=Aspergillus flavus (strain
+tr|B9DGR9|B9DGR9_ARATH	136	95	97	135	0	180	6e-44	AT4G40040 protein OS=Arabidopsis thaliana
+tr|B9EI85|B9EI85_MOUSE	136	99	99	135	0	181	4e-44	Hist2h3b protein OS=Mus musculus GN=Hist2h3b
+tr|B9ELE7|B9ELE7_SALSA	136	95	97	135	0	181	4e-44	Histone H3.3 OS=Salmo salar GN=H33 PE=2 SV=1
+tr|B9ENT8|B9ENT8_SALSA	136	95	98	135	0	180	8e-44	Histone H3.3 OS=Salmo salar GN=H33 PE=2 SV=1
+tr|B9PKI2|B9PKI2_TOXGO	174	93	98	135	0	190	5e-47	Histone H3, putative OS=Toxoplasma gondii
+tr|B9R846|B9R846_RICCO	136	95	97	135	0	180	6e-44	Histone h3, putative OS=Ricinus communis
+tr|B9S933|B9S933_RICCO	136	96	98	135	0	180	1e-43	Histone h3, putative OS=Ricinus communis
+tr|B9W7K0|B9W7K0_CANDC	136	90	96	135	0	176	1e-42	Histone H3, putative OS=Candida dubliniensis
+tr|B9WET5|B9WET5_CANDC	136	88	95	135	0	175	2e-42	Histone H3, putative OS=Candida dubliniensis
+tr|C0LQ79|C0LQ79_PTEVI	136	95	97	135	0	180	6e-44	Histone 3.2 OS=Pteris vittata PE=2 SV=1
+tr|C0NL60|C0NL60_AJECG	136	88	96	135	0	173	7e-42	Histone H3 OS=Ajellomyces capsulata (strain
+tr|C0PQH4|C0PQH4_PICSI	136	95	98	135	0	181	5e-44	Putative uncharacterized protein OS=Picea
+tr|C0S430|C0S430_PARBP	136	88	95	135	0	173	9e-42	Histone H3 OS=Paracoccidioides brasiliensis
+tr|C1BEZ2|C1BEZ2_ONCMY	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Oncorhynchus mykiss GN=H33
+tr|C1BF09|C1BF09_ONCMY	136	95	98	135	0	180	6e-44	Histone H3.3 OS=Oncorhynchus mykiss GN=H33
+tr|C1BG88|C1BG88_ONCMY	136	95	97	135	0	182	3e-44	Histone H3.3 OS=Oncorhynchus mykiss GN=H33
+tr|C1BGA8|C1BGA8_ONCMY	136	95	97	135	0	179	1e-43	Histone H3.3 OS=Oncorhynchus mykiss GN=H33
+tr|C1BGV2|C1BGV2_ONCMY	136	95	98	135	0	180	7e-44	Histone H3.3 OS=Oncorhynchus mykiss GN=H33
+tr|C1BJS3|C1BJS3_OSMMO	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Osmerus mordax GN=H33 PE=2
+tr|C1BR92|C1BR92_9MAXI	136	99	99	135	0	181	4e-44	Histone H3 OS=Caligus rogercresseyi GN=H3
+tr|C1BSB6|C1BSB6_9MAXI	136	94	97	135	0	174	4e-42	Histone H3.3 OS=Lepeophtheirus salmonis
+tr|C1BU06|C1BU06_9MAXI	136	98	98	135	0	180	8e-44	Histone H3 OS=Lepeophtheirus salmonis GN=H3
+tr|C1BUS8|C1BUS8_9MAXI	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Lepeophtheirus salmonis
+tr|C1C0Y7|C1C0Y7_9MAXI	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Caligus clemensi GN=H33 PE=2
+tr|C1C1U0|C1C1U0_9MAXI	136	99	99	135	0	181	4e-44	Histone H3 OS=Caligus clemensi GN=H3 PE=2
+tr|C1C2Y7|C1C2Y7_9MAXI	136	94	97	135	0	176	1e-42	Histone H3.3 OS=Caligus clemensi GN=H33 PE=2
+tr|C1C318|C1C318_9MAXI	136	97	97	135	0	177	6e-43	Histone H3 OS=Caligus clemensi GN=H3 PE=2
+tr|C1E6T7|C1E6T7_MICSR	136	97	99	135	0	183	1e-44	Histone H3 OS=Micromonas sp. (strain RCC299
+tr|C1FYJ7|C1FYJ7_PARBD	136	88	95	135	0	173	9e-42	Histone H3 OS=Paracoccidioides brasiliensis
+tr|C1H8K8|C1H8K8_PARBA	136	88	96	135	0	173	7e-42	Histone H3.3 OS=Paracoccidioides
+tr|C1MPE5|C1MPE5_MICPS	136	95	97	135	0	181	4e-44	Histone H3 OS=Micromonas pusilla
+tr|C1MUM3|C1MUM3_MICPS	136	97	99	135	0	183	1e-44	Histone H3 OS=Micromonas pusilla
+tr|C3KIV1|C3KIV1_ANOFI	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Anoplopoma fimbria GN=H33
+tr|C3XPT8|C3XPT8_BRAFL	136	97	99	135	0	180	6e-44	Putative uncharacterized protein
+tr|C3XUS0|C3XUS0_BRAFL	136	98	98	135	0	182	2e-44	Putative uncharacterized protein
+tr|C3XXW0|C3XXW0_BRAFL	251	99	99	133	0	188	3e-46	Putative uncharacterized protein
+tr|C3YMG9|C3YMG9_BRAFL	136	98	98	135	0	180	7e-44	Putative uncharacterized protein
+tr|C3Z739|C3Z739_BRAFL	136	96	98	135	0	181	4e-44	Putative uncharacterized protein
+tr|C3Z764|C3Z764_BRAFL	136	99	99	135	0	181	4e-44	Putative uncharacterized protein
+tr|C3Z881|C3Z881_BRAFL	252	99	99	135	0	188	3e-46	Putative uncharacterized protein
+tr|C3ZYM6|C3ZYM6_BRAFL	136	98	98	135	0	178	2e-43	Putative uncharacterized protein
+tr|C4JYG3|C4JYG3_UNCRE	136	88	96	135	0	173	6e-42	Histone H3.3 OS=Uncinocarpus reesii (strain
+tr|C4N1A2|C4N1A2_STOCA	136	96	98	135	0	181	4e-44	H3 histone family 3A OS=Stomoxys calcitrans
+tr|C4QHD7|C4QHD7_SCHMA	136	98	98	135	0	180	5e-44	Histone H3, putative OS=Schistosoma mansoni
+tr|C4QJB5|C4QJB5_SCHMA	136	97	98	135	0	181	4e-44	Histone H3, putative OS=Schistosoma mansoni
+tr|C4R2J7|C4R2J7_PICPG	137	88	94	135	1	167	5e-40	Histone H3 OS=Pichia pastoris (strain GS115
+tr|C4WWS4|C4WWS4_ACYPI	136	99	99	135	0	181	4e-44	ACYPI007201 protein OS=Acyrthosiphon pisum
+tr|C4XZM3|C4XZM3_CLAL4	136	90	97	135	0	174	5e-42	Histone H3 OS=Clavispora lusitaniae (strain
+tr|C4YAN0|C4YAN0_CLAL4	136	89	96	135	0	175	3e-42	Histone H3 OS=Clavispora lusitaniae (strain
+tr|C4YEL0|C4YEL0_CANAW	136	90	96	135	0	176	1e-42	Histone H3 OS=Candida albicans (strain WO-1)
+tr|C4YP74|C4YP74_CANAW	136	88	95	135	0	175	2e-42	Histone H3 OS=Candida albicans (strain WO-1)
+tr|C5DMP9|C5DMP9_LACTC	136	88	96	135	0	170	9e-41	KLTH0G10670p OS=Lachancea thermotolerans
+tr|C5DPC3|C5DPC3_ZYGRC	136	88	96	135	0	170	9e-41	ZYRO0A02178p OS=Zygosaccharomyces rouxii
+tr|C5G8Q8|C5G8Q8_AJEDR	137	88	96	135	0	174	5e-42	Histone H3 OS=Ajellomyces dermatitidis
+tr|C5JKE9|C5JKE9_AJEDS	137	88	96	135	0	174	5e-42	Histone H3 OS=Ajellomyces dermatitidis
+tr|C5K4A9|C5K4A9_PERM5	136	92	98	135	0	179	1e-43	Histone H3, putative OS=Perkinsus marinus
+tr|C5KH43|C5KH43_PERM5	136	91	98	135	0	177	5e-43	Histone H3, putative OS=Perkinsus marinus
+tr|C5M3N7|C5M3N7_CANTT	136	90	96	135	0	176	1e-42	Histone H3 OS=Candida tropicalis (strain
+tr|C5MHV2|C5MHV2_CANTT	136	88	95	135	0	175	2e-42	Histone H3 OS=Candida tropicalis (strain
+tr|C5PA89|C5PA89_COCP7	136	88	96	135	0	173	6e-42	Histone H3, putative OS=Coccidioides
+tr|C5WXQ0|C5WXQ0_SORBI	136	95	97	135	0	180	6e-44	Putative uncharacterized protein Sb01g033550
+tr|C5XPA5|C5XPA5_SORBI	136	96	98	135	0	180	1e-43	Putative uncharacterized protein Sb03g005550
+tr|C5XQM5|C5XQM5_SORBI	359	96	98	130	0	191	4e-47	Putative uncharacterized protein Sb03g040890
+tr|C6KSV0|C6KSV0_PLAF7	136	91	97	135	0	175	3e-42	Histone H3 OS=Plasmodium falciparum (isolate
+tr|C6KT19|C6KT19_PLAF7	136	88	97	135	0	177	5e-43	Histone H3 OS=Plasmodium falciparum (isolate
+tr|C6SV66|C6SV66_SOYBN	136	95	97	135	0	180	6e-44	Putative uncharacterized protein OS=Glycine
+tr|C6SZA4|C6SZA4_SOYBN	136	96	98	135	0	180	6e-44	Putative uncharacterized protein OS=Glycine
+tr|C7GM40|C7GM40_YEAS2	136	88	96	135	0	170	9e-41	Hht1p OS=Saccharomyces cerevisiae (strain
+tr|C7J3T3|C7J3T3_ORYSJ	250	93	95	120	0	178	2e-43	Os06g0159750 protein OS=Oryza sativa subsp.
+tr|C7TNU4|C7TNU4_9BILA	143	99	99	135	0	183	9e-45	Putative uncharacterized protein (Fragment)
+tr|C7YZ77|C7YZ77_NECH7	136	90	97	134	0	175	3e-42	Histone H3 OS=Nectria haematococca (strain
+tr|C8Z405|C8Z405_YEAS8	136	88	96	135	0	170	9e-41	Hht1p OS=Saccharomyces cerevisiae (strain
+tr|C9S275|C9S275_9NEOP	136	96	98	135	0	181	4e-44	Putative Histone H3 OS=Heliconius melpomene
+tr|D0MXW5|D0MXW5_PHYIT	136	96	98	135	0	181	4e-44	Histone H3 OS=Phytophthora infestans (strain
+tr|D0N6W0|D0N6W0_PHYIT	179	93	97	131	0	186	9e-46	Histone H3.3 OS=Phytophthora infestans
+tr|D0N6W3|D0N6W3_PHYIT	136	93	97	134	0	179	2e-43	Histone H3.3 OS=Phytophthora infestans
+tr|D0N6W5|D0N6W5_PHYIT	136	88	94	134	0	168	2e-40	Histone H3.3 OS=Phytophthora infestans
+tr|D2DLE8|D2DLE8_9BIVA	136	95	96	135	0	170	1e-40	Histone H3 OS=Solen marginatus PE=3 SV=1
+tr|D2HD52|D2HD52_AILME	136	96	98	135	0	181	4e-44	Uncharacterized protein (Fragment)
+tr|D2HWI1|D2HWI1_AILME	137	98	98	135	0	181	4e-44	Putative uncharacterized protein (Fragment)
+tr|D2HWI3|D2HWI3_AILME	144	98	98	135	0	183	1e-44	Putative uncharacterized protein (Fragment)
+tr|D2HWJ2|D2HWJ2_AILME	136	98	98	135	0	180	8e-44	Uncharacterized protein (Fragment)
+tr|D2I080|D2I080_AILME	139	98	98	135	0	181	3e-44	Putative uncharacterized protein (Fragment)
+tr|D2I083|D2I083_AILME	141	98	98	135	0	182	2e-44	Putative uncharacterized protein (Fragment)
+tr|D2I099|D2I099_AILME	137	98	98	135	0	180	9e-44	Putative uncharacterized protein (Fragment)
+tr|D2I0A9|D2I0A9_AILME	142	98	98	135	0	183	1e-44	Putative uncharacterized protein (Fragment)
+tr|D2I4T6|D2I4T6_AILME	136	97	97	135	0	180	1e-43	Uncharacterized protein (Fragment)
+tr|D2I4V4|D2I4V4_AILME	127	96	98	127	0	167	7e-40	Putative uncharacterized protein (Fragment)
+tr|D2I755|D2I755_AILME	136	99	99	135	0	181	4e-44	Putative uncharacterized protein (Fragment)
+tr|D2JLR3|D2JLR3_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium sp. NRRL
+tr|D2JLR4|D2JLR4_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium armeniacum
+tr|D2JLR5|D2JLR5_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium avenaceum
+tr|D2JLR6|D2JLR6_FUSBO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium boothii
+tr|D2JLR7|D2JLR7_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium
+tr|D2JLR8|D2JLR8_FUSCE	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium cerealis
+tr|D2JLR9|D2JLR9_FUSCU	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium culmorum
+tr|D2JLS0|D2JLS0_FUSEQ	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium equiseti
+tr|D2JLS1|D2JLS1_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium kyushuense
+tr|D2JLS2|D2JLS2_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium longipes
+tr|D2JLS3|D2JLS3_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium incarnatum
+tr|D2JLS4|D2JLS4_FUSPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium poae
+tr|D2JLS5|D2JLS5_GIBPU	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Gibberella
+tr|D2JLS6|D2JLS6_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium sp. FRC
+tr|D2JLS7|D2JLS7_FUSSP	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium
+tr|D2JLS8|D2JLS8_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium torulosum
+tr|D2JLS9|D2JLS9_9HYPO	131	90	96	130	0	169	1e-40	Histone H3 (Fragment) OS=Fusarium venenatum
+tr|D2JYR8|D2JYR8_WOLAR	136	96	98	135	0	180	6e-44	Histone H3-like protein OS=Wolffia arrhiza
+tr|D2N2P4|D2N2P4_XENBC	135	95	96	133	1	170	6e-41	Histone H3 OS=Xenoturbella bocki GN=h3.l
+tr|D2N2P7|D2N2P7_XENBC	136	98	99	135	0	178	3e-43	Histone H3 OS=Xenoturbella bocki GN=h3.m
+tr|D2N2P9|D2N2P9_XENBC	136	99	99	135	0	181	4e-44	Histone H3 OS=Xenoturbella bocki GN=h3.n
+tr|D2N2Q0|D2N2Q0_XENBC	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Xenoturbella bocki GN=h3.3
+tr|D2V0D9|D2V0D9_NAEGR	138	88	97	134	2	170	6e-41	Histone H3 OS=Naegleria gruberi
+tr|D3BBJ8|D3BBJ8_POLPA	1363	82	88	134	1	200	1e-49	SET domain-containing protein
+tr|D3G8A4|D3G8A4_LOLPR	136	94	97	135	0	179	2e-43	Histone H3.3-like protein OS=Lolium perenne
+tr|D3TKL3|D3TKL3_GLOMM	136	99	99	135	0	181	4e-44	Putative H3 histone family 2 isoform 2
+tr|D3TRJ3|D3TRJ3_GLOMM	136	96	98	135	0	181	4e-44	H3 histone family 3A OS=Glossina morsitans
+tr|D3ZJ08|D3ZJ08_RAT	136	99	99	135	0	181	4e-44	RCG45187 OS=Rattus norvegicus GN=Hist1h2ail
+tr|D3ZK97|D3ZK97_RAT	136	95	97	135	0	181	5e-44	Uncharacterized protein OS=Rattus norvegicus
+tr|D3ZQN4|D3ZQN4_RAT	136	94	97	135	0	177	6e-43	Uncharacterized protein OS=Rattus norvegicus
+tr|D3ZVW5|D3ZVW5_RAT	136	91	94	135	0	169	1e-40	Uncharacterized protein OS=Rattus norvegicus
+tr|D4A0P4|D4A0P4_RAT	136	96	97	135	0	180	5e-44	RCG33140 OS=Rattus norvegicus GN=LOC691496
+tr|D4AFL1|D4AFL1_PARTP	136	96	98	135	0	181	4e-44	Histone H3 OS=Parasteatoda tepidariorum
+tr|D4N4Z2|D4N4Z2_9EUCA	126	99	99	123	0	167	9e-40	Histone 3 (Fragment) OS=Procaris mexicana
+tr|D5AAJ9|D5AAJ9_PICSI	136	96	98	135	0	180	6e-44	Putative uncharacterized protein OS=Picea
+tr|D5GF07|D5GF07_TUBMM	136	88	94	135	0	173	1e-41	Whole genome shotgun sequence assembly,
+tr|D6PAP1|D6PAP1_9ROSI	136	95	97	135	0	180	6e-44	Histone H3.2 OS=Jatropha curcas PE=2 SV=1
+tr|D6PYM8|D6PYM8_ORYSI	136	94	97	135	0	176	1e-42	Histone H3 OS=Oryza sativa subsp. indica
+tr|D6PYN0|D6PYN0_ORYSI	136	91	95	135	0	180	1e-43	Histone H3 OS=Oryza sativa subsp. indica
+tr|D6WZ25|D6WZ25_TRICA	136	96	98	135	0	181	4e-44	Putative uncharacterized protein
+tr|D7EKP3|D7EKP3_TRICA	136	99	99	135	0	181	4e-44	Putative uncharacterized protein
+tr|D7FWI7|D7FWI7_ECTSI	136	95	98	135	0	180	5e-44	Putative uncharacterized protein
+tr|D7G4I9|D7G4I9_ECTSI	136	94	97	135	0	175	3e-42	Similar to histone H3.2 OS=Ectocarpus
+tr|D7KB17|D7KB17_ARALL	136	96	98	135	0	180	1e-43	Histone H3 OS=Arabidopsis lyrata subsp.
+tr|D7L9B2|D7L9B2_ARALL	136	93	97	135	0	177	7e-43	Putative uncharacterized protein
+tr|D7M3K5|D7M3K5_ARALL	136	95	97	135	0	180	6e-44	Histone H3.2 OS=Arabidopsis lyrata subsp.
+tr|D7M7R3|D7M7R3_ARALL	136	94	97	135	0	176	9e-43	Histone H3.2 OS=Arabidopsis lyrata subsp.
+tr|D7SZ96|D7SZ96_VITVI	147	95	97	135	0	180	6e-44	Putative uncharacterized protein (Fragment)
+tr|D8L9K7|D8L9K7_WHEAT	136	95	98	135	0	180	1e-43	Histone H3, expressed OS=Triticum aestivum
+tr|D8LFG7|D8LFG7_ECTSI	136	94	97	135	0	179	1e-43	Putative uncharacterized protein
+tr|D8LW13|D8LW13_BLAHO	135	89	95	134	0	169	1e-40	Histone H3 OS=Blastocystis hominis
+tr|D8LWV0|D8LWV0_BLAHO	194	89	95	134	0	182	2e-44	Singapore isolate B (sub-type 7) whole
+tr|D8M3T5|D8M3T5_BLAHO	135	89	95	134	0	168	2e-40	Histone H3 OS=Blastocystis hominis
+tr|D8QUA3|D8QUA3_SELML	136	97	99	135	0	181	4e-44	Putative uncharacterized protein
+tr|D8S3M3|D8S3M3_SELML	136	95	97	135	0	180	6e-44	Putative uncharacterized protein
+tr|D8SQ57|D8SQ57_SELML	136	94	97	135	0	180	1e-43	Putative uncharacterized protein
+tr|D8THQ2|D8THQ2_VOLCA	135	93	96	134	1	175	3e-42	Histone H3 OS=Volvox carteri GN=hstH3-8 PE=3
+tr|D8U7Z2|D8U7Z2_VOLCA	135	92	96	134	1	173	9e-42	Histone H3 OS=Volvox carteri GN=hstH3-11
+tr|D9J2J6|D9J2J6_ORYSA	136	95	97	135	0	180	6e-44	Histone H3 OS=Oryza sativa GN=H3 PE=2 SV=1
+tr|E0V938|E0V938_PEDHC	153	99	99	135	0	180	7e-44	Histone H3, putative OS=Pediculus humanus
+tr|E0V960|E0V960_PEDHC	156	99	99	135	0	182	2e-44	Histone H3, putative OS=Pediculus humanus
+tr|E0VX16|E0VX16_PEDHC	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Pediculus humanus subsp.
+tr|E0VXR5|E0VXR5_PEDHC	136	99	99	135	0	181	4e-44	Histone H3 OS=Pediculus humanus subsp.
+tr|E0VXR8|E0VXR8_PEDHC	136	99	99	128	0	168	3e-40	Histone H3 OS=Pediculus humanus subsp.
+tr|E1BGN3|E1BGN3_BOVIN	136	99	99	134	0	178	2e-43	Uncharacterized protein OS=Bos taurus
+tr|E1BJ86|E1BJ86_BOVIN	136	94	97	135	0	181	3e-44	Uncharacterized protein OS=Bos taurus PE=3
+tr|E1FW82|E1FW82_LOALO	136	96	98	135	0	181	4e-44	H3 histone, family 3A OS=Loa loa
+tr|E1GA22|E1GA22_LOALO	160	98	99	135	0	183	8e-45	Histone type 2 OS=Loa loa GN=LOAG_10009 PE=3
+tr|E1ZFV1|E1ZFV1_CHLVA	136	97	99	135	0	182	2e-44	Putative uncharacterized protein
+tr|E1ZR66|E1ZR66_CHLVA	136	96	98	135	0	181	3e-44	Putative uncharacterized protein
+tr|E1ZRC8|E1ZRC8_CHLVA	144	96	99	124	0	168	3e-40	Histone H3.2 OS=Chlorella variabilis
+tr|E1ZSZ5|E1ZSZ5_CHLVA	127	88	91	126	9	167	8e-40	Histone H3 OS=Chlorella variabilis
+tr|E2A0J3|E2A0J3_CAMFO	136	99	99	135	0	181	4e-44	Histone H3 OS=Camponotus floridanus
+tr|E2AWV8|E2AWV8_CAMFO	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Camponotus floridanus
+tr|E2AWV9|E2AWV9_CAMFO	136	96	97	135	0	182	3e-44	Histone H3.3 OS=Camponotus floridanus
+tr|E2BMC4|E2BMC4_HARSA	205	96	98	135	0	190	8e-47	Histone H3.3 OS=Harpegnathos saltator
+tr|E2BMC5|E2BMC5_HARSA	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Harpegnathos saltator
+tr|E2C5E5|E2C5E5_HARSA	136	99	99	135	0	181	4e-44	Histone H3 OS=Harpegnathos saltator
+tr|E2J7D3|E2J7D3_9HEMI	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Triatoma matogrossensis PE=2
+tr|E2R448|E2R448_CANFA	145	98	98	135	0	185	2e-45	Uncharacterized protein OS=Canis familiaris
+tr|E2R6K5|E2R6K5_CANFA	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Canis familiaris
+tr|E2RAN0|E2RAN0_CANFA	144	98	98	135	0	186	1e-45	Uncharacterized protein OS=Canis familiaris
+tr|E2RL33|E2RL33_CANFA	144	98	98	135	0	185	2e-45	Uncharacterized protein OS=Canis familiaris
+tr|E3JR96|E3JR96_PUCGT	136	93	97	135	0	173	7e-42	Histone H3.2 OS=Puccinia graminis f. sp.
+tr|E3JT42|E3JT42_PUCGT	138	91	94	135	2	168	4e-40	Histone H3.2 OS=Puccinia graminis f. sp.
+tr|E3K5M6|E3K5M6_PUCGT	136	92	95	135	0	173	1e-41	Histone H3.2 OS=Puccinia graminis f. sp.
+tr|E3KAH9|E3KAH9_PUCGT	136	92	96	135	0	172	2e-41	Histone H3.2 OS=Puccinia graminis f. sp.
+tr|E3KLF2|E3KLF2_PUCGT	136	91	97	135	0	174	5e-42	Histone H3 OS=Puccinia graminis f. sp.
+tr|E3LCA3|E3LCA3_CAERE	153	85	86	135	17	173	1e-41	CRE-HIS-71 protein OS=Caenorhabditis remanei
+tr|E3LKS1|E3LKS1_CAERE	136	98	99	135	0	180	6e-44	Putative uncharacterized protein
+tr|E3LZW0|E3LZW0_CAERE	145	89	90	135	9	166	2e-39	Putative uncharacterized protein
+tr|E3M367|E3M367_CAERE	136	97	98	135	0	179	1e-43	Putative uncharacterized protein
+tr|E3M796|E3M796_CAERE	136	97	99	135	0	180	6e-44	Putative uncharacterized protein
+tr|E3NB58|E3NB58_CAERE	135	86	92	133	1	166	1e-39	Putative uncharacterized protein
+tr|E3NCN3|E3NCN3_CAERE	136	95	97	135	0	179	1e-43	CRE-HIS-72 protein OS=Caenorhabditis remanei
+tr|E3QRH5|E3QRH5_COLGM	136	90	97	134	0	175	3e-42	Histone H3 OS=Colletotrichum graminicola
+tr|E3RZ23|E3RZ23_PYRTT	136	91	97	134	0	176	1e-42	Putative uncharacterized protein
+tr|E3TC12|E3TC12_9TELE	136	96	98	135	0	181	4e-44	Histone h3.3 OS=Ictalurus furcatus GN=H33
+tr|E3TF38|E3TF38_ICTPU	136	96	98	135	0	181	4e-44	Histone h3.3 OS=Ictalurus punctatus GN=H33
+tr|E3VSU5|E3VSU5_BEABA	128	91	97	127	0	167	5e-40	Histone H3 (Fragment) OS=Beauveria bassiana
+tr|E3WLC5|E3WLC5_ANODA	136	99	99	135	0	181	4e-44	Putative uncharacterized protein
+tr|E3XE71|E3XE71_ANODA	136	96	98	135	0	181	4e-44	Putative uncharacterized protein
+tr|E4XBJ9|E4XBJ9_OIKDI	136	93	97	133	0	171	3e-41	Whole genome shotgun assembly, allelic
+tr|E4XNR2|E4XNR2_OIKDI	136	89	95	135	0	171	5e-41	Whole genome shotgun assembly, reference
+tr|E4XR78|E4XR78_OIKDI	136	99	99	135	0	181	4e-44	Whole genome shotgun assembly, allelic
+tr|E4Z3A0|E4Z3A0_OIKDI	136	93	97	133	0	172	3e-41	Whole genome shotgun assembly, allelic
+tr|E5AFG8|E5AFG8_LEPMJ	136	91	97	134	0	176	1e-42	Similar to histone H3.3 OS=Leptosphaeria
+tr|E5S0K4|E5S0K4_TRISP	136	88	91	135	0	170	6e-41	Histone H3, embryonic OS=Trichinella
+tr|E5SEU4|E5SEU4_TRISP	154	84	86	135	18	174	4e-42	Histone H3 OS=Trichinella spiralis
+tr|E5T7V4|E5T7V4_TRISP	136	88	94	135	0	170	6e-41	Histone H3, embryonic OS=Trichinella
+tr|E6NU67|E6NU67_9ROSI	136	96	98	135	0	180	1e-43	JHL18I08.11 protein OS=Jatropha curcas
+tr|E6RCC0|E6RCC0_CRYGW	138	90	95	135	2	168	3e-40	Histone H3, putative OS=Cryptococcus gattii
+tr|E6ZGH8|E6ZGH8_DICLA	136	96	98	135	0	181	4e-44	Histone H3 OS=Dicentrarchus labrax GN=H33
+tr|E6ZMS5|E6ZMS5_SPORE	136	91	96	135	0	173	1e-41	Probable HHT1-histone H3 OS=Sporisorium
+tr|E7A0V2|E7A0V2_SPORE	136	93	97	134	0	168	2e-40	Probable HHT1-histone H3 OS=Sporisorium
+tr|E7K9P8|E7K9P8_YEASA	136	88	96	135	0	170	9e-41	Hht1p OS=Saccharomyces cerevisiae (strain
+tr|E7KTN7|E7KTN7_YEASL	136	88	96	135	0	170	9e-41	Hht2p OS=Saccharomyces cerevisiae (strain
+tr|E7LR47|E7LR47_YEASV	136	88	96	135	0	170	9e-41	Hht1p OS=Saccharomyces cerevisiae (strain
+tr|E7NER1|E7NER1_YEASO	136	88	96	135	0	170	9e-41	Hht1p OS=Saccharomyces cerevisiae (strain
+tr|E7Q0U9|E7Q0U9_YEASB	136	88	96	135	0	170	9e-41	Hht1p OS=Saccharomyces cerevisiae (strain
+tr|E7QBC9|E7QBC9_YEASZ	136	88	96	135	0	170	9e-41	Hht1p OS=Saccharomyces cerevisiae (strain
+tr|E7R3W4|E7R3W4_PICAD	136	91	97	135	0	174	6e-42	Histone H3 OS=Pichia angusta (strain ATCC
+tr|E9C126|E9C126_CAPO3	141	94	98	133	0	177	7e-43	Histone OS=Capsaspora owczarzaki (strain
+tr|E9C1V9|E9C1V9_CAPO3	140	94	98	135	0	176	1e-42	Histone t OS=Capsaspora owczarzaki (strain
+tr|E9CGD7|E9CGD7_CAPO3	136	92	97	135	0	173	7e-42	Histone H3 OS=Capsaspora owczarzaki (strain
+tr|E9CXP7|E9CXP7_COCPS	136	88	96	135	0	173	6e-42	Histone H3 OS=Coccidioides posadasii (strain
+tr|E9EGX6|E9EGX6_METAQ	136	90	97	134	0	175	3e-42	Histone H3 OS=Metarhizium acridum (strain
+tr|E9EZ46|E9EZ46_METAR	136	90	97	134	0	175	3e-42	Histone H3 OS=Metarhizium robertsii (strain
+tr|E9FUS8|E9FUS8_DAPPU	136	99	99	135	0	181	4e-44	Putative uncharacterized protein OS=Daphnia
+tr|E9H1C5|E9H1C5_DAPPU	136	96	98	135	0	181	4e-44	Putative uncharacterized protein OS=Daphnia
+tr|E9IAQ7|E9IAQ7_SOLIN	147	99	99	135	0	188	3e-46	Putative uncharacterized protein (Fragment)
+tr|E9IYV7|E9IYV7_SOLIN	207	99	99	135	0	190	1e-46	Putative uncharacterized protein (Fragment)
+tr|E9MZ25|E9MZ25_9CHLO	136	95	97	135	0	180	6e-44	Histone H3 (Fragment) OS=Cladophora
+tr|E9P280|E9P280_9PRIM	136	91	94	135	0	178	2e-43	Histone variant H3.5 OS=Gorilla gorilla
+tr|E9P281|E9P281_HUMAN	135	92	94	134	1	175	3e-42	Histone variant H3.5 OS=Homo sapiens
+tr|E9PV77|E9PV77_MOUSE	136	94	96	135	0	180	8e-44	Uncharacterized protein OS=Mus musculus
+tr|E9PZA5|E9PZA5_MOUSE	136	87	90	135	0	175	2e-42	Uncharacterized protein OS=Mus musculus
+tr|F0JA43|F0JA43_AMBVA	136	96	98	135	0	181	4e-44	H3 histone family 3A OS=Amblyomma variegatum
+tr|F0VGI2|F0VGI2_NEOCL	136	93	98	135	0	181	3e-44	Histone H3, related OS=Neospora caninum
+tr|F0VPX4|F0VPX4_NEOCL	136	90	97	135	0	179	1e-43	Histone H3.3, related OS=Neospora caninum
+tr|F0W2L8|F0W2L8_9STRA	136	95	98	135	0	180	1e-43	Histone putative OS=Albugo laibachii Nc14
+tr|F0WMH5|F0WMH5_9STRA	136	92	97	134	0	178	2e-43	Histone H3.3 type 1 putative OS=Albugo
+tr|F0XRL6|F0XRL6_GROCL	136	90	97	134	0	175	3e-42	Histone h3 OS=Grosmannia clavigera (strain
+tr|F0XVT0|F0XVT0_AURAN	136	95	98	135	0	179	1e-43	Histone 3 OS=Aureococcus anophagefferens
+tr|F1A4E1|F1A4E1_DICPU	139	78	84	135	3	170	1e-40	Histone H3 OS=Dictyostelium purpureum
+tr|F1L1Z8|F1L1Z8_ASCSU	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Ascaris suum PE=2 SV=1
+tr|F1L2A0|F1L2A0_ASCSU	159	96	98	134	0	180	1e-43	Histone H3.3 OS=Ascaris suum PE=2 SV=1
+tr|F1L5S2|F1L5S2_ASCSU	136	98	99	135	0	182	2e-44	Histone H3 OS=Ascaris suum PE=2 SV=1
+tr|F1MHY9|F1MHY9_BOVIN	168	95	97	135	0	187	5e-46	Uncharacterized protein (Fragment) OS=Bos
+tr|F1PL27|F1PL27_CANFA	145	98	98	135	0	184	6e-45	Uncharacterized protein (Fragment) OS=Canis
+tr|F1Q3C8|F1Q3C8_CANFA	143	98	98	135	0	184	5e-45	Uncharacterized protein (Fragment) OS=Canis
+tr|F1RPL2|F1RPL2_PIG	136	97	97	135	0	181	4e-44	Uncharacterized protein OS=Sus scrofa
+tr|F1RVA0|F1RVA0_PIG	136	94	97	135	0	182	2e-44	Uncharacterized protein (Fragment) OS=Sus
+tr|F2CQJ8|F2CQJ8_HORVD	136	96	98	135	0	180	6e-44	Predicted protein OS=Hordeum vulgare var.
+tr|F2CU26|F2CU26_HORVD	136	95	97	135	0	180	6e-44	Predicted protein OS=Hordeum vulgare var.
+tr|F2CZQ5|F2CZQ5_HORVD	136	95	98	135	0	180	1e-43	Predicted protein OS=Hordeum vulgare var.
+tr|F2DBY4|F2DBY4_HORVD	135	95	97	134	1	175	3e-42	Predicted protein OS=Hordeum vulgare var.
+tr|F2DMK0|F2DMK0_HORVD	136	88	92	135	0	172	2e-41	Predicted protein OS=Hordeum vulgare var.
+tr|F2QQI8|F2QQI8_PICP7	137	88	94	135	1	167	5e-40	Histone H3.3 .2 OS=Pichia pastoris (strain
+tr|F2T9Y5|F2T9Y5_AJEDA	137	88	96	135	0	174	5e-42	Histone H3 OS=Ajellomyces dermatitidis
+tr|F2UI19|F2UI19_SALS5	136	94	98	135	0	176	1e-42	Histone H3 OS=Salpingoeca sp. (strain ATCC
+tr|F2Z576|F2Z576_PIG	136	98	98	135	0	180	8e-44	Histone cluster 1 OS=Sus scrofa GN=Ssc.95608
+tr|F2Z5K9|F2Z5K9_PIG	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Sus scrofa
+tr|F4P7A5|F4P7A5_BATDJ	136	94	97	135	0	176	9e-43	Histone H3 OS=Batrachochytrium dendrobatidis
+tr|F4QCS7|F4QCS7_DICFS	137	82	90	134	1	170	6e-41	Histone H3 OS=Dictyostelium fasciculatum
+tr|F4R3W2|F4R3W2_MELLP	136	94	97	135	0	173	9e-42	Putative uncharacterized protein
+tr|F4RFQ7|F4RFQ7_MELLP	136	93	97	135	0	172	2e-41	Putative uncharacterized protein
+tr|F4RXF1|F4RXF1_MELLP	138	89	94	135	2	168	4e-40	Putative uncharacterized protein
+tr|F4WA39|F4WA39_ACREC	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Acromyrmex echinatior
+tr|F4WQG5|F4WQG5_ACREC	136	99	99	135	0	181	4e-44	Histone H3 OS=Acromyrmex echinatior
+tr|F4WZ23|F4WZ23_ACREC	138	99	99	135	0	182	2e-44	Histone H3 (Fragment) OS=Acromyrmex
+tr|F6HRP4|F6HRP4_VITVI	175	95	97	135	0	186	1e-45	Putative uncharacterized protein OS=Vitis
+tr|F6PGA3|F6PGA3_MONDO	146	99	99	135	0	186	1e-45	Uncharacterized protein (Fragment)
+tr|F6PS34|F6PS34_MACMU	137	98	98	135	0	180	9e-44	Uncharacterized protein (Fragment) OS=Macaca
+tr|F6PXC3|F6PXC3_ORNAN	141	99	99	135	0	186	1e-45	Uncharacterized protein (Fragment)
+tr|F6QR30|F6QR30_MACMU	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Macaca mulatta
+tr|F6QTF3|F6QTF3_ORNAN	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Ornithorhynchus
+tr|F6QTN8|F6QTN8_ORNAN	141	99	99	135	0	183	1e-44	Uncharacterized protein (Fragment)
+tr|F6QTQ0|F6QTQ0_ORNAN	145	99	99	135	0	183	6e-45	Uncharacterized protein (Fragment)
+tr|F6QTV0|F6QTV0_ORNAN	141	99	99	135	0	184	4e-45	Uncharacterized protein (Fragment)
+tr|F6QU03|F6QU03_ORNAN	138	99	99	135	0	181	3e-44	Uncharacterized protein (Fragment)
+tr|F6SLH3|F6SLH3_MONDO	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Monodelphis
+tr|F6SPW6|F6SPW6_CALJA	136	94	97	135	0	180	5e-44	Uncharacterized protein OS=Callithrix
+tr|F6TK66|F6TK66_MACMU	136	93	95	135	0	179	1e-43	Uncharacterized protein OS=Macaca mulatta
+tr|F6UJL2|F6UJL2_MACMU	136	93	95	135	0	183	7e-45	Uncharacterized protein OS=Macaca mulatta
+tr|F6VY96|F6VY96_ORNAN	145	99	99	135	0	182	1e-44	Uncharacterized protein (Fragment)
+tr|F6VZK5|F6VZK5_CALJA	136	89	94	135	0	172	2e-41	Uncharacterized protein OS=Callithrix
+tr|F6W3D7|F6W3D7_MONDO	136	85	89	135	0	169	2e-40	Uncharacterized protein OS=Monodelphis
+tr|F6XLZ2|F6XLZ2_MACMU	136	94	97	135	0	177	6e-43	Uncharacterized protein OS=Macaca mulatta
+tr|F6Y435|F6Y435_MACMU	136	95	97	135	0	182	3e-44	Uncharacterized protein OS=Macaca mulatta
+tr|F6Y7V5|F6Y7V5_HORSE	136	98	98	135	0	180	8e-44	Uncharacterized protein OS=Equus caballus
+tr|F6YXV8|F6YXV8_HORSE	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Equus caballus
+tr|F6ZWZ5|F6ZWZ5_CALJA	136	95	97	135	0	179	1e-43	Uncharacterized protein OS=Callithrix
+tr|F7AHT0|F7AHT0_CIOIN	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Ciona
+tr|F7AME5|F7AME5_ORNAN	140	99	99	135	0	182	1e-44	Uncharacterized protein (Fragment)
+tr|F7AX07|F7AX07_ORNAN	143	99	99	135	0	185	3e-45	Uncharacterized protein (Fragment)
+tr|F7AZ62|F7AZ62_MACMU	137	98	98	135	0	182	3e-44	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7AZX1|F7AZX1_MACMU	137	98	98	135	0	180	5e-44	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7B0Z5|F7B0Z5_MACMU	136	87	91	135	0	180	8e-44	Uncharacterized protein OS=Macaca mulatta
+tr|F7B238|F7B238_HORSE	136	96	97	134	0	176	1e-42	Uncharacterized protein OS=Equus caballus
+tr|F7BDT0|F7BDT0_MACMU	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Macaca mulatta
+tr|F7BPK5|F7BPK5_MONDO	136	98	99	135	0	179	1e-43	Uncharacterized protein OS=Monodelphis
+tr|F7BRX2|F7BRX2_MACMU	138	98	98	135	0	180	5e-44	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7BRY5|F7BRY5_MACMU	137	98	98	135	0	180	9e-44	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7C6Q2|F7C6Q2_MACMU	137	98	98	135	0	178	2e-43	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7C7V4|F7C7V4_MONDO	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Monodelphis
+tr|F7C7X2|F7C7X2_MONDO	142	99	99	135	0	185	3e-45	Uncharacterized protein (Fragment)
+tr|F7C8E5|F7C8E5_MONDO	138	98	99	135	0	181	4e-44	Uncharacterized protein (Fragment)
+tr|F7C964|F7C964_HORSE	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Equus caballus
+tr|F7CMG6|F7CMG6_ORNAN	139	99	99	135	0	182	2e-44	Uncharacterized protein (Fragment)
+tr|F7CMX1|F7CMX1_ORNAN	143	99	99	135	0	180	5e-44	Uncharacterized protein (Fragment)
+tr|F7CN20|F7CN20_ORNAN	143	99	99	135	0	180	9e-44	Uncharacterized protein (Fragment)
+tr|F7CNI3|F7CNI3_ORNAN	145	99	99	135	0	183	8e-45	Uncharacterized protein (Fragment)
+tr|F7CPH7|F7CPH7_MACMU	136	94	97	135	0	178	3e-43	Uncharacterized protein OS=Macaca mulatta
+tr|F7DXI9|F7DXI9_CALJA	136	91	94	135	0	176	1e-42	Uncharacterized protein OS=Callithrix
+tr|F7EAN5|F7EAN5_CALJA	136	94	97	135	0	180	6e-44	Uncharacterized protein OS=Callithrix
+tr|F7EAQ9|F7EAQ9_CALJA	136	91	95	135	0	171	5e-41	Uncharacterized protein OS=Callithrix
+tr|F7ERL5|F7ERL5_ORNAN	143	99	99	135	0	182	2e-44	Uncharacterized protein (Fragment)
+tr|F7F1M9|F7F1M9_ORNAN	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Ornithorhynchus
+tr|F7F5J0|F7F5J0_ORNAN	148	99	99	135	0	187	7e-46	Uncharacterized protein (Fragment)
+tr|F7FE04|F7FE04_CALJA	136	91	95	135	0	178	3e-43	Uncharacterized protein OS=Callithrix
+tr|F7FV50|F7FV50_ORNAN	140	99	99	135	0	182	1e-44	Uncharacterized protein (Fragment)
+tr|F7FYT1|F7FYT1_CALJA	136	98	98	135	0	180	8e-44	Uncharacterized protein OS=Callithrix
+tr|F7G6P0|F7G6P0_CALJA	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Callithrix
+tr|F7GHH9|F7GHH9_MACMU	136	97	97	135	0	179	1e-43	Uncharacterized protein OS=Macaca mulatta
+tr|F7HAS8|F7HAS8_MACMU	138	98	98	135	0	180	7e-44	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7HAT8|F7HAT8_MACMU	138	98	98	135	0	180	7e-44	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7HAU6|F7HAU6_MACMU	136	98	98	135	0	180	8e-44	Uncharacterized protein OS=Macaca mulatta
+tr|F7HAU9|F7HAU9_CALJA	136	88	93	135	0	174	5e-42	Uncharacterized protein (Fragment)
+tr|F7HR55|F7HR55_MACMU	138	98	98	135	0	181	4e-44	Uncharacterized protein (Fragment) OS=Macaca
+tr|F7I9J1|F7I9J1_CALJA	136	91	94	135	0	170	9e-41	Uncharacterized protein OS=Callithrix
+tr|F7IE00|F7IE00_CALJA	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Callithrix
+tr|F7IE61|F7IE61_CALJA	136	91	94	135	0	175	2e-42	Uncharacterized protein OS=Callithrix
+tr|F7ILE2|F7ILE2_CALJA	136	89	94	135	0	179	1e-43	Uncharacterized protein OS=Callithrix
+tr|F7VPC8|F7VPC8_SORMK	136	90	97	134	0	175	3e-42	Putative uncharacterized protein SMAC_02363
+tr|F8J4D7|F8J4D7_9BILA	129	99	99	129	0	173	1e-41	Histone H3-I protein (Fragment)
+tr|F8J4E0|F8J4E0_9BILA	129	98	98	129	0	172	3e-41	Histone H3-IV protein (Fragment)
+tr|F8J4I8|F8J4I8_9BILA	129	98	98	129	0	172	1e-41	Histone H3-II protein (Fragment)
+tr|F8J4I9|F8J4I9_9BILA	129	99	99	129	0	173	1e-41	Histone H3-IX protein (Fragment)
+tr|F8J4J3|F8J4J3_9BILA	129	97	98	129	0	172	2e-41	Histone H3-I protein (Fragment)
+tr|F8J4L3|F8J4L3_9BILA	136	96	98	135	0	181	4e-44	Histone H3.3 protein OS=Balanoglossus
+tr|F8J4L4|F8J4L4_9BILA	136	97	99	135	0	180	6e-44	Histone H3 protein OS=Balanoglossus
+tr|F8MQ07|F8MQ07_NEUT8	136	90	97	134	0	175	3e-42	Histone 3 OS=Neurospora tetrasperma (strain
+tr|F8WI35|F8WI35_MOUSE	135	95	97	134	1	174	4e-42	Uncharacterized protein OS=Mus musculus
+tr|F9F8C9|F9F8C9_FUSOF	136	90	97	134	0	175	3e-42	Putative uncharacterized protein OS=Fusarium
+tr|F9XD44|F9XD44_MYCGM	136	90	97	135	0	175	2e-42	Histone H3 OS=Mycosphaerella graminicola
+tr|G0MF56|G0MF56_CAEBE	136	95	97	135	0	172	3e-41	Putative uncharacterized protein
+tr|G0MGC2|G0MGC2_CAEBE	136	87	93	134	0	168	2e-40	CBN-HIS-69 protein OS=Caenorhabditis
+tr|G0MRW2|G0MRW2_CAEBE	136	97	98	135	0	180	1e-43	Putative uncharacterized protein
+tr|G0MRW5|G0MRW5_CAEBE	136	92	94	135	0	178	3e-43	Putative uncharacterized protein
+tr|G0MWC2|G0MWC2_CAEBE	136	96	97	135	0	180	7e-44	Putative uncharacterized protein
+tr|G0ND97|G0ND97_CAEBE	137	92	94	135	1	177	5e-43	Putative uncharacterized protein
+tr|G0NDA1|G0NDA1_CAEBE	138	94	95	135	2	173	1e-41	Putative uncharacterized protein
+tr|G0NDA4|G0NDA4_CAEBE	138	94	95	135	2	173	6e-42	Putative uncharacterized protein
+tr|G0NNG5|G0NNG5_CAEBE	146	85	91	134	0	168	2e-40	Putative uncharacterized protein
+tr|G0NNH8|G0NNH8_CAEBE	138	93	96	135	2	174	5e-42	Putative uncharacterized protein
+tr|G0NNI2|G0NNI2_CAEBE	136	94	95	135	0	179	1e-43	Putative uncharacterized protein
+tr|G0NNI6|G0NNI6_CAEBE	136	97	98	135	0	179	1e-43	Putative uncharacterized protein
+tr|G0NNK2|G0NNK2_CAEBE	146	86	89	135	10	171	3e-41	Putative uncharacterized protein
+tr|G0NNK3|G0NNK3_CAEBE	142	87	90	135	6	169	1e-40	Putative uncharacterized protein
+tr|G0P7N0|G0P7N0_CAEBE	136	95	97	135	0	179	1e-43	Putative uncharacterized protein
+tr|G0PJ58|G0PJ58_CAEBE	136	96	97	135	0	178	3e-43	Putative uncharacterized protein
+tr|G0QK95|G0QK95_ICHMG	136	87	96	134	0	168	3e-40	Putative uncharacterized protein
+tr|G0QPN2|G0QPN2_ICHMG	155	88	96	134	0	170	6e-41	Putative uncharacterized protein (Fragment)
+tr|G0R1A3|G0R1A3_ICHMG	150	87	96	134	0	168	3e-40	Putative uncharacterized protein (Fragment)
+tr|G0R440|G0R440_ICHMG	136	88	96	134	0	171	5e-41	Putative uncharacterized protein
+tr|G0RX10|G0RX10_HYPJQ	136	90	97	134	0	175	3e-42	Histone H3 OS=Hypocrea jecorina (strain
+tr|G0RZH5|G0RZH5_CHATD	136	90	97	134	0	175	3e-42	Putative uncharacterized protein
+tr|G0V9T6|G0V9T6_NAUCC	136	88	96	135	0	170	9e-41	Putative uncharacterized protein NCAS0B06190
+tr|G0WIE9|G0WIE9_NAUDC	136	88	96	135	0	170	9e-41	Putative uncharacterized protein NDAI0B03490
+tr|G0WIN1|G0WIN1_NAUDC	136	88	95	135	0	169	1e-40	Putative uncharacterized protein NDAI0L01570
+tr|G0WMZ1|G0WMZ1_9BIVA	127	99	99	124	0	167	5e-40	Histone H3 (Fragment) OS=Laevichlamys
+tr|G0WMZ3|G0WMZ3_9BIVA	126	99	99	124	0	167	6e-40	Histone H3 (Fragment) OS=Veprichlamys
+tr|G0WQA0|G0WQA0_MIZYE	126	99	99	124	0	167	6e-40	Histone H3 (Fragment) OS=Mizuhopecten
+tr|G0WQA1|G0WQA1_9BIVA	125	99	99	124	0	167	9e-40	Histone H3 (Fragment) OS=Euvola vogdesi PE=3
+tr|G0WQC2|G0WQC2_9BIVA	124	98	98	124	0	166	1e-39	Histone H3 (Fragment) OS=Euvola perulus PE=3
+tr|G0WQC4|G0WQC4_MIMNO	124	99	99	124	0	167	9e-40	Histone H3 (Fragment) OS=Mimachlamys nobilis
+tr|G0ZJ48|G0ZJ48_CHEQU	133	96	98	133	0	179	1e-43	Histone H3.3 (Fragment) OS=Cherax
+tr|G0ZJD9|G0ZJD9_CHEQU	133	95	97	133	0	179	2e-43	Histone H3.3 (Fragment) OS=Cherax
+tr|G1FKE7|G1FKE7_9PERO	136	96	98	135	0	181	4e-44	Histone H3 (Fragment) OS=Epinephelus bruneus
+tr|G1K2S9|G1K2S9_DANRE	137	95	97	135	1	177	7e-43	Uncharacterized protein OS=Danio rerio
+tr|G1K329|G1K329_CHICK	142	99	99	135	0	185	2e-45	Uncharacterized protein (Fragment) OS=Gallus
+tr|G1K331|G1K331_CHICK	143	99	99	135	0	182	2e-44	Uncharacterized protein (Fragment) OS=Gallus
+tr|G1KGC9|G1KGC9_ANOCA	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Anolis
+tr|G1KKF9|G1KKF9_ANOCA	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Anolis
+tr|G1MZV0|G1MZV0_MELGA	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Meleagris
+tr|G1N7D3|G1N7D3_MELGA	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Meleagris
+tr|G1NH13|G1NH13_MELGA	139	97	97	135	2	175	2e-42	Uncharacterized protein (Fragment)
+tr|G1NH17|G1NH17_MELGA	137	99	99	135	0	180	5e-44	Uncharacterized protein (Fragment)
+tr|G1NUP0|G1NUP0_MYOLU	136	88	94	135	0	171	4e-41	Uncharacterized protein OS=Myotis lucifugus
+tr|G1PSD0|G1PSD0_MYOLU	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Myotis lucifugus
+tr|G1Q0L8|G1Q0L8_MYOLU	136	87	93	134	0	172	2e-41	Uncharacterized protein OS=Myotis lucifugus
+tr|G1QAE2|G1QAE2_MYOLU	136	98	98	135	0	180	8e-44	Uncharacterized protein OS=Myotis lucifugus
+tr|G1QBV1|G1QBV1_MYOLU	155	98	98	135	0	179	1e-43	Uncharacterized protein OS=Myotis lucifugus
+tr|G1QBX7|G1QBX7_MYOLU	136	92	96	135	0	178	3e-43	Uncharacterized protein OS=Myotis lucifugus
+tr|G1S9J3|G1S9J3_NOMLE	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Nomascus
+tr|G1S9M2|G1S9M2_NOMLE	136	95	97	135	0	177	4e-43	Uncharacterized protein OS=Nomascus
+tr|G1S9T1|G1S9T1_NOMLE	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Nomascus
+tr|G1SAW5|G1SAW5_NOMLE	136	98	98	135	0	180	8e-44	Uncharacterized protein OS=Nomascus
+tr|G1SC72|G1SC72_NOMLE	136	94	97	135	0	182	1e-44	Uncharacterized protein OS=Nomascus
+tr|G1T6G5|G1T6G5_RABIT	136	92	94	135	0	177	7e-43	Uncharacterized protein OS=Oryctolagus
+tr|G1T8H6|G1T8H6_RABIT	136	94	97	135	0	177	9e-43	Uncharacterized protein OS=Oryctolagus
+tr|G1TJR7|G1TJR7_RABIT	136	96	98	128	0	175	3e-42	Uncharacterized protein (Fragment)
+tr|G1TKV4|G1TKV4_RABIT	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Oryctolagus
+tr|G1TNB7|G1TNB7_RABIT	136	93	96	132	0	180	8e-44	Uncharacterized protein (Fragment)
+tr|G1TNW5|G1TNW5_RABIT	136	94	97	135	0	178	3e-43	Uncharacterized protein OS=Oryctolagus
+tr|G1TQ90|G1TQ90_RABIT	136	97	98	135	0	178	3e-43	Uncharacterized protein OS=Oryctolagus
+tr|G1TRK0|G1TRK0_RABIT	136	97	97	135	0	180	1e-43	Uncharacterized protein OS=Oryctolagus
+tr|G1TWR1|G1TWR1_RABIT	136	98	98	135	0	180	8e-44	Uncharacterized protein OS=Oryctolagus
+tr|G1TX56|G1TX56_RABIT	136	96	96	130	0	173	6e-42	Uncharacterized protein (Fragment)
+tr|G1XLV5|G1XLV5_ARTOA	136	90	97	135	0	175	2e-42	Putative uncharacterized protein
+tr|G2HIR8|G2HIR8_PANTR	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Pan troglodytes PE=2 SV=1
+tr|G2J6C6|G2J6C6_CAEBR	136	97	98	135	0	178	2e-43	Putative uncharacterized protein
+tr|G2J6F9|G2J6F9_CAEBR	136	97	98	135	0	178	2e-43	Putative uncharacterized protein
+tr|G2QQH3|G2QQH3_THIHE	136	90	97	134	0	175	3e-42	Histone H3-like protein OS=Myceliophthora
+tr|G2RIE5|G2RIE5_9PEZI	136	90	97	134	0	175	3e-42	Histone H3-like protein OS=Thielavia
+tr|G2WL38|G2WL38_YEASK	136	88	96	135	0	170	9e-41	K7_Hht1p OS=Saccharomyces cerevisiae (strain
+tr|G2XIQ3|G2XIQ3_VERDV	136	90	97	134	0	175	3e-42	Histone H3 OS=Verticillium dahliae (strain
+tr|G2Y2M3|G2Y2M3_BOTFU	136	91	97	134	0	176	1e-42	Similar to histone H3.3 OS=Botryotinia
+tr|G3AFM3|G3AFM3_SPAPN	136	90	97	135	0	174	5e-42	Putative uncharacterized protein
+tr|G3ARW6|G3ARW6_SPAPN	136	89	96	135	0	175	3e-42	Putative uncharacterized protein
+tr|G3B104|G3B104_CANTC	136	89	96	135	0	175	3e-42	Histone-fold-containing protein OS=Candida
+tr|G3B4D3|G3B4D3_CANTC	136	90	97	135	0	174	4e-42	Histone-fold-containing protein OS=Candida
+tr|G3H2T7|G3H2T7_CRIGR	267	99	99	135	0	194	5e-48	Histone H3 OS=Cricetulus griseus
+tr|G3HDS5|G3HDS5_CRIGR	136	99	99	135	0	181	4e-44	Histone H3 OS=Cricetulus griseus
+tr|G3HDT2|G3HDT2_CRIGR	141	98	98	131	0	177	5e-43	Histone H3.1 OS=Cricetulus griseus
+tr|G3HDU8|G3HDU8_CRIGR	136	97	97	135	0	176	1e-42	Histone H3.1 OS=Cricetulus griseus
+tr|G3HHB8|G3HHB8_CRIGR	365	85	90	135	0	187	7e-46	Histone H3.3 OS=Cricetulus griseus
+tr|G3HHM2|G3HHM2_CRIGR	320	94	97	135	0	189	1e-46	Histone H3.1t OS=Cricetulus griseus
+tr|G3HPV9|G3HPV9_CRIGR	136	98	98	135	0	180	8e-44	Histone H3.1 OS=Cricetulus griseus
+tr|G3IID7|G3IID7_CRIGR	136	88	91	134	0	166	2e-39	Histone H3.3 OS=Cricetulus griseus
+tr|G3JPU6|G3JPU6_CORMM	136	91	97	134	0	177	9e-43	Histone H3 OS=Cordyceps militaris (strain
+tr|G3MMX5|G3MMX5_9ACAR	136	95	97	135	0	178	3e-43	Putative uncharacterized protein
+tr|G3MMX6|G3MMX6_9ACAR	136	99	99	135	0	181	4e-44	Putative uncharacterized protein
+tr|G3MYD7|G3MYD7_BOVIN	136	94	97	135	0	180	1e-43	Uncharacterized protein OS=Bos taurus
+tr|G3N8L5|G3N8L5_GASAC	136	98	99	135	0	180	8e-44	Uncharacterized protein OS=Gasterosteus
+tr|G3NE33|G3NE33_GASAC	137	98	99	135	0	180	6e-44	Uncharacterized protein (Fragment)
+tr|G3NED4|G3NED4_GASAC	187	98	99	135	0	183	6e-45	Uncharacterized protein (Fragment)
+tr|G3NN16|G3NN16_GASAC	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Gasterosteus
+tr|G3P8L6|G3P8L6_GASAC	144	99	99	135	0	185	2e-45	Uncharacterized protein (Fragment)
+tr|G3Q9T8|G3Q9T8_GASAC	137	95	97	135	1	177	5e-43	Uncharacterized protein OS=Gasterosteus
+tr|G3RBP3|G3RBP3_GORGO	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Gorilla gorilla
+tr|G3RUH9|G3RUH9_GORGO	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Gorilla gorilla
+tr|G3SCC9|G3SCC9_GORGO	136	98	98	135	0	180	8e-44	Uncharacterized protein OS=Gorilla gorilla
+tr|G3SF42|G3SF42_GORGO	136	99	99	135	0	178	4e-43	Uncharacterized protein OS=Gorilla gorilla
+tr|G3T157|G3T157_LOXAF	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Loxodonta
+tr|G3TR59|G3TR59_LOXAF	136	98	98	135	0	180	8e-44	Uncharacterized protein OS=Loxodonta
+tr|G3UAK2|G3UAK2_LOXAF	136	95	97	135	0	179	1e-43	Uncharacterized protein OS=Loxodonta
+tr|G3UBN8|G3UBN8_LOXAF	136	99	99	135	0	181	4e-44	Uncharacterized protein OS=Loxodonta
+tr|G3VBV2|G3VBV2_SARHA	142	99	99	135	0	182	1e-44	Uncharacterized protein (Fragment)
+tr|G3VKV0|G3VKV0_SARHA	146	99	99	135	0	182	2e-44	Uncharacterized protein (Fragment)
+tr|G3VLK4|G3VLK4_SARHA	171	98	99	135	0	184	4e-45	Uncharacterized protein (Fragment)
+tr|G3VPE8|G3VPE8_SARHA	151	99	99	135	0	185	3e-45	Uncharacterized protein (Fragment)
+tr|G3VSW3|G3VSW3_SARHA	148	99	99	135	0	187	7e-46	Uncharacterized protein (Fragment)
+tr|G3VU19|G3VU19_SARHA	136	96	98	135	0	181	4e-44	Uncharacterized protein OS=Sarcophilus
+tr|G3YEP5|G3YEP5_ASPNG	136	89	97	135	0	173	6e-42	H3 histone 3 protein OS=Aspergillus niger
+tr|G4NBX6|G4NBX6_MAGO7	136	90	97	134	0	175	3e-42	Histone H3 OS=Magnaporthe oryzae (strain
+tr|G4TD89|G4TD89_PIRIN	139	91	97	134	1	167	7e-40	Probable HHT1-histone H3 OS=Piriformospora
+tr|G4USX2|G4USX2_NEUT9	136	90	97	134	0	175	3e-42	Histone 3 OS=Neurospora tetrasperma (strain
+tr|G4YG56|G4YG56_PHYSO	136	96	98	135	0	181	4e-44	Putative uncharacterized protein
+tr|G4YXX0|G4YXX0_PHYSO	136	93	97	134	0	179	2e-43	Putative uncharacterized protein
+tr|G5AQX2|G5AQX2_HETGA	136	90	92	135	0	177	4e-43	Histone H3.3 OS=Heterocephalus glaber
+tr|G5AT08|G5AT08_HETGA	136	88	91	134	0	173	8e-42	Histone H3.3 OS=Heterocephalus glaber
+tr|G5B912|G5B912_HETGA	136	91	94	135	0	182	2e-44	Histone H3.3 OS=Heterocephalus glaber
+tr|G5BAP1|G5BAP1_HETGA	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Heterocephalus glaber
+tr|G5BG93|G5BG93_HETGA	136	91	94	135	0	179	1e-43	Histone H3.3 (Fragment) OS=Heterocephalus
+tr|G5BLX3|G5BLX3_HETGA	136	88	90	135	0	172	3e-41	Histone H3.3 OS=Heterocephalus glaber
+tr|G5BP92|G5BP92_HETGA	136	95	97	135	0	182	2e-44	Histone H3.3 OS=Heterocephalus glaber
+tr|G5BQD9|G5BQD9_HETGA	143	92	93	135	7	178	2e-43	Histone H3 OS=Heterocephalus glaber
+tr|G5BQE3|G5BQE3_HETGA	136	99	99	135	0	181	4e-44	Histone H3 OS=Heterocephalus glaber
+tr|G5BQW3|G5BQW3_HETGA	135	85	87	134	1	171	4e-41	Histone H3.3 OS=Heterocephalus glaber
+tr|G5BSG0|G5BSG0_HETGA	208	88	89	128	0	171	3e-41	Histone H3 OS=Heterocephalus glaber
+tr|G5BV26|G5BV26_HETGA	136	98	98	135	0	180	8e-44	Histone H3.1 OS=Heterocephalus glaber
+tr|G5BV28|G5BV28_HETGA	222	99	99	132	0	184	4e-45	Histone H3 OS=Heterocephalus glaber
+tr|G5BV33|G5BV33_HETGA	130	93	93	129	6	167	5e-40	Histone H3.2 OS=Heterocephalus glaber
+tr|G5BV47|G5BV47_HETGA	136	87	91	135	0	179	1e-43	Histone H3.3 OS=Heterocephalus glaber
+tr|O02648|O02648_DROSI	136	97	97	135	0	179	1e-43	Histone H3 OS=Drosophila simulans GN=His3
+tr|P94019|P94019_MEDSA	127	95	97	127	0	170	5e-41	Histone H3.2 (Fragment) OS=Medicago sativa
+tr|Q00YS0|Q00YS0_OSTTA	167	97	99	135	0	180	9e-44	Histones H3 and H4 (ISS) OS=Ostreococcus
+tr|Q018N5|Q018N5_OSTTA	213	96	99	126	0	173	1e-41	Histones H3 and H4 (ISS) OS=Ostreococcus
+tr|Q06AS1|Q06AS1_ROBPS	136	95	97	135	0	180	6e-44	Histone H3 OS=Robinia pseudoacacia GN=H3
+tr|Q0IEB9|Q0IEB9_AEDAE	135	97	98	134	0	178	4e-43	Histone H3 (Fragment) OS=Aedes aegypti
+tr|Q0WRA9|Q0WRA9_ARATH	136	96	98	135	0	180	1e-43	Histone H3 like protein OS=Arabidopsis
+tr|Q0ZDB5|Q0ZDB5_PECGU	136	96	98	135	0	181	4e-44	Histone H3 OS=Pectinaria gouldii PE=2 SV=1
+tr|Q16N56|Q16N56_AEDAE	136	99	99	135	0	181	4e-44	Histone H3 OS=Aedes aegypti GN=AAEL000482
+tr|Q177E2|Q177E2_AEDAE	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Aedes aegypti GN=AAEL006158
+tr|Q17EE9|Q17EE9_AEDAE	134	97	97	133	2	173	8e-42	Histone H3 OS=Aedes aegypti GN=AAEL003827
+tr|Q17ER7|Q17ER7_AEDAE	135	99	99	134	0	179	1e-43	Histone H3 (Fragment) OS=Aedes aegypti
+tr|Q1EMR7|Q1EMR7_PLAMJ	136	95	97	135	0	180	6e-44	Histin H3 OS=Plantago major GN=hh3a PE=2
+tr|Q1HQ24|Q1HQ24_BOMMO	136	99	99	135	0	181	4e-44	Histone H3 OS=Bombyx mori PE=2 SV=1
+tr|Q1W2A9|Q1W2A9_9HEMI	136	96	98	135	0	181	4e-44	Putative H3 histone, family 3A
+tr|Q27689|Q27689_LYTPI	136	97	97	135	0	175	2e-42	Histone H3 OS=Lytechinus pictus PE=3 SV=1
+tr|Q27718|Q27718_PLAFA	136	85	93	134	0	169	1e-40	Histone H3 OS=Plasmodium falciparum PE=2
+tr|Q27719|Q27719_PLAFA	136	88	97	135	0	177	5e-43	Histone H3 OS=Plasmodium falciparum PE=2
+tr|Q27748|Q27748_PARLI	136	95	98	135	0	179	1e-43	H3.3 histone OS=Paracentrotus lividus
+tr|Q27866|Q27866_STRPU	136	96	97	135	0	172	2e-41	Sea urchin genes for the histones H2B and H3
+tr|Q28FA2|Q28FA2_XENTR	136	95	97	135	0	179	2e-43	H3 histone OS=Xenopus tropicalis
+tr|Q29L01|Q29L01_DROPS	136	96	98	135	0	181	4e-44	GA19158 OS=Drosophila pseudoobscura
+tr|Q2F687|Q2F687_BOMMO	136	96	98	135	0	181	4e-44	H3 histone family 3a OS=Bombyx mori PE=2
+tr|Q2Q030|Q2Q030_9DYTI	125	98	98	124	0	167	7e-40	Histone 3 (Fragment) OS=Acilius sylvanus
+tr|Q3YMQ4|Q3YMQ4_CRAPL	136	95	98	135	0	180	5e-44	Histone H3.3 OS=Craterostigma plantagineum
+tr|Q3YMQ6|Q3YMQ6_CRAPL	136	95	97	135	0	180	6e-44	Histone H3.1 OS=Craterostigma plantagineum
+tr|Q3ZDJ8|Q3ZDJ8_PICAB	141	94	97	133	1	176	1e-42	Histone 3 OS=Picea abies GN=H3 PE=2 SV=1
+tr|Q3ZDK0|Q3ZDK0_PICAB	136	94	97	135	0	178	4e-43	Histone 3 OS=Picea abies GN=H3 PE=2 SV=1
+tr|Q3ZDK1|Q3ZDK1_PICAB	136	95	97	135	0	180	6e-44	Histone 3 OS=Picea abies GN=H3 PE=2 SV=1
+tr|Q42782|Q42782_SOYBN	127	94	96	126	0	168	3e-40	Histone H3 (Fragment) OS=Glycine max PE=3
+tr|Q43202|Q43202_WHEAT	127	94	96	126	0	167	6e-40	Histone H3 (Fragment) OS=Triticum aestivum
+tr|Q43203|Q43203_WHEAT	127	92	96	126	0	167	9e-40	Histone H3 (Fragment) OS=Triticum aestivum
+tr|Q43303|Q43303_SOYBN	127	94	97	126	0	167	9e-40	Histone H3 (Fragment) OS=Glycine max PE=3
+tr|Q4AC00|Q4AC00_BRACM	136	96	98	135	0	180	1e-43	117M18_20 OS=Brassica campestris
+tr|Q4JKA5|Q4JKA5_RHEAU	136	94	97	135	0	178	3e-43	Histone 3 OS=Rheum australe PE=2 SV=1
+tr|Q4N0I4|Q4N0I4_THEPA	136	91	97	135	0	175	2e-42	Histone H3, putative OS=Theileria parva
+tr|Q4N2M7|Q4N2M7_THEPA	136	92	97	135	0	177	6e-43	Histone H3, putative OS=Theileria parva
+tr|Q4QRF5|Q4QRF5_DANRE	136	98	98	135	0	180	8e-44	Zgc:113983 OS=Danio rerio GN=zgc:113983 PE=2
+tr|Q4S9G0|Q4S9G0_TETNG	136	96	98	135	0	181	4e-44	Chromosome 16 SCAF14974, whole genome
+tr|Q4SKP1|Q4SKP1_TETNG	136	99	99	135	0	181	4e-44	Chromosome 7 SCAF14536, whole genome shotgun
+tr|Q4U9Y6|Q4U9Y6_THEAN	136	92	97	135	0	177	6e-43	Histone H3, putative OS=Theileria annulata
+tr|Q4UCS5|Q4UCS5_THEAN	136	91	97	135	0	175	2e-42	Histone H3, putative OS=Theileria annulata
+tr|Q53NE3|Q53NE3_ORYSJ	168	96	98	132	0	183	8e-45	Histone H3-maize OS=Oryza sativa subsp.
+tr|Q58PB3|Q58PB3_9VEST	125	99	99	123	0	166	1e-39	Histone H3 (Fragment) OS=Montfortula rugosa
+tr|Q58PB5|Q58PB5_9VEST	125	99	99	123	0	166	1e-39	Histone H3 (Fragment) OS=Fissurella
+tr|Q5BQN9|Q5BQN9_VENPH	136	96	98	135	0	181	4e-44	Replacement histone H3.3 OS=Venerupis
+tr|Q5BQP0|Q5BQP0_VENPH	136	95	97	135	0	179	1e-43	Replacement histone H3.3 OS=Venerupis
+tr|Q5BQP1|Q5BQP1_VENPH	136	95	97	135	0	178	2e-43	Replacement histone H3.3 OS=Venerupis
+tr|Q5CKZ1|Q5CKZ1_CRYHO	135	92	95	134	0	172	1e-41	Putative uncharacterized protein
+tr|Q5CP86|Q5CP86_CRYHO	135	93	96	134	0	174	4e-42	H3 histone, family 2; histone 2, H3ca1
+tr|Q5CQU9|Q5CQU9_CRYPI	148	93	96	134	0	179	1e-43	Histone H3 (Fragment) OS=Cryptosporidium
+tr|Q5CUJ9|Q5CUJ9_CRYPI	135	92	95	134	0	172	1e-41	Histone H3 OS=Cryptosporidium parvum (strain
+tr|Q5DHF8|Q5DHF8_SCHJA	136	97	98	135	0	181	4e-44	SJCHGC01198 protein OS=Schistosoma japonicum
+tr|Q5DWG7|Q5DWG7_CONCI	136	96	98	134	0	180	6e-44	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWG9|Q5DWG9_CONCI	136	88	95	134	0	177	8e-43	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWH1|Q5DWH1_CONCI	136	88	95	134	0	175	2e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWH2|Q5DWH2_CONCI	136	88	96	134	0	174	5e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWH4|Q5DWH4_CONCI	136	90	97	134	0	176	1e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWH5|Q5DWH5_CONCI	136	89	97	134	0	173	7e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWH6|Q5DWH6_CONCI	137	88	95	134	1	168	2e-40	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWH8|Q5DWH8_CONCI	136	94	94	134	0	178	3e-43	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWI4|Q5DWI4_MARPO	136	88	96	134	0	173	7e-42	Histone 3 OS=Marchantia polymorpha GN=H3
+tr|Q5DWI5|Q5DWI5_MARPO	136	89	96	134	0	175	2e-42	Histone 3 OS=Marchantia polymorpha GN=H3
+tr|Q5DWI6|Q5DWI6_MARPO	136	89	96	134	0	173	1e-41	Histone 3 OS=Marchantia polymorpha GN=H3
+tr|Q5DWI7|Q5DWI7_MARPO	137	88	94	134	1	168	3e-40	Histone 3 OS=Marchantia polymorpha GN=H3
+tr|Q5DWI9|Q5DWI9_CONCI	136	91	95	134	0	169	1e-40	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWJ0|Q5DWJ0_CONCI	136	90	94	134	0	167	9e-40	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWJ1|Q5DWJ1_CONCI	136	90	97	134	0	175	3e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWJ2|Q5DWJ2_CONCI	136	88	96	133	0	171	4e-41	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWJ3|Q5DWJ3_CONCI	136	89	96	134	0	172	1e-41	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWJ5|Q5DWJ5_CONCI	136	91	95	134	0	169	1e-40	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWJ6|Q5DWJ6_CONCI	136	93	97	134	0	170	1e-40	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWJ8|Q5DWJ8_CONCI	136	88	95	134	0	175	2e-42	Histone 3 (Fragment) OS=Conocephalum conicum
+tr|Q5DWK1|Q5DWK1_CONSU	136	89	96	134	0	172	1e-41	Histone 3 OS=Conocephalum supradecompositum
+tr|Q5DWK3|Q5DWK3_CONSU	136	89	96	134	0	175	2e-42	Histone 3 OS=Conocephalum supradecompositum
+tr|Q5DWK4|Q5DWK4_CONSU	136	89	96	134	0	174	5e-42	Histone 3 OS=Conocephalum supradecompositum
+tr|Q5DWK6|Q5DWK6_CONSU	136	89	96	134	0	175	3e-42	Histone 3 OS=Conocephalum supradecompositum
+tr|Q5DWK7|Q5DWK7_CONSU	136	90	97	134	0	173	1e-41	Histone 3 OS=Conocephalum supradecompositum
+tr|Q5DWK9|Q5DWK9_CONSU	136	88	96	134	0	169	1e-40	Histone 3 OS=Conocephalum supradecompositum
+tr|Q5DWL0|Q5DWL0_CONSU	136	90	97	134	0	175	3e-42	Histone 3 OS=Conocephalum supradecompositum
+tr|Q5DWL1|Q5DWL1_CONCI	136	89	97	134	0	172	2e-41	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWL2|Q5DWL2_CONCI	136	89	96	134	0	173	7e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWL3|Q5DWL3_CONCI	136	88	94	134	0	171	4e-41	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWL5|Q5DWL5_CONCI	136	89	96	134	0	175	2e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWL6|Q5DWL6_CONCI	136	90	96	134	0	175	3e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWL7|Q5DWL7_CONCI	136	90	96	134	0	175	3e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWL9|Q5DWL9_CONCI	136	98	99	134	0	182	3e-44	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWM0|Q5DWM0_CONCI	136	89	96	134	0	172	3e-41	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5DWM1|Q5DWM1_CONCI	136	89	96	134	0	173	6e-42	Histone 3 OS=Conocephalum conicum GN=H3 gene
+tr|Q5S265|Q5S265_CAMSI	136	94	98	135	0	178	2e-43	Histone 3 OS=Camellia sinensis PE=2 SV=1
+tr|Q5TEC6|Q5TEC6_HUMAN	136	96	97	135	0	178	4e-43	Histone cluster 2, H3, pseudogene 2 OS=Homo
+tr|Q5TPH4|Q5TPH4_ANOGA	136	99	99	135	0	181	4e-44	AGAP003910-PA OS=Anopheles gambiae
+tr|Q64528|Q64528_MUSPA	136	97	97	135	0	180	5e-44	Histone H3.2 protein OS=Mus pahari GN=H3.2
+tr|Q66VG2|Q66VG2_GECJA	136	96	98	135	0	181	4e-44	GekBS038P OS=Gecko japonicus PE=2 SV=1
+tr|Q6KCE3|Q6KCE3_OIKDI	136	96	98	135	0	181	4e-44	Histone H3.3 OS=Oikopleura dioica GN=histone
+tr|Q6LB28|Q6LB28_SOLLC	136	95	97	135	0	180	6e-44	Histone H3 OS=Solanum lycopersicum PE=2 SV=1
+tr|Q6QN07|Q6QN07_CHILA	136	95	98	135	0	178	2e-43	Histone H3.3B OS=Chinchilla lanigera PE=2
+tr|Q6V8T5|Q6V8T5_MALDO	135	93	95	134	0	172	3e-41	Histone 3 (Fragment) OS=Malus domestica PE=2
+tr|Q6WV78|Q6WV78_MYTTR	136	99	99	135	0	181	4e-44	Histone H3 OS=Mytilus trossulus GN=H3 PE=3
+tr|Q6WV79|Q6WV79_MYTCH	136	98	98	135	0	182	3e-44	Histone H3 OS=Mytilus chilensis GN=H3 PE=3
+tr|Q6WV80|Q6WV80_MYTCA	136	98	98	135	0	176	1e-42	Histone H3 OS=Mytilus californianus GN=H3
+tr|Q6WV87|Q6WV87_MYTGA	136	99	99	135	0	181	4e-44	Histone H3 OS=Mytilus galloprovincialis
+tr|Q6XIQ5|Q6XIQ5_DROYA	136	96	98	135	0	181	4e-44	GE17412 (Fragment) OS=Drosophila yakuba
+tr|Q6YNI3|Q6YNI3_APLCA	136	99	99	135	0	181	4e-44	Histone H3 OS=Aplysia californica GN=His.H3
+tr|Q71CZ4|Q71CZ4_OROCE	136	96	98	135	0	180	1e-43	Histone H3 OS=Orobanche cernua var. cumana
+tr|Q71LX5|Q71LX5_EUPOC	136	85	94	135	0	167	5e-40	Histone H3v OS=Euplotes octocarinatus PE=3
+tr|Q76MP7|Q76MP7_DROAE	136	99	99	135	0	181	4e-44	Histone 3 OS=Drosophila americana GN=His3
+tr|Q76MP8|Q76MP8_DROLT	136	99	99	135	0	181	4e-44	Histone 3 OS=Drosophila lutescens GN=His3
+tr|Q76MP9|Q76MP9_DROIM	136	99	99	135	0	181	4e-44	Histone 3 OS=Drosophila immigrans GN=His3
+tr|Q76MQ0|Q76MQ0_DROFC	136	99	99	135	0	181	4e-44	Histone 3 OS=Drosophila ficusphila GN=His3
+tr|Q76MQ1|Q76MQ1_DROTK	136	99	99	135	0	181	4e-44	Histone 3 OS=Drosophila takahashii GN=His3
+tr|Q76MQ2|Q76MQ2_DROPE	136	98	98	135	0	178	3e-43	Histone 3 OS=Drosophila persimilis GN=His3
+tr|Q76MQ3|Q76MQ3_DROPS	136	98	98	135	0	181	3e-44	Histone 3 OS=Drosophila pseudoobscura
+tr|Q76MZ6|Q76MZ6_DROOR	136	99	99	135	0	181	4e-44	Histone H3 OS=Drosophila orena GN=His3 PE=3
+tr|Q76MZ7|Q76MZ7_DROYA	136	99	99	135	0	181	4e-44	Histone H3 OS=Drosophila yakuba GN=His3 PE=3
+tr|Q76MZ8|Q76MZ8_DROTE	136	99	99	135	0	181	4e-44	Histone H3 OS=Drosophila teissieri GN=His3
+tr|Q76MZ9|Q76MZ9_DROMA	136	99	99	135	0	181	4e-44	Histone H3 OS=Drosophila mauritiana GN=His3
+tr|Q76N00|Q76N00_DROSE	136	99	99	135	0	181	4e-44	GM10805 OS=Drosophila sechellia GN=GM26727
+tr|Q76N01|Q76N01_DROSI	136	99	99	135	0	181	4e-44	GD11987 OS=Drosophila simulans GN=GD21986
+tr|Q7DMP7|Q7DMP7_MEDSA	124	95	97	124	0	166	1e-39	Histone H3.2 (Fragment) OS=Medicago sativa
+tr|Q7JNA0|Q7JNA0_CHAVR	136	99	99	135	0	181	4e-44	Histone H3 OS=Chaetopterus variopedatus PE=3
+tr|Q7K8B9|Q7K8B9_MYTED	136	99	99	135	0	181	4e-44	Histone H3 OS=Mytilus edulis GN=h3 PE=3 SV=1
+tr|Q7KFE7|Q7KFE7_RHYAM	136	99	99	135	0	181	4e-44	Histone H3 OS=Rhynchosciara americana
+tr|Q7PCS9|Q7PCS9_ANOGA	136	97	98	135	0	179	1e-43	AGAP012196-PA OS=Anopheles gambiae
+tr|Q7PD39|Q7PD39_ANOGA	136	99	99	135	0	181	4e-44	AGAP012559-PA OS=Anopheles gambiae str. PEST
+tr|Q7PUQ8|Q7PUQ8_ANOGA	136	96	98	135	0	181	4e-44	AGAP001813-PA OS=Anopheles gambiae GN=HIS3A
+tr|Q7QLH6|Q7QLH6_ANOGA	135	99	99	135	0	182	3e-44	AGAP012709-PA (Fragment) OS=Anopheles
+tr|Q7REJ1|Q7REJ1_PLAYO	136	88	97	135	0	177	5e-43	Histone H3 OS=Plasmodium yoelii yoelii
+tr|Q7RS69|Q7RS69_PLAYO	136	91	97	135	0	175	3e-42	Histone 3 OS=Plasmodium yoelii yoelii
+tr|Q7XY79|Q7XY79_GRIJA	137	92	97	135	1	173	6e-42	Histone H3.3 protein OS=Griffithsia japonica
+tr|Q7XY86|Q7XY86_GRIJA	136	92	99	134	0	175	2e-42	Putative histone H3 protein OS=Griffithsia
+tr|Q86QI2|Q86QI2_TOXGO	136	93	98	135	0	181	3e-44	Histone H3 OS=Toxoplasma gondii
+tr|Q86QI3|Q86QI3_PLAFA	136	91	97	135	0	175	3e-42	Histone H3 OS=Plasmodium falciparum PE=3
+tr|Q86R03|Q86R03_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Lopaphus sphalerus
+tr|Q86R04|Q86R04_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Sipyloidea sipylus
+tr|Q86R05|Q86R05_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Bacillus rossius
+tr|Q86R07|Q86R07_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Lamponius guerini
+tr|Q86R13|Q86R13_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Baculum thaii PE=3
+tr|Q86R14|Q86R14_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Lopaphus perakensis
+tr|Q86R17|Q86R17_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Neohirasea maerens
+tr|Q86R19|Q86R19_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Sceptrophasma
+tr|Q86R22|Q86R22_TIMKN	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Timema knulli PE=3
+tr|Q86R23|Q86R23_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Phyllium bioculatum
+tr|Q86R24|Q86R24_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Paraphasma rufipes
+tr|Q86R25|Q86R25_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Anisomorpha
+tr|Q86R27|Q86R27_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Heteropteryx
+tr|Q86R30|Q86R30_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Eurycantha insularis
+tr|Q86R33|Q86R33_DIAFE	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Diapheromera
+tr|Q86R34|Q86R34_PLUDI	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Plumiperla diversa
+tr|Q86R35|Q86R35_ISODA	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Isoperla davisi PE=3
+tr|Q86R36|Q86R36_PTECM	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Pterophylla
+tr|Q86R37|Q86R37_9ORTH	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Melanoplus sp. OR18
+tr|Q86R38|Q86R38_STEFS	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Stenopelmatus fuscus
+tr|Q86R39|Q86R39_9ODON	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Argia vivida PE=3
+tr|Q86R40|Q86R40_9ODON	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Ophiogomphus severus
+tr|Q86R41|Q86R41_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Tenodera aridifolia
+tr|Q86R42|Q86R42_9NEOP	124	96	96	124	0	169	1e-40	Histone 3 (Fragment) OS=Nasutitermes sp.
+tr|Q86R44|Q86R44_9INSE	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Cinygmula sp. EP013
+tr|Q86R45|Q86R45_9INSE	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Hexagenia sp. EP03
+tr|Q86R46|Q86R46_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Teratembia n. sp.
+tr|Q86R47|Q86R47_OLINI	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Oligotoma nigra PE=3
+tr|Q86R48|Q86R48_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Chelisoches morio
+tr|Q86R49|Q86R49_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Echinosoma sp. DM11
+tr|Q86R50|Q86R50_9NEOP	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Doru spiculiferum
+tr|Q86R51|Q86R51_SUPLO	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Supella longipalpa
+tr|Q86R52|Q86R52_GROPO	124	99	99	124	0	167	9e-40	Histone 3 (Fragment) OS=Gromphadorina
+tr|Q8I0Y1|Q8I0Y1_OIKDI	136	92	97	133	0	170	6e-41	Histone h3.2 OS=Oikopleura dioica GN=H3.2
+tr|Q8I0Y5|Q8I0Y5_OIKDI	136	98	99	135	0	178	2e-43	Histone h3.1 OS=Oikopleura dioica GN=H3.1
+tr|Q8MQI0|Q8MQI0_TOXGO	136	90	97	135	0	179	1e-43	Histone H3.3 variant OS=Toxoplasma gondii
+tr|Q8T7J7|Q8T7J7_EIMTE	136	93	97	135	0	181	3e-44	Histone 3 OS=Eimeria tenella GN=H3 PE=2 SV=1
+tr|Q92068|Q92068_CHICK	136	95	97	135	0	180	1e-43	Histone gene encoding replacement variant
+tr|Q92132|Q92132_XENLA	136	95	95	135	0	172	2e-41	Histone H3 OS=Xenopus laevis GN=H3r PE=3
+tr|Q92133|Q92133_XENLA	136	98	98	135	0	180	7e-44	Histone H3 OS=Xenopus laevis GN=hist1h3g
+tr|Q967I1|Q967I1_TRISP	136	94	98	135	0	180	1e-43	Histone H3 OS=Trichinella spiralis PE=2 SV=1
+tr|Q9FUI9|Q9FUI9_RUBID	132	94	97	131	0	172	1e-41	Histone H3 (Fragment) OS=Rubus idaeus PE=3
+tr|Q9N2N8|Q9N2N8_STYPL	136	97	97	135	0	175	2e-42	H3 histone OS=Styela plicata PE=3 SV=1
+tr|Q9NL99|Q9NL99_DROER	136	98	98	135	0	179	1e-43	Histone H3 OS=Drosophila erecta GN=His3 PE=3

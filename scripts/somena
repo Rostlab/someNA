@@ -179,3 +179,7 @@ SomeNA - protein DNA/RNA binding predictor
 
 SomeNA -i input -o output [-m model dir]
 
+=head1 EXAMPLE
+
+somena -i /usr/share/doc/somena/examples/ -o /home/outfile
+

@@ -1,0 +1,4 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Histone              PF00125.19    75 query                -            135   1.1e-32  111.8   0.8   1   1   1.2e-36   1.7e-32  111.2   0.5     1    75    57   131    57   131 0.99 Core histone H2A/H2B/H3/H4

@@ -1,0 +1,4 @@
+== Summary of subcellular localization prediction using LOCtree ==
+Protein Identifier	Predicted Localization	Reliability Index	Intermediate localization prediction	Reliability index of intermediate localization predictions
+query	Cytoplasmic	5	Cytoplasmic	5
+

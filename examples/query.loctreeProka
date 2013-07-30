@@ -1,0 +1,4 @@
+#out gen by /usr/share/loctree/perl/svm_testHeirarchyTr_proka.pl
+#Localization predicted using heirarchical system
+#Protein Id	predicted Localization	SVM prediction Score	Hierarchical Localization	Hierarchical prediction score
+query	Cytoplasmic	5	Cytoplasmic	5

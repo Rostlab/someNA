@@ -1,0 +1,4 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Histone              PF00125.19 query                -            1.1e-32  111.8   0.8   1.7e-32  111.2   0.5   1.3   1   0   0   1   1   1   1 Core histone H2A/H2B/H3/H4
