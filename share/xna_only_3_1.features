@@ -1,0 +1,29 @@
+option list /mnt/project/disis2/data/fasta_multi/xna_only/xna_only_3.fasta
+option set /var/tmp/disis2//all.set
+option format fann
+option out /var/tmp/disis2//mnt/project/disis2/runs/xna/3/269///test.set
+output bind bind_2state 1
+input fasta aa_composition 1
+input fasta length_4state 1
+input fasta distanceN 1
+input fasta distanceC 1
+input blastPsiMat normalized 13
+input fasta in_sequence_bit 13
+input profbval OtFR 13
+input isis bind_2state 13
+input reprof pHEL 13
+input fasta hydrophobicity 13
+input fasta hbreaker 13
+input fasta charge 13
+input fasta mass 13
+input fasta volume 13
+input fasta cbeta 13
+input profbval RI 13
+input coils prob_14 13
+input isis raw 13
+input reprof Pbie 13
+input reprof RI_A 13
+input blastPsiMat info 13
+input blastPsiMat weight 13
+input reprof RI_S 13
+input fasta polarity 13

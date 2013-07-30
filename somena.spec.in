@@ -1,0 +1,66 @@
+Summary: protein secondary structure and accessibility predictor
+Name: somena 
+Version: @VERSION@
+Release: 1
+License: GPL
+Group: Applications/Science
+Source: ftp://rostlab.org/%{name}/%{name}-%{version}.tar.gz
+URL: http://rostlab.org/
+BuildArch: noarch
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
+BuildRequires: autoconf, automake, make, perl
+Requires: librg-reprof-bundle-perl, perl, pp-popularity-contest
+
+%define common_desc 'reprof' is an improved implementation of 'prof', a popular protein secondary \
+ structure and accessibility predictor.  Prediction is either \
+ done from protein sequence alone or from an alignment - the latter should be \
+ used for optimal performance.
+
+%description
+ %{common_desc}
+ .
+ This package provides the 'reprof' command.  It is only a command line
+ interface to the functionality provided by the modules in
+ librg-reprof-bundle-perl.
+
+%package -n librg-reprof-bundle-perl
+Summary: protein secondary structure and accessibility predictor perl module
+Group: Applications/Science
+Requires: perl-AI-FANN
+
+%description -n librg-reprof-bundle-perl
+ %{common_desc}
+ .
+ This package provides the perl modules implementing 'reprof' along with the
+ necessary data files.
+
+%prep
+%setup -q
+
+%build
+%configure PERLLIBDIR=%{perl_vendorlib}
+make
+
+%install
+rm -rf $RPM_BUILD_ROOT
+make DESTDIR=${RPM_BUILD_ROOT} install
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(-,root,root)
+%doc AUTHORS
+%doc README
+%doc COPYING
+%{_bindir}/*
+%{_mandir}/*/*
+%{_docdir}/%{name}/examples/*
+
+%files -n librg-reprof-bundle-perl
+%{_datadir}/%{name}/*
+%{perl_vendorlib}/RG/Reprof/*
+
+%changelog
+* Tue Jan 10 2012 Laszlo Kajan <lkajan@rostlab.org> - 1.0.1-1
+- First rpm package

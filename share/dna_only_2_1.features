@@ -1,0 +1,29 @@
+option list /mnt/project/disis2/data/fasta_multi/dna_only/dna_only_2.fasta
+option set /var/tmp/disis2//all.set
+option format fann
+option out /var/tmp/disis2//mnt/project/disis2/runs/dna/3/167///test.set
+output bind bind_2state 1
+input fasta aa_composition 1
+input fasta length_4state 1
+input fasta distanceN 1
+input fasta distanceC 1
+input blastPsiMat normalized 15
+input fasta in_sequence_bit 15
+input profbval OtFR 15
+input isis bind_2state 15
+input reprof pHEL 15
+input fasta hydrophobicity 15
+input fasta hbreaker 15
+input fasta charge 15
+input fasta mass 15
+input fasta volume 15
+input fasta cbeta 15
+input profbval RI 15
+input coils prob_14 15
+input isis raw 15
+input reprof Pbie 15
+input reprof RI_A 15
+input blastPsiMat info 15
+input blastPsiMat weight 15
+input reprof RI_S 15
+input fasta polarity 15

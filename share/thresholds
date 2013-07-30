@@ -1,0 +1,53 @@
+dna_only_1 0.052085453
+dna_only_2 -0.325155958
+dna_only_3 0.113316575
+dna_only_4 -0.355244176
+dna_only_5 0.074080115
+
+rna_only_1 -0.290883106
+rna_only_2 -0.046776164
+rna_only_3 -0.397164278
+rna_only_4 -0.351492619
+rna_only_5 0.420065948
+
+xna_only_1 0.038579601
+xna_only_2 -0.026215694
+xna_only_3 -0.000869778
+xna_only_4 -0.348305707
+xna_only_5 -0.378419914
+
+dna_all_1 -0.71114034
+dna_all_2 -0.698867859
+dna_all_3 -0.62576933
+dna_all_4 0.040068382
+dna_all_5 0.025282442
+
+rna_all_1 -0.529218131
+rna_all_2 -0.741600868
+rna_all_3 0.057970744
+rna_all_4 0.055608836
+rna_all_5 0.132818849
+
+xna_all_1 0.094198948
+xna_all_2 -0.013005806
+xna_all_3 -0.560980383
+xna_all_4 0.125556037
+xna_all_5 0.075005497
+
+dna_prot_1 55
+dna_prot_2 45
+dna_prot_3 40
+dna_prot_4 47
+dna_prot_5 39
+
+rna_prot_1 57
+rna_prot_2 40
+rna_prot_3 35
+rna_prot_4 50
+rna_prot_5 40
+
+xna_prot_1 50
+xna_prot_2 39
+xna_prot_3 40
+xna_prot_4 45
+xna_prot_5 35

@@ -1,0 +1,16 @@
+---
+abstract: 'protein DNA/RNA binding predictor'
+author:
+  - 'Peter Hoenigschmid <hoenigschmid@rostlab.org>'
+  - 'Burkhard Rost'
+build_requires: {}
+dynamic_config: 0
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112621'
+license: open_source
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: somena
+resources:
+  license: http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt
+version: v1.0.1
