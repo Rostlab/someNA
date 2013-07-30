@@ -1,0 +1,16 @@
+Source: somena
+Section: science
+Priority: extra
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Michael Kiening <kiening@rostlab.org>, Laszlo Kajan <lkajan@rostlab.org>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.3
+DM-Upload-Allowed: yes
+Homepage: http://rostlab.org/
+
+Package: somena
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, libai-fann-perl
+Description: protein DNA/RNA binding predictor
+	'somena' is an implementation of a DNA/RNA binding prediction for protein sequences
+	.

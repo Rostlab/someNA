@@ -1,0 +1,14 @@
+
+--This line, and those below, will be ignored--
+
+M    Makefile.am
+M    Makefile
+M    Makefile.in
+D    scripts/reprof
+M    scripts/somena.1
+M    scripts/somena
+D    scripts/reprof.1
+M    MYMETA.yml
+M    Build
+M    autom4te.cache/requests
+M    MYMETA.json
