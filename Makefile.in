@@ -702,7 +702,7 @@ clean-local:
 	if [ -e Build ]; then perl Build clean && rm -f Build build-stamp; fi
 
 distclean-local:
-	rm -rf _build MYMETA.yml 
+	rm -rf _build MYMETA.yml config.log config.status
 
 build-stamp: Build.PL
 	perl Build.PL installdirs=vendor && perl Build && touch build-stamp
