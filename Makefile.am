@@ -24,4 +24,5 @@ install-data-local:
 	perl Build install destdir=$(DESTDIR) $(INSTALL_BASE_ARG) create_packlist=0
 
 dist-hook:
-	rm -rf `find '$(distdir)' -name .svn`
+	rm -rf `find $(distdir) -name .svn`
+	rm -rf `find $(distdir) -name *svn*`

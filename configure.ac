@@ -1,4 +1,4 @@
-AC_INIT([somena], [1.0.1], [hoenigschmid@rostlab.org])
+AC_INIT([somena], [1.0.1-1], [hoenigschmid@rostlab.org])
 AM_INIT_AUTOMAKE([-Wall])
 AC_CONFIG_FILES([
                  Makefile

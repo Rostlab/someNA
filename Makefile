@@ -136,12 +136,12 @@ AUTOHEADER = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/missing --
 AUTOMAKE = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/missing --run automake-1.11
 AWK = gawk
 CYGPATH_W = echo
-DEFS = -DPACKAGE_NAME=\"somena\" -DPACKAGE_TARNAME=\"somena\" -DPACKAGE_VERSION=\"1.0.1\" -DPACKAGE_STRING=\"somena\ 1.0.1\" -DPACKAGE_BUGREPORT=\"hoenigschmid@rostlab.org\" -DPACKAGE_URL=\"\" -DPACKAGE=\"somena\" -DVERSION=\"1.0.1\"
+DEFS = -DPACKAGE_NAME=\"somena\" -DPACKAGE_TARNAME=\"somena\" -DPACKAGE_VERSION=\"1.0.1-1\" -DPACKAGE_STRING=\"somena\ 1.0.1-1\" -DPACKAGE_BUGREPORT=\"hoenigschmid@rostlab.org\" -DPACKAGE_URL=\"\" -DPACKAGE=\"somena\" -DVERSION=\"1.0.1-1\"
 ECHO_C = 
 ECHO_N = -n
 ECHO_T = 
 INSTALL = /usr/bin/install -c
-INSTALL_BASE_ARG = install_base=NONE
+INSTALL_BASE_ARG = 
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
@@ -154,15 +154,15 @@ MKDIR_P = /bin/mkdir -p
 PACKAGE = somena
 PACKAGE_BUGREPORT = hoenigschmid@rostlab.org
 PACKAGE_NAME = somena
-PACKAGE_STRING = somena 1.0.1
+PACKAGE_STRING = somena 1.0.1-1
 PACKAGE_TARNAME = somena
 PACKAGE_URL = 
-PACKAGE_VERSION = 1.0.1
+PACKAGE_VERSION = 1.0.1-1
 PATH_SEPARATOR = :
 SET_MAKE = 
 SHELL = /bin/sh
 STRIP = 
-VERSION = 1.0.1
+VERSION = 1.0.1-1
 abs_builddir = /mnt/project/disis2/somena-package/somena-1.0.1
 abs_srcdir = /mnt/project/disis2/somena-package/somena-1.0.1
 abs_top_builddir = /mnt/project/disis2/somena-package/somena-1.0.1
@@ -171,7 +171,7 @@ am__leading_dot = .
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
 bindir = ${exec_prefix}/bin
-build_alias = 
+build_alias = x86_64-linux-gnu
 builddir = .
 datadir = ${datarootdir}
 datarootdir = ${prefix}/share
@@ -181,23 +181,23 @@ exec_prefix = ${prefix}
 host_alias = 
 htmldir = ${docdir}
 includedir = ${prefix}/include
-infodir = ${datarootdir}/info
+infodir = ${prefix}/share/info
 install_sh = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/install-sh
 libdir = ${exec_prefix}/lib
-libexecdir = ${exec_prefix}/libexec
+libexecdir = ${prefix}/lib/somena
 localedir = ${datarootdir}/locale
-localstatedir = ${prefix}/var
-mandir = ${datarootdir}/man
+localstatedir = /var
+mandir = ${prefix}/share/man
 mkdir_p = /bin/mkdir -p
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /usr/local
+prefix = /usr
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
 srcdir = .
-sysconfdir = ${prefix}/etc
+sysconfdir = /etc
 target_alias = 
 top_build_prefix = 
 top_builddir = .
@@ -717,7 +717,8 @@ install-data-local:
 	perl Build install destdir=$(DESTDIR) $(INSTALL_BASE_ARG) create_packlist=0
 
 dist-hook:
-	rm -rf `find '$(distdir)' -name .svn`
+	rm -rf `find $(distdir) -name .svn`
+	rm -rf `find $(distdir) -name *svn*`
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
