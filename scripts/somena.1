@@ -130,10 +130,29 @@
 .if n .ad l
 .nh
 .SH "NAME"
-SomeNA \- protein DNA/RNA binding predictor
+SomeNA \- prediction of DNA\- and RNA\-Binding proteins
 .SH "SYNOPSIS"
 .IX Header "SYNOPSIS"
-SomeNA \-i input \-o output [\-m model dir]
+SomeNA \-i \s-1INPUT_DIR\s0 \-o \s-1OUT_FILE\s0 [\-m model dir]
+.SH "MANDATORY"
+.IX Header "MANDATORY"
+.IP "\fB\-i\fR \s-1INPUT_DIR\s0" 4
+.IX Item "-i INPUT_DIR"
+Directory containing the PredictProtein output files with the suffixes .fasta .blastPsiMat .profbval .isis .reprof and .coils
+.IP "\fB\-o\fR \s-1OUT_FILE\s0" 4
+.IX Item "-o OUT_FILE"
+Output file. If not specified, the output is written to \s-1STDOUT\s0. The output format is self-explanatory.
+.SH "OPTIONAL"
+.IX Header "OPTIONAL"
+.IP "\fB\-m\fR model dir" 4
+.IX Item "-m model dir"
+Directory containing the training model files. (Only change to use different training files)
+.SH "AUTHOR"
+.IX Header "AUTHOR"
+Peter Hoenigschmid hoenigschmid@rostlab.org, Michael Kiening kiening@rostlab.org, Burkhard Rost
 .SH "EXAMPLE"
 .IX Header "EXAMPLE"
 somena \-i /usr/share/doc/somena/examples/ \-o /home/outfile
+.SH "COPYRIGHT"
+.IX Header "COPYRIGHT"
+This program is free software: you can redistribute it and/or modify it under the terms of the \s-1GNU\s0 General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
