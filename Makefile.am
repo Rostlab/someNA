@@ -26,3 +26,4 @@ install-data-local:
 dist-hook:
 	rm -rf `find $(distdir) -name .svn`
 	rm -rf `find $(distdir) -name *svn*`
+	rm -rf config.log config.status

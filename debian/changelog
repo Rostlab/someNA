@@ -1,5 +1,5 @@
-somena (1.0.1-1) unstable; urgency=low
+somena (1.0.1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
- -- Michael Kiening <kiening@rostlab.informatik.tu-muenchen.de>  Tue, 30 Jul 2013 14:48:05 +0200
+ -- Michael Kiening <kiening@rostlab.org>  Tue, 30 Jul 2013 14:48:05 +0200

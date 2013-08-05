@@ -15,6 +15,7 @@
 
 
 
+#dist_noinst_DATA = SomeNA.pm.mk 
 
 am__make_dryrun = \
   { \
@@ -50,8 +51,7 @@ NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
 subdir = lib/RG
-DIST_COMMON = $(dist_noinst_DATA) $(srcdir)/Makefile.am \
-	$(srcdir)/Makefile.in
+DIST_COMMON = $(srcdir)/Makefile.am $(srcdir)/Makefile.in
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
 am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
@@ -73,7 +73,6 @@ am__can_run_installinfo = \
     n|no|NO) false;; \
     *) (install-info --version) >/dev/null 2>&1;; \
   esac
-DATA = $(dist_noinst_DATA)
 RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\
   distclean-recursive maintainer-clean-recursive
 AM_RECURSIVE_TARGETS = $(RECURSIVE_TARGETS:-recursive=) \
@@ -108,11 +107,11 @@ am__relativize = \
     dir1=`echo "$$dir1" | sed -e "$$sed_rest"`; \
   done; \
   reldir="$$dir2"
-ACLOCAL = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/missing --run aclocal-1.11
+ACLOCAL = ${SHELL} /var/tmp/disis2/SomeNA/missing --run aclocal-1.11
 AMTAR = $${TAR-tar}
-AUTOCONF = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/missing --run autoconf
-AUTOHEADER = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/missing --run autoheader
-AUTOMAKE = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/missing --run automake-1.11
+AUTOCONF = ${SHELL} /var/tmp/disis2/SomeNA/missing --run autoconf
+AUTOHEADER = ${SHELL} /var/tmp/disis2/SomeNA/missing --run autoheader
+AUTOMAKE = ${SHELL} /var/tmp/disis2/SomeNA/missing --run automake-1.11
 AWK = gawk
 CYGPATH_W = echo
 DEFS = -DPACKAGE_NAME=\"somena\" -DPACKAGE_TARNAME=\"somena\" -DPACKAGE_VERSION=\"1.0.1-1\" -DPACKAGE_STRING=\"somena\ 1.0.1-1\" -DPACKAGE_BUGREPORT=\"hoenigschmid@rostlab.org\" -DPACKAGE_URL=\"\" -DPACKAGE=\"somena\" -DVERSION=\"1.0.1-1\"
@@ -128,7 +127,7 @@ INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/missing --run makeinfo
+MAKEINFO = ${SHELL} /var/tmp/disis2/SomeNA/missing --run makeinfo
 MKDIR_P = /bin/mkdir -p
 PACKAGE = somena
 PACKAGE_BUGREPORT = hoenigschmid@rostlab.org
@@ -142,10 +141,10 @@ SET_MAKE =
 SHELL = /bin/sh
 STRIP = 
 VERSION = 1.0.1-1
-abs_builddir = /mnt/project/disis2/somena-package/somena-1.0.1/lib/RG
-abs_srcdir = /mnt/project/disis2/somena-package/somena-1.0.1/lib/RG
-abs_top_builddir = /mnt/project/disis2/somena-package/somena-1.0.1
-abs_top_srcdir = /mnt/project/disis2/somena-package/somena-1.0.1
+abs_builddir = /var/tmp/disis2/SomeNA/lib/RG
+abs_srcdir = /var/tmp/disis2/SomeNA/lib/RG
+abs_top_builddir = /var/tmp/disis2/SomeNA
+abs_top_srcdir = /var/tmp/disis2/SomeNA
 am__leading_dot = .
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
@@ -161,7 +160,7 @@ host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${prefix}/share/info
-install_sh = ${SHELL} /mnt/project/disis2/somena-package/somena-1.0.1/install-sh
+install_sh = ${SHELL} /var/tmp/disis2/SomeNA/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${prefix}/lib/somena
 localedir = ${datarootdir}/locale
@@ -181,7 +180,6 @@ target_alias =
 top_build_prefix = ../../
 top_builddir = ../..
 top_srcdir = ../..
-dist_noinst_DATA = SomeNA.pm.mk 
 SUBDIRS = SomeNA 
 all: all-recursive
 
@@ -409,7 +407,7 @@ distdir: $(DISTFILES)
 	done
 check-am: all-am
 check: check-recursive
-all-am: Makefile $(DATA) all-local
+all-am: Makefile
 installdirs: installdirs-recursive
 installdirs-am:
 install: install-recursive
@@ -444,7 +442,7 @@ maintainer-clean-generic:
 	@echo "it deletes files that may require special tools to rebuild."
 clean: clean-recursive
 
-clean-am: clean-generic clean-local mostlyclean-am
+clean-am: clean-generic mostlyclean-am
 
 distclean: distclean-recursive
 	-rm -f Makefile
@@ -512,10 +510,10 @@ uninstall-am:
 	install-am install-strip tags-recursive
 
 .PHONY: $(RECURSIVE_CLEAN_TARGETS) $(RECURSIVE_TARGETS) CTAGS GTAGS \
-	all all-am all-local check check-am clean clean-generic \
-	clean-local ctags ctags-recursive distclean distclean-generic \
-	distclean-tags distdir dvi dvi-am html html-am info info-am \
-	install install-am install-data install-data-am install-dvi \
+	all all-am check check-am clean clean-generic ctags \
+	ctags-recursive distclean distclean-generic distclean-tags \
+	distdir dvi dvi-am html html-am info info-am install \
+	install-am install-data install-data-am install-dvi \
 	install-dvi-am install-exec install-exec-am install-html \
 	install-html-am install-info install-info-am install-man \
 	install-pdf install-pdf-am install-ps install-ps-am \
@@ -525,13 +523,13 @@ uninstall-am:
 	tags-recursive uninstall uninstall-am
 
 
-all-local: SomeNA.pm
-
-SomeNA.pm : SomeNA.pm.mk
-	sed -e 's|__bindir__|$(bindir)|g;s|__datadir__|$(datadir)|g;s|__docdir__|$(docdir)|g;s|__pkgdatadir__|$(pkgdatadir)|g;s|__PREFIX__|$(prefix)|g;s|__sysconfdir__|$(sysconfdir)|g;s|__VERSION__|$(VERSION)|g;' "$<" > "$@"
-
-clean-local:
-	rm SomeNA.pm
+#all-local: SomeNA.pm
+#
+#SomeNA.pm : SomeNA.pm.mk
+#	sed -e 's|__bindir__|$(bindir)|g;s|__datadir__|$(datadir)|g;s|__docdir__|$(docdir)|g;s|__pkgdatadir__|$(pkgdatadir)|g;s|__PREFIX__|$(prefix)|g;s|__sysconfdir__|$(sysconfdir)|g;s|__VERSION__|$(VERSION)|g;' "$<" > "$@"
+#
+#clean-local:
+#	rm SomeNA.pm
 
 # Tell versions [3.59,3.63) of GNU make to not export all variables.
 # Otherwise a system limit (for SysV at least) may be exceeded.
