@@ -208,6 +208,10 @@ Output file. If not specified, the output is written to STDOUT. The output forma
 
 Directory containing the training model files. (Only change to use different training files)
 
+=item B<-v / -version> 
+
+print currently installed SomeNA version.
+
 =back
 
 =head1 AUTHOR
@@ -216,7 +220,7 @@ Peter Hoenigschmid hoenigschmid@rostlab.org, Michael Kiening kiening@rostlab.org
 
 =head1 EXAMPLE
 
-somena -i /usr/share/doc/somena/examples/ -o /home/outfile
+somena -i /usr/share/doc/somena/examples/ -o ~/outfile
 
 =head1 COPYRIGHT
 

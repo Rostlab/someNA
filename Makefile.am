@@ -1,4 +1,4 @@
-dist_noinst_DATA = Build.PL.in
+dist_noinst_DATA = Build.PL.in pack.sh
 dist_noinst_SCRIPTS = 
 
 SUBDIRS = examples scripts lib share
