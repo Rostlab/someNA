@@ -184,7 +184,7 @@ SomeNA - prediction of DNA- and RNA-Binding proteins
 
 =head1 SYNOPSIS
 
-SomeNA -i INPUT_DIR -o OUT_FILE [-m model dir]
+SomeNA -i INPUT_DIR [-o OUT_FILE -m model dir]
 
 =head1 MANDATORY
 
@@ -194,13 +194,13 @@ SomeNA -i INPUT_DIR -o OUT_FILE [-m model dir]
 
 Directory containing the PredictProtein output files with the suffixes .fasta .blastPsiMat .profbval .isis .reprof and .coils
 
-=item B<-o> OUT_FILE
-
-Output file. If not specified, the output is written to STDOUT. The output format is self-explanatory.
-
 =back
 
 =head1 OPTIONAL
+
+=item B<-o> OUT_FILE
+
+Output file. If not specified, the output is written to STDOUT. The output format is self-explanatory.
 
 =over
 
