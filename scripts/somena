@@ -198,17 +198,17 @@ Directory containing the PredictProtein output files with the suffixes .fasta .b
 
 =head1 OPTIONAL
 
-=item B<-o> OUT_FILE
+=over 
+
+=item -o OUT_FILE
 
 Output file. If not specified, the output is written to STDOUT. The output format is self-explanatory.
 
-=over
-
-=item B<-m> model dir
+=item -m model dir
 
 Directory containing the training model files. (Only change to use different training files)
 
-=item B<-v / -version> 
+=item -v [-version]
 
 print currently installed SomeNA version.
 
