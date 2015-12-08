@@ -69,10 +69,13 @@ pull an already existing image from docker hub or build the Dockerfile contained
 
 #### Pull image
 ==================
-To run the image on docker hub https://hub.docker.com/r/rostlab/somena :
+To run the image on [docker hub](https://hub.docker.com/r/rostlab/somena) :
   1. `docker run -it -d -P --name somena -v /path/to/local/folder:/docker rost/somena bash`
       Where `/path/to/local/folder` is the folder containing the data needed to run someNA, and this
-      data will be accessible in the docker instance at `/docker`
+      data will be accessible in the docker instance at `/docker`.
+      This command will automatically pull the image and start a bash process in it.
+  2.  To later attach to the image type: `docker attach somena`
+  3.  If the docker instance is not running, type `docker start somena`
 
 ## Authors
 Peter Hoenigschmid <hoenigschmid@rostlab.org>
