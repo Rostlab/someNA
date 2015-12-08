@@ -59,7 +59,7 @@ without warranty of any kind.
      targets like `make install` and `make uninstall` work correctly.
      This target is generally not run by end users.
 
-For more advanced instructions see https://github.com/Rostlab/someNA/wiki/Advanced-Installation
+For more advanced instructions see [advanced installation](https://github.com/Rostlab/someNA/wiki/Advanced-Installation)
 
 ### Docker
 ==================
@@ -68,7 +68,6 @@ If you want to run this application without the hustle of looking at dependencie
 pull an already existing image from docker hub or build the Dockerfile contained in this repo.
 
 #### Pull image
-==================
 To run the image on [docker hub](https://hub.docker.com/r/rostlab/somena) :
   1. `docker run -it -d -P --name somena -v /path/to/local/folder:/docker rost/somena bash`
       Where `/path/to/local/folder` is the folder containing the data needed to run someNA, and this
@@ -76,6 +75,14 @@ To run the image on [docker hub](https://hub.docker.com/r/rostlab/somena) :
       This command will automatically pull the image and start a bash process in it.
   2.  To later attach to the image type: `docker attach somena`
   3.  If the docker instance is not running, type `docker start somena`
+  
+#### Pull image
+To build the docker image from scratch:
+  1.  Download this repo, `cd` into it
+  2.  `docker build somena`
+  3.  `docker images`
+  4.  `docker run -it -d -P --name somena -v /path/to/local/folder:/docker IDOFTHEIMAGE bash`
+  5.  See above.
 
 ## Authors
 Peter Hoenigschmid <hoenigschmid@rostlab.org>
