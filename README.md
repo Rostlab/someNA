@@ -12,26 +12,44 @@ without warranty of any kind.
 
 ### Basic Installation
 
+Requirements:
+
+  - [autoconf](http://www.gnu.org/software/autoconf/autoconf.html)
+  - [make](https://www.gnu.org/software/make/)
+  - [libfann2](https://launchpad.net/ubuntu/trusty/+package/libfann2)
+  - [libfann-dev](https://packages.debian.org/wheezy/libfann-dev)
+  - [devscripts](https://packages.debian.org/unstable/devscripts)
+  - [debhelper](https://packages.debian.org/sid/debhelper)
+  - [AI::FANN](http://search.cpan.org/~salva/AI-FANN/lib/AI/FANN.pm)
+
 The simplest way to compile this package is:
 
-  1. `cd` to the directory containing the package's source code and type
-     `./configure` to configure the package for your system.
+  1. Install all the required packages. For Debian-based linux distributions, you can easily `apt-get` most of them.
+      For the AI::FANN package, you can `cpan AI::FANN` to download and install it.
+
+  2. `cd` to the directory containing the package's source code.
+  
+  3. Type `aclocal`, then `autoconf`, then `automake -a` and finally `automake` to generate the configuration files 
+      specific to your system.
+
+  4. You should now have a `configure` script in the root of the git directory.
+      Type `./configure` to configure the package for your system.
 
      Running `configure` might take a while.  While running, it prints
      some messages telling which features it is checking for.
 
-  2. Type `make` to compile the package.
+  5. Type `make` to compile the package.
 
-  3. Optionally, type `make check` to run any self-tests that come with
+  6. Optionally, type `make check` to run any self-tests that come with
      the package, generally using the just-built uninstalled binaries.
 
-  4. Type `make install` to install the programs and any data files and
+  7. Type `make install` to install the programs and any data files and
      documentation.  When installing into a prefix owned by root, it is
      recommended that the package be configured and built as a regular
      user, and only the `make install` phase executed with root
-     privileges.
+     privileges, thus being `sudo make install`.
 
-  5. Optionally, type `make installcheck` to repeat any self-tests, but
+  8. Optionally, type `make installcheck` to repeat any self-tests, but
      this time using the binaries in their final installed location.
      This target does not install anything.  Running this target as a
      regular user, particularly if the prior `make install` required
