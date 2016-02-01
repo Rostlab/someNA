@@ -57,8 +57,8 @@ To build the docker image from scratch:
 If you want to test the software you can do the following:
   1. Select a sequence of your choice and use [PredictProtein](http://ppopen.informatik.tu-muenchen.de/) to generete all the files necessary to SomeNA to operate correctly.
   2. Once you submit your sequence to PredictProtein and get some result back, download all results (export on the top left, and export all data files).
-  3. Unizip the file you just downloaded and:
-        -   If you have SomeNA installed on your OS: `cd` into the directory with the unzipped files.
+  3. Unizip the file you just downloaded and:     
+        -   If you have SomeNA installed on your OS: `cd` into the directory with the unzipped files.     
         -   If you are using Docker, copy the content of your folder into the shared folder (See the second last slide of [this presentation](https://github.com/Rostlab/someNA/blob/develop/documentation/Sprint_1.pdf)).
   4. Call SomeNA using `somena -i`, or if you used docker `docker start somena && docker attach somena`, then `somena -i /shared`
 
