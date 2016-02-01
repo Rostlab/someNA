@@ -43,7 +43,7 @@ To run the image on [docker hub](https://hub.docker.com/r/rostlab/somena) :
   2.  To later attach to the image type: `docker attach somena`
   3.  If the docker instance is not running, type `docker start somena`
 
-#### Pull image
+#### Build image
 To build the docker image from scratch:
   1.  Download this repo, `cd` into it
   2.  `docker build somena`
