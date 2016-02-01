@@ -43,6 +43,10 @@ The simplest way to compile this package is:
   6. Optionally, type `make check` to run any self-tests that come with
      the package, generally using the just-built uninstalled binaries.
 
+  7. Type `make dist`, to build the package for installation. This will create a .tar.gz file in the working directory.
+
+  8. Type `debuild --lintian-opts --pedantic ` to bundle the package in a .deb file created in the home of your user.
+
   7. Type `make install` to install the programs and any data files and
      documentation.  When installing into a prefix owned by root, it is
      recommended that the package be configured and built as a regular
