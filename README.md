@@ -27,7 +27,7 @@ Installation:
 It is necessary to have all required packaged (listed above) installed. In Debian-based distributions, these are easily obtainable via `apt`, with the exception of AI::FANN which can be installed by typing `cpan AI::FANN`.    
 The easiest way of installing this software is by cloning this repository, going into the directory where this data is stored via the terminal (`cd`), launching `./pack.sh` (which will create a bundle for the installation) and then, from the same directory, type `make install` or `sudo make install` (depending on the distribution and user access).   
 
-For more advanced instructions see [advanced installation](https://github.com/Rostlab/someNA/wiki/Advanced-Installation)
+For more advanced instructions see [advanced installation](https://github.com/Rostlab/someNA/wiki/Manual-Installation)
 
 ### Docker
 
