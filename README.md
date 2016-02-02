@@ -20,7 +20,7 @@
 **Installation**:     
 
   1. It is necessary to have all required packaged (listed above) installed before proceeding with the installation.
-  In Debian-based distributions, these are easily obtainable via `apt`. To do so, type the followint in a terminal window:
+  In Debian-based distributions, these are easily obtainable via `apt`. To do so, type the following in a terminal window:
 
   ```
   apt-get update
