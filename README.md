@@ -7,7 +7,7 @@
 
 ### Basic Installation
 
-Requirements:       
+**Requirements**:       
 
   - [autoconf](http://www.gnu.org/software/autoconf/autoconf.html)
   - [make](https://www.gnu.org/software/make/)
@@ -17,12 +17,22 @@ Requirements:
   - [debhelper](https://packages.debian.org/sid/debhelper)
   - [AI::FANN](http://search.cpan.org/~salva/AI-FANN/lib/AI/FANN.pm)
 
-Installation:    
+**Installation**:     
 
-It is necessary to have all required packaged (listed above) installed. In Debian-based distributions, these are easily obtainable via `apt`, with the exception of AI::FANN which can be installed by typing `cpan AI::FANN`.    
-The easiest way of installing this software is by cloning this repository, going into the directory where this data is stored via the terminal (`cd`), launching `./pack.sh` (which will create a bundle for the installation) and then, from the same directory, type `make install` or `sudo make install` (depending on the distribution and user access).   
+  1. It is necessary to have all required packaged (listed above) installed before proceeding with the installation.
+  In Debian-based distributions, these are easily obtainable via `apt`. To do so, type the followint in a terminal window:
 
-For more advanced instructions see [advanced installation](https://github.com/Rostlab/someNA/wiki/Manual-Installation)
+  ```
+  apt-get update
+  apt-get install -y autoconf make libfann2 libfann-dev devscripts debhelper
+  ```
+
+  AI::FANN cannot be installed via `atp`, but by typing `cpan AI::FANN` in the terminal, you should be good to go.     
+
+
+  2. The easiest way of installing this software is by cloning this repository, going into the directory where this data is stored via the terminal (`cd`), launching `./pack.sh` (which will create a bundle for the installation) and then, from the same directory, type `make install` or `sudo make install` (depending on the distribution and user access).   
+
+For more advanced instructions see [manual installation](https://github.com/Rostlab/someNA/wiki/Manual-Installation)
 
 ### Docker
 
