@@ -1,12 +1,7 @@
-# SomeNA: protein DNA/RNA binding predictor
-
-Copyright (C) 1994-1996, 1999-2002, 2004-2011 Free Software Foundation,
-Inc.
-
-Copying and distribution of this file, with or without modification,
-are permitted in any medium without royalty provided the copyright
-notice and this notice are preserved.  This file is offered as-is,
-without warranty of any kind.
+# SomeNA
+**In short**: SomeNA serves for the prediction of protein DNA/RNA binding.    
+**Authors**: [Peter Hoenigschmid](mailto:hoenigschmid@rostlab.org), [Burkhard Rost](rostlab.org)     
+**Elixir**: https://bio.tools/tool/RostLab/SomeNA/1    
 
 ## Installation
 
@@ -61,11 +56,6 @@ If you want to test the software you can do the following:
         -   If you have SomeNA installed on your OS: `cd` into the directory with the unzipped files.     
         -   If you are using Docker, copy the content of your folder into the shared folder (See the second last slide of [this presentation](https://github.com/Rostlab/someNA/blob/develop/documentation/Sprint_1.pdf)).
   4. Call SomeNA using `somena -i`, or if you used docker `docker start somena && docker attach somena`, then `somena -i /shared`
-
-## Authors
-
-* [Peter Hoenigschmid](mailto:hoenigschmid@rostlab.org)
-* Burkhard Rost
 
 Copyright:
 Copyright 2011 by Peter Hoenigschmid, Technical University Munich (Munich, DE)
