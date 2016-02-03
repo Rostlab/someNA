@@ -30,7 +30,7 @@
   AI::FANN cannot be installed via `atp`, but by typing `cpan AI::FANN` in the terminal, you should be good to go.     
 
 
-  2. The easiest way of installing this software is by cloning this repository, going into the directory where this data is stored via the terminal (`cd`), launching `./pack.sh` (which will create a bundle for the installation) and then, from the same directory, type `make install` or `sudo make install` (depending on the distribution and user access).   
+  2. The easiest way of installing this software is by cloning this repository, going into the directory where this data is stored via the terminal (`cd`), launching `./pack.sh` (which will create a bundle for the installation, **note** Sometimes this can throw a `debsign: gpg error occurred!  Aborting....` but this will not influence the installation process) and then, from the same directory, type `make install` or `sudo make install` (depending on the distribution and user access).   
 
 For more advanced instructions see [manual installation](https://github.com/Rostlab/someNA/wiki/Manual-Installation)
 
