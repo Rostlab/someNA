@@ -68,4 +68,7 @@ If you want to test the software you can do the following:
   3. Unizip the file you just downloaded and:     
         -   If you have SomeNA installed on your OS: `cd` into the directory with the unzipped files.     
         -   If you are using Docker, copy the content of your folder into the shared folder (See the second last slide of [this presentation](https://github.com/Rostlab/someNA/blob/develop/documentation/Sprint_1.pdf)).
-  4. Call SomeNA using `somena -i`, or if you used docker `docker start somena && docker attach somena`, then `somena -i /shared`
+  4. Call SomeNA using `somena -i`, or if you used docker `docker start somena && docker attach somena`, then `somena -i /shared`.
+
+Notice that somena could complain about some files missing, similarly as described in [this issue](https://github.com/Rostlab/someNA/issues/11). This most likely depends on the fact that the prediction optained in point 1 is not up to date and not all predictions on that sequence have been performed.    
+In PredictProtein you actually have the possibility to resubmit a job. Please do so and test with the newly obtained prediction before opening a new issue.
