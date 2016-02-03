@@ -1,8 +1,8 @@
 # SomeNA
 **In short**: SomeNA serves for the prediction of protein DNA/RNA binding.    
-**Authors**: [Peter Hoenigschmid](mailto:hoenigschmid@rostlab.org), [Burkhard Rost](rostlab.org)  
-**Year**: 2012
-**Language**: Perl
+**Authors**: [Peter Hoenigschmid](mailto:hoenigschmid@rostlab.org), [Burkhard Rost](rostlab.org)   
+**Year**: 2012     
+**Language**: Perl        
 **Elixir**: https://bio.tools/tool/RostLab/SomeNA/1    
 **Documentation**: https://github.com/Rostlab/someNA/tree/develop/documentation
 
